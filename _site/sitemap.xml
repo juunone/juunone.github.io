@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>/404.html</loc>
+        </url>
+    
+        <url>
+            <loc>/about/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/blog/</loc>
+        </url>
+    
+        <url>
+            <loc>/contact/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/css/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/django/</loc>
+        </url>
+    
+        <url>
+            <loc>/feed.xml</loc>
+        </url>
+    
+        <url>
+            <loc>/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/life/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/mobile/</loc>
+        </url>
+    
+        <url>
+            <loc>/contact/message-sent/</loc>
+        </url>
+    
+        <url>
+            <loc>/search.json</loc>
+        </url>
+    
+        <url>
+            <loc>/sitemap.xml</loc>
+        </url>
+    
+        <url>
+            <loc>/tags/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>/category/tutorial/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/webdev/</loc>
+        </url>
+    
+    
+        <url>
+            <loc>/como-quase-cai-num-golpe-no-facebook-e-como-desviar-deles/</loc>
+        </url>
+  
+        <url>
+            <loc>/box-shadow-ou-filter-drop-shadow/</loc>
+        </url>
+  
+        <url>
+            <loc>/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js/</loc>
+        </url>
+  
+        <url>
+            <loc>/como-migrar-seus-posts-do-wordpress-para-o-jekyll/</loc>
+        </url>
+  
+        <url>
+            <loc>/por-que-o-sketch-vale-3-tanques-de-gasolina/</loc>
+        </url>
+  
+        <url>
+            <loc>/como-fazer-um-hello-world-com-vue-js-2/</loc>
+        </url>
+  
+        <url>
+            <loc>/minhas-primeiras-5-impressoes-sobre-django/</loc>
+        </url>
+  
+        <url>
+            <loc>/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero/</loc>
+        </url>
+  
+        <url>
+            <loc>/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/</loc>
+        </url>
+  
+        <url>
+            <loc>/seja-bem-vindo/</loc>
+        </url>
+  
+</urlset>

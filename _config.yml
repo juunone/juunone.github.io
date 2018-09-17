@@ -1,11 +1,43 @@
-theme: jekyll-theme-minimal
-title: Welcome thug coding life2
-author: juunone
-name: june one choi
-email: junnone@gmail.com
-url: http://thugcoding.github.io
-baseurl: ““
+# Site Settings
+title: Jekflix | A theme for Jekyll
+email: youremail@xyz.com
+description: Some text about your blog.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
 
-# Footer에 넣을 소셜아이콘들을 위해 설정
-facebook: “https://www.facebook.com/“
-github: “https://github.com/“`
+# User Settings
+username: Jekflix
+user_description: Some text about you.
+disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
