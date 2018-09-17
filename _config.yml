@@ -1,2 +1,11 @@
 theme: jekyll-theme-minimal
 title: Welcome thug coding life2
+author: juunone
+name: june one choi
+email: junnone@gmail.com
+url: http://thugcoding.github.io
+baseurl: ““
+
+# Footer에 넣을 소셜아이콘들을 위해 설정
+facebook: “https://www.facebook.com/“
+github: “https://github.com/“`
