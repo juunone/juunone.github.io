@@ -46,6 +46,14 @@
         </url>
     
         <url>
+            <loc>/category/personal/</loc>
+        </url>
+    
+        <url>
+            <loc>/category/project/</loc>
+        </url>
+    
+        <url>
             <loc>/search.json</loc>
         </url>
     
@@ -66,6 +74,14 @@
         </url>
     
     
+        <url>
+            <loc>/project/</loc>
+        </url>
+  
+        <url>
+            <loc>/introduce/</loc>
+        </url>
+  
         <url>
             <loc>/como-quase-cai-num-golpe-no-facebook-e-como-desviar-deles/</loc>
         </url>
