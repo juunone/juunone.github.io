@@ -2,6 +2,14 @@
   
     {
       "title"    : "is there awesome?",
+      "tags"     : "test and dev",
+      "categories" : "project",
+      "url"      : "/test/",
+      "date"     : "09/17/2018"
+    } ,
+  
+    {
+      "title"    : "is there awesome?",
       "tags"     : "awesome and advantages",
       "categories" : "project",
       "url"      : "/project/",
