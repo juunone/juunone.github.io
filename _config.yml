@@ -7,8 +7,9 @@ url: "" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Juunflix
-user_description: Front-End Developer
+username: 최 준원
+usernickname: Juunone
+user_description: 소인은 영웅의 도전을 비웃는법
 disqus_username: https-juunone-github-io
 
 # Social Media
