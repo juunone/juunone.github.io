@@ -9,14 +9,14 @@ google_analytics: "UA-XXXXXXXX-X"
 # User Settings
 username: Juunflix
 user_description: Front-End Developer
-disqus_username: juunone
+disqus_username: https-juunone-github-io
 
 # Social Media
 # Remove the item if you don't need it
-github_username: thugcoding
+github_username: juunone
 # facebook_username: facebook_username
 # twitter_username: twitter_username
-instagram_username: choijuneone
+# instagram_username: choijunewon
 # linkedin_username: linkedin_username
 # medium_username: medium_username
 
@@ -40,4 +40,4 @@ links:
     url: /contact/
 
 # Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ["package.json", "src", "node_modules"]
