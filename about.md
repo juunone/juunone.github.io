@@ -7,13 +7,13 @@ permalink: /about/
 
 <img itemprop="image" class="img-rounded" src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B3%E1%84%86%E1%85%A9%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A1%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A7%E1%86%BC.jpg" alt="Juun one" width="300">
 
-# 최 준원 a.k.a Juunone
+# 최 준원 (Juunone)
 
 ## 소개
 
 - 다양한 웹 기술을 이용한 클라이언트 어플리케이션을 만듭니다.
-- 새로운 기술을 공부하고 공유하는 것을 좋아합니다.
-- 타인과의 커뮤니케이션 및 대화하는 것을 좋아합니다.
+- 새로운 기술을 공부하는 것을 좋아합니다.
+- 타인과의 커뮤니케이션 및 대화는 환영합니다.
 - 향기에 민감합니다.
 
 ## 경력
