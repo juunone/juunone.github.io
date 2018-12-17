@@ -58,6 +58,78 @@ introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생�
 
 ![다이어그램](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/DCE_FE.png)
 
+## **기술 스펙**
+
+| name                 | version | dependencies    | role       |
+| -------------------- | ------- | --------------- | ---------- |
+| react                | ^16.2.0 | dependencies    | framework  |
+| react-router         | ^4.2.0  | dependencies    | routing    |
+| redux                | ^3      | dependencies    | state      |
+| redux-thunk          | ^2.2.0  | dependencies    | middleware |
+| redux-devtools       | ^3.4.1  | devDependencies |            |
+| jquery               | ^3.2.1  | dependencies    | plugin     |
+| babel-core           | ^6.26.0 | devDependencies | transpiler |
+| babel-loader         | ^7.1.2  | devDependencies |            |
+| babel-polyfill       | ^6.26.0 | devDependencies |            |
+| babel-decorators     | ^1.3.4  | dependencies    | babelrc    |
+| babel-preset-env     | ^1.6.1  | devDependencies | babelrc    |
+| babel-preset-es2015  | ^6.24.1 | devDependencies | babelrc    |
+| babel-preset-stage-0 | ^6.24.1 | devDependencies | babelrc    |
+| css-loader           | ^0.28.7 | devDependencies |            |
+| sass-loader          | ^6.0.6  | devDependencies |            |
+| webpack              | ^3.10.0 | devDependencies | bundle     |
+| webpack-dev-server   | ^2.9.7  | devDependencies |            |
+| webpack-merge        | ^4.1.1  | devDependencies |            |
+
+---
+
+## **기술에 대한 의견**
+
+> ## React
+>
+> - 목적
+>   - 싱글페이지 어플리케이션 개발을 위한 자바스크립트 라이브러리 도입
+> - 효과(주관적)
+>   - React는 플레인 자바스크립트에 더 가깝다. 새로운 문법 내지는 컨벤션을 정의하는 대신 자바스크립트를 활용하는데 무리가 없다면 그리 한다
+>   - React는 사용자 및 사용처에 대해 더 적은 가정을 하고, 컴포넌트 기반의 선언적 UI 렌더링이라는 가장 핵심적인 기능과 관련된 부분만 코어에 포함한다
+>   - 매우 간편한 UI 수정 및 재사용(component)
+>   - 페이스북이 밀어준다
+> - 장단점
+>   - [참조1](https://medium.com/@RianCommunity/react%EC%9D%98-%ED%83%84%EC%83%9D%EB%B0%B0%EA%B2%BD%EA%B3%BC-%ED%8A%B9%EC%A7%95-4190d47a28f)
+>   - [참조2](https://joshua1988.github.io/web_dev/vue-or-react/)
+
+> ## Redux
+>
+> - 목적
+>   - 여러개의 스토어를 단 하나로 관리하기 위한 목적
+> - 효과(주관적)
+>   - 더 쉬운 글로벌 상태 관리를 위하여 리덕스를 사용하기도 하고, 조금 더 체계적이고 편리한 상태 관리를 하기 위하여 사용
+>   - 시간 여행이 가능한 상태관리
+>   - 많은 사용자들의 실행 액션을 받아 로컬의 작업과 병행 가능.
+> - 장단점
+>   - [참조1](http://ibrahimovic.tistory.com/31)
+>   - [참조2](https://velopert.com/3533)
+
+> ## Webpack
+>
+> - 목적
+>   - 수십 혹은 수백개의 html,css,js 파일들의 통합 관리 목적
+> - 효과(주관적)
+>   - NPM으로 JavaScript 리소스 일원화
+>   - Loader를 활용한 Node.js 도구의 활용
+>   - 로컬/테스트/리얼 환경별 빌드 관리
+>   - Webpack-dev-server 활용한 개발 편의성 증대
+> - 장단점
+>   - [참조1](https://medium.com/@ljs0705/spa-single-page-app-%EC%97%90%EC%84%9C-webpack%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-ce7d3f82fe9)
+>   - [참조2](https://dev.zzoman.com/2017/09/04/why-do-you-need-to-learn-about-webpack/)
+
+> ## Babel
+>
+> - Babel은 javascript transpiler 이다.\
+>   현재 자바스크립트 생태계에서는 선택이 아닌 필수로 되어가고있지만\
+>   개인적으로 transpiler 에 의존성이 낮은 javascript 되었으면 한다.
+> - [참조](https://moon9342.github.io/javascript-babel)
+
 ## **마치며**
 
 제품을 개발하며 제일 주안점을 두었던 부분은 **_속도, 편의성, 확장성_** 이였다.

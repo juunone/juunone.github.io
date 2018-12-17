@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>CMS 에디터툴 Dynamic contents editor : DCE 제품정의 | 최 준원</title>
-    <meta name="description" content="DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.">
+    <title>File-Manager 프로젝트 회고록 | 최 준원</title>
+    <meta name="description" content="파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.">
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="CMS 에디터툴 Dynamic contents editor : DCE 제품정의 | 최 준원">
-    <meta name="twitter:description" content="DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.">
+    <meta name="twitter:title" content="File-Manager 프로젝트 회고록 | 최 준원">
+    <meta name="twitter:description" content="파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.">
     
-    <meta property="twitter:image:src" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/dcecover2.jpg">
+    <meta property="twitter:image:src" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/filemanagercover.jpg">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/dcedefinition/">
-    <meta property="og:title" content="CMS 에디터툴 Dynamic contents editor : DCE 제품정의 | 최 준원">
+    <meta property="og:url" content="/filemanager/">
+    <meta property="og:title" content="File-Manager 프로젝트 회고록 | 최 준원">
     
-    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/dcecover2.jpg">
+    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/filemanagercover.jpg">
     
-    <meta property="og:description" content="DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.">
+    <meta property="og:description" content="파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.">
     <meta property="og:site_name" content="Juunflix | for dev blog">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="CMS 에디터툴 Dynamic contents editor : DCE 제품정의 | 최 준원"/>
-    <meta itemprop="description" content="DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.">
+    <meta itemprop="name" content="File-Manager 프로젝트 회고록 | 최 준원"/>
+    <meta itemprop="description" content="파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.">
     <meta itemprop="image" content="/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -60,7 +60,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="/dcedefinition/">
+    <link rel="canonical" href="/filemanager/">
     <link rel="alternate" type="application/rss+xml" title="Juunflix | for dev blog" href="/feed.xml" />
 </head>
 
@@ -126,29 +126,29 @@
           </svg>
           <time
             itemprop="datePublished"
-            datetime="2018-02-08T23:00:00+09:00"
+            datetime="2018-07-03T21:00:00+09:00"
             class="date"
           >
             
 
 
-February 8, 2018
+July 3, 2018
 
           </time>
           
           <svg id="clock" class="icon-clock">
             <use xlink:href="#icon-clock"></use>
           </svg>
-          <span>3 min to read</span>
+          <span>5 min to read</span>
         </p>
-        <h1 class="post-title" itemprop="name">CMS 에디터툴 Dynamic contents editor : DCE 제품정의</h1>
-        <p itemprop="description" class="subtitle">DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.</p>
+        <h1 class="post-title" itemprop="name">File-Manager 프로젝트 회고록</h1>
+        <p itemprop="description" class="subtitle">파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.</p>
 
         
-        <img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/dcecover2.jpg" alt="Imagem de capa" class="post-cover" />
+        <img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/filemanagercover.jpg" alt="Imagem de capa" class="post-cover" />
         
 
-        <h1 id="dcedynamic-contents-editor-제품정의">DCE(Dynamic contents editor) 제품정의</h1>
+        <h1 id="file-manager-개발정의서">File-Manager 개발정의서</h1>
 
 <h2 id="들어가며"><strong>들어가며</strong></h2>
 
@@ -160,13 +160,11 @@ February 8, 2018
 
 <hr />
 
-<p>처음 문제는 <strong><em>Targetbook</em></strong> 으로부터 시작되었습니다.<br />
-문제의 배경은 광고를 집행하고 운영하는 AE 분들에 의해서 발의되었습니다.<br />
-이번 사례의 경우, 아래와 같이 배경이 정리 될 수 있다.</p>
+<p>DCE내에서 파일 업로드 및 관리를 할수 있는 GUI 화면이 필요했다.</p>
 
 <ul>
-  <li>페이스북과 동일한 <a href="https://www.facebook.com/business/learn/facebook-create-ad-canvas-ads">캔버스</a> 기능을 사용할 수 있을것</li>
-  <li>랜딩페이지 유입을 높이는 것</li>
+  <li>확장성을 보유할것</li>
+  <li>외부 프로젝트에서도 사용 가능할것.</li>
   <li><del>재밌겠다</del></li>
 </ul>
 
@@ -174,28 +172,21 @@ February 8, 2018
 
 <hr />
 
-<p>효과적으로 빠르게 광고 랜딩페이지 제작 목적을 띄고있는 페이스북의 <a href="https://www.facebook.com/business/learn/facebook-create-ad-canvas-ads">캔버스</a><br />
-기능이 타겟북 어드민내에 존재하지 않는다.</p>
+<p>회사내에서 사이드 프로젝트로 플러그인 형태의 파일을 관리 할 수 있는 컴포넌트가 없다.</p>
 
 <ul>
-  <li>페이스북 캔버스 Dependency</li>
-  <li>기존 타겟북 랜딩페이지와의 차별성을 가지고 insight 도출</li>
+  <li>독립되어있는 프로젝트는 의존성이 높다. (SSO 로그인 등)</li>
+  <li>DCE 에서 사용하는 프레임웍과 공존이 힘들다.</li>
 </ul>
 
 <h2 id="예상-및-해결"><strong>예상 및 해결</strong></h2>
 
 <hr />
 
-<p>예상 설정은 상황에 따라 생략할 수 있는 부분이며<br />
-오히려 탐색의 범위를 좁히는 결과를 낳기도 하기 때문에 목적 설정 과정에 비해 중요도가 높지 않다고 생각된다.(주관적)<br />
-어쨌든 랜딩 페이지 목적을 띈 CMS를 개발해야 되는 입장으로서
-페이스북에 종속되어있는 캔버스 기능을 한땀한땀 개발하기에는 시간 및 유지보수에
-큰 문제점을 느끼고 <strong>Targetbook+iMs</strong> 모두에서 사용할 수 있는 이른바<br />
-<del>DbodyCMS</del>(초기명칭) = <strong>DCE</strong> 제품이 개발된다.</p>
-
-<h2 id="use-case-diagram"><strong>Use case diagram</strong></h2>
-
-<p><img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/DCE_FE.png" alt="다이어그램" /></p>
+<p>DCE내에 소스코드가 존재할 예정이라 React 프레임웍을 사용하지만<br />
+형태는 jquery 플러그인처럼 외부에서 스크립트를 import한 상황에서 함수 혹은 메소드를 입력하면 실행이 가능하게 구현하자.<br />
+버전업 될때마다 배포후 자동적으로 사용중인 프로젝트에 적용이 되어야한다.<br />
+<a href="https://swizec.com/blog/using-react-in-the-real-world/swizec/6710">참조링크</a>를 통해 작은 희망을 보았다.</p>
 
 <h2 id="기술-스펙"><strong>기술 스펙</strong></h2>
 
@@ -216,88 +207,10 @@ February 8, 2018
       <td>framework</td>
     </tr>
     <tr>
-      <td>react-router</td>
-      <td>^4.2.0</td>
-      <td>dependencies</td>
-      <td>routing</td>
-    </tr>
-    <tr>
-      <td>redux</td>
-      <td>^3</td>
-      <td>dependencies</td>
-      <td>state</td>
-    </tr>
-    <tr>
-      <td>redux-thunk</td>
-      <td>^2.2.0</td>
-      <td>dependencies</td>
-      <td>middleware</td>
-    </tr>
-    <tr>
-      <td>redux-devtools</td>
-      <td>^3.4.1</td>
-      <td>devDependencies</td>
-      <td> </td>
-    </tr>
-    <tr>
       <td>jquery</td>
       <td>^3.2.1</td>
       <td>dependencies</td>
       <td>plugin</td>
-    </tr>
-    <tr>
-      <td>babel-core</td>
-      <td>^6.26.0</td>
-      <td>devDependencies</td>
-      <td>transpiler</td>
-    </tr>
-    <tr>
-      <td>babel-loader</td>
-      <td>^7.1.2</td>
-      <td>devDependencies</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>babel-polyfill</td>
-      <td>^6.26.0</td>
-      <td>devDependencies</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>babel-decorators</td>
-      <td>^1.3.4</td>
-      <td>dependencies</td>
-      <td>babelrc</td>
-    </tr>
-    <tr>
-      <td>babel-preset-env</td>
-      <td>^1.6.1</td>
-      <td>devDependencies</td>
-      <td>babelrc</td>
-    </tr>
-    <tr>
-      <td>babel-preset-es2015</td>
-      <td>^6.24.1</td>
-      <td>devDependencies</td>
-      <td>babelrc</td>
-    </tr>
-    <tr>
-      <td>babel-preset-stage-0</td>
-      <td>^6.24.1</td>
-      <td>devDependencies</td>
-      <td>babelrc</td>
-    </tr>
-    <tr>
-      <td>css-loader</td>
-      <td>^0.28.7</td>
-      <td>devDependencies</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>sass-loader</td>
-      <td>^6.0.6</td>
-      <td>devDependencies</td>
-      <td> </td>
     </tr>
     <tr>
       <td>webpack</td>
@@ -317,63 +230,38 @@ February 8, 2018
       <td>devDependencies</td>
       <td> </td>
     </tr>
+    <tr>
+      <td>react-copy-to-clipboard</td>
+      <td>^5.0.1</td>
+      <td>devpendencies</td>
+      <td>node_module</td>
+    </tr>
+    <tr>
+      <td>react-select</td>
+      <td>^1.2.1</td>
+      <td>devpendencies</td>
+      <td>node_module</td>
+    </tr>
   </tbody>
 </table>
 
 <hr />
 
+<p>최소한의 의존성을 띄고있는것에 중점을 두었으며, 파일매니저 내에서 사용하는 대부분의 기능은<br />
+vanilla javascript 혹은 window.method 로 구성되어있다.<br />
+ReactDOM.render 를 window.FManager 라는 윈도우 함수 생성후 호출하게 된다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">window</span><span class="p">.</span><span class="nx">FManager</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">el</span><span class="p">,</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nx">Manager</span> <span class="nx">opt</span><span class="o">=</span><span class="p">{</span><span class="nx">data</span><span class="p">}</span> <span class="sr">/&gt; /</span><span class="o">/</span><span class="err">파일매니저</span> <span class="err">전체</span> <span class="err">컴포넌트</span>
+    <span class="o">&lt;</span><span class="sr">/div&gt;</span><span class="err">,
+</span>    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="nx">el</span><span class="p">)</span>
+  <span class="p">);</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
 <h2 id="기술에-대한-의견"><strong>기술에 대한 의견</strong></h2>
-
-<blockquote>
-  <h2 id="react">React</h2>
-
-  <ul>
-    <li>목적
-      <ul>
-        <li>싱글페이지 어플리케이션 개발을 위한 자바스크립트 라이브러리 도입</li>
-      </ul>
-    </li>
-    <li>효과(주관적)
-      <ul>
-        <li>React는 플레인 자바스크립트에 더 가깝다. 새로운 문법 내지는 컨벤션을 정의하는 대신 자바스크립트를 활용하는데 무리가 없다면 그리 한다</li>
-        <li>React는 사용자 및 사용처에 대해 더 적은 가정을 하고, 컴포넌트 기반의 선언적 UI 렌더링이라는 가장 핵심적인 기능과 관련된 부분만 코어에 포함한다</li>
-        <li>매우 간편한 UI 수정 및 재사용(component)</li>
-        <li>페이스북이 밀어준다</li>
-      </ul>
-    </li>
-    <li>장단점
-      <ul>
-        <li><a href="https://medium.com/@RianCommunity/react%EC%9D%98-%ED%83%84%EC%83%9D%EB%B0%B0%EA%B2%BD%EA%B3%BC-%ED%8A%B9%EC%A7%95-4190d47a28f">참조1</a></li>
-        <li><a href="https://joshua1988.github.io/web_dev/vue-or-react/">참조2</a></li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <h2 id="redux">Redux</h2>
-
-  <ul>
-    <li>목적
-      <ul>
-        <li>여러개의 스토어를 단 하나로 관리하기 위한 목적</li>
-      </ul>
-    </li>
-    <li>효과(주관적)
-      <ul>
-        <li>더 쉬운 글로벌 상태 관리를 위하여 리덕스를 사용하기도 하고, 조금 더 체계적이고 편리한 상태 관리를 하기 위하여 사용</li>
-        <li>시간 여행이 가능한 상태관리</li>
-        <li>많은 사용자들의 실행 액션을 받아 로컬의 작업과 병행 가능.</li>
-      </ul>
-    </li>
-    <li>장단점
-      <ul>
-        <li><a href="http://ibrahimovic.tistory.com/31">참조1</a></li>
-        <li><a href="https://velopert.com/3533">참조2</a></li>
-      </ul>
-    </li>
-  </ul>
-</blockquote>
 
 <blockquote>
   <h2 id="webpack">Webpack</h2>
@@ -386,8 +274,7 @@ February 8, 2018
     </li>
     <li>효과(주관적)
       <ul>
-        <li>NPM으로 JavaScript 리소스 일원화</li>
-        <li>Loader를 활용한 Node.js 도구의 활용</li>
+        <li>webpack 의 entry 를 여러개로 분리 가능.</li>
         <li>로컬/테스트/리얼 환경별 빌드 관리</li>
         <li>Webpack-dev-server 활용한 개발 편의성 증대</li>
       </ul>
@@ -401,30 +288,162 @@ February 8, 2018
   </ul>
 </blockquote>
 
-<blockquote>
-  <h2 id="babel">Babel</h2>
+<h3 id="파일매니저-javascript-export">파일매니저 javascript export</h3>
 
-  <ul>
-    <li>Babel은 javascript transpiler 이다.\
-현재 자바스크립트 생태계에서는 선택이 아닌 필수로 되어가고있지만\
-개인적으로 transpiler 에 의존성이 낮은 javascript 되었으면 한다.</li>
-    <li><a href="https://moon9342.github.io/javascript-babel">참조</a></li>
-  </ul>
-</blockquote>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//webpack.config.js 설정의 일부</span>
+
+<span class="kd">const</span> <span class="nx">FILEUPLOADER_PATH</span> <span class="o">=</span> <span class="nx">path</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span>
+  <span class="nx">APP_PATH</span><span class="p">,</span>
+  <span class="s2">"components/Uploader/render.js"</span>
+<span class="p">);</span> <span class="c1">//ReactDOM 을 render 해주는 component의 위치</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">entry</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">filemanager</span><span class="p">:</span> <span class="nx">FILEUPLOADER_PATH</span> <span class="c1">//filemanager.js 로 export 시키는 엔트리 생성.</span>
+  <span class="p">}</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>위와 같이 entry를 분리해서 웹에서 확인해볼경우 https://도메인/dist/js/filemanager.js 에서<br />
+filemanager.js라는 이름으로 렌더링 컴포넌트가 export 된걸 확인 할 수 있다.<br />
+결론적으로 <code class="highlighter-rouge">components/Uploader/render.js</code> 안에 import 된 컴포넌트들을 묶어 플러그인 형태의 <code class="highlighter-rouge">filemanager.js</code> 로 export 해주었다.</p>
+
+<h2 id="폴더-구조-및-형태"><strong>폴더 구조 및 형태</strong></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>path</th>
+      <th>shape</th>
+      <th>desc</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Render</td>
+      <td>/static/file-manager/src/components/Uploader/UppyRender.js</td>
+      <td>javascript</td>
+      <td>ReactDOM render</td>
+    </tr>
+    <tr>
+      <td>Manager</td>
+      <td>/static/file-manager/src/components/Manager/Manager.js</td>
+      <td>javascript</td>
+      <td>사용되는 메소드들</td>
+    </tr>
+    <tr>
+      <td>ManagerPopup</td>
+      <td>/static/file-manager/src/components/Manager/ManagerPopup.js</td>
+      <td>javascript</td>
+      <td>리스트 및 관리 컴포넌트</td>
+    </tr>
+    <tr>
+      <td>ManagerPopup.scss</td>
+      <td>/static/file-manager/src/components/Manager/ManagerPopup.scss</td>
+      <td>scss</td>
+      <td>파일매니저 전체 style</td>
+    </tr>
+    <tr>
+      <td>Juunpy</td>
+      <td>/static/file-manager/src/components/Manager/Juunpy.js</td>
+      <td>javascript</td>
+      <td>업로드 컴포넌트</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="전역-호출-함수"><strong>전역 호출 함수</strong></h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">window</span><span class="p">.</span><span class="nx">FManager</span><span class="p">;</span> <span class="c1">//filemanager.js 에서 선언된 윈도우 함수.</span>
+
+<span class="k">new</span> <span class="nx">FManager</span><span class="p">(</span><span class="s2">"manager"</span><span class="p">,</span> <span class="p">{</span>
+  <span class="c1">//첫번째 인자는 document.getElementById() 에 들어갈 엘리먼트 id</span>
+  <span class="na">apiSetup</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">endpoint</span><span class="p">:</span> <span class="s2">""</span><span class="p">,</span> <span class="c1">//API URL | String</span>
+    <span class="na">apiKey</span><span class="p">:</span> <span class="s2">""</span> <span class="c1">//access_token | String</span>
+  <span class="p">},</span>
+  <span class="na">uploadOpt</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">restrictions</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">maxFileSize</span><span class="p">:</span> <span class="mi">1100000</span><span class="p">,</span> <span class="c1">//개별 파일 용량(환산:bytes) | Number</span>
+      <span class="na">maxNumberOfFiles</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span> <span class="c1">//최대 업로드 파일갯수 | Number</span>
+      <span class="na">allowedFileTypes</span><span class="p">:</span> <span class="p">[</span><span class="s2">"image/png"</span><span class="p">,</span> <span class="s2">"image/jpg"</span><span class="p">,</span> <span class="s2">"image/gif"</span><span class="p">,</span> <span class="s2">"image/jpeg"</span><span class="p">]</span> <span class="c1">//업로드 가능한 확장자 | Array</span>
+    <span class="p">},</span>
+    <span class="na">button</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">style</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">marginTop</span><span class="p">:</span> <span class="s2">"2px"</span><span class="p">,</span> <span class="c1">//String</span>
+        <span class="na">marginRight</span><span class="p">:</span> <span class="s2">"4px"</span> <span class="c1">//String</span>
+      <span class="p">},</span>
+      <span class="na">class</span><span class="p">:</span> <span class="s2">"btn btn-sm btn-m-black"</span><span class="p">,</span> <span class="c1">//버튼 커스텀 클래스 | String</span>
+      <span class="na">text</span><span class="p">:</span> <span class="s2">"Upload files"</span> <span class="c1">//버튼 커스텀 텍스트 | String</span>
+    <span class="p">},</span>
+    <span class="na">strings</span><span class="p">:</span> <span class="p">{</span>
+      <span class="c1">//업로더 텍스트 영역</span>
+      <span class="na">browse</span><span class="p">:</span> <span class="s2">"찾아보기"</span><span class="p">,</span> <span class="c1">//파일 업로드버튼 커스텀 텍스트 | String</span>
+      <span class="na">note</span><span class="p">:</span> <span class="s2">"이미지 전용, 1-5 개의 파일, 최대 1MB"</span> <span class="c1">//업로드 설명 | String</span>
+    <span class="p">},</span>
+    <span class="na">plugin</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nx">uploadSuccessful</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"업로드성공"</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span> <span class="c1">//업로드 성공 콜백</span>
+      <span class="p">},</span>
+      <span class="nx">uploadFailed</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"업로드실패"</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span> <span class="c1">//업로드 실패 콜백</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="na">managerOpt</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">resetChecked</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> <span class="c1">//체크박스 초기화 | Boolean</span>
+    <span class="na">multipleCheck</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="c1">//다중 선택여부 | Boolean</span>
+    <span class="na">copyButton</span><span class="p">:</span> <span class="s2">"btn btn-m-pink btn-icon-anim btn-circle"</span><span class="p">,</span> <span class="c1">//복사하기 버튼 커스텀 클래스 | String</span>
+    <span class="na">downloadButton</span><span class="p">:</span> <span class="s2">"btn btn-m-blue btn-icon-anim btn-circle"</span><span class="p">,</span> <span class="c1">//다운로드 버튼 커스텀 클래스 | String</span>
+    <span class="na">modal</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">modalTitle</span><span class="p">:</span> <span class="s2">"File management"</span><span class="p">,</span> <span class="c1">//모달 타이틀 | String</span>
+      <span class="na">buttonTitle</span><span class="p">:</span> <span class="s2">"File manager"</span><span class="p">,</span> <span class="c1">//버튼 타이틀 | String</span>
+      <span class="na">buttonClass</span><span class="p">:</span> <span class="s2">"btn btn-m-default btn-sm"</span><span class="p">,</span> <span class="c1">//버튼 커스텀 클래스 | String</span>
+      <span class="na">backdrop</span><span class="p">:</span> <span class="s2">"false"</span> <span class="c1">//배경그림자 | String</span>
+    <span class="p">},</span>
+    <span class="na">plugin</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nx">selectFiles</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"선택된파일"</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span> <span class="c1">//선택된 파일 콜백</span>
+      <span class="p">},</span>
+      <span class="nx">deleteFiles</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"지워진파일"</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span> <span class="c1">//지워진 파일 콜백</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
 
 <h2 id="마치며"><strong>마치며</strong></h2>
 
-<p>제품을 개발하며 제일 주안점을 두었던 부분은 <strong><em>속도, 편의성, 확장성</em></strong> 이였다.</p>
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager1.png" alt="파일매니저1" title="파일1" />
+(그림1 : 리스트)</p>
+
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager2.png" alt="파일매니저2" title="파일2" />
+(그림2 : 업로드대기)</p>
+
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager4.png" alt="파일매니저3" title="파일3" />
+(그림3 : 업로드완료)</p>
+
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager3.png" alt="파일매니저4" title="파일4" />
+(그림4 : 정보)</p>
+
+<p>제품을 개발하며 제일 주안점을 두었던 부분은 <strong><em>편의성, 확장성, 범용성</em></strong> 이였다.<br />
+위 그림과 같이 GUI 보면 사실 간단하지만… 개발하는데는 매우 많은 시간을 투자했다.</p>
 
 <ul>
-  <li>웹사이트 랜딩페이지의 속도는 무조건적으로 빨라야한다.</li>
-  <li>HTML,CSS 를 모르는 사람도 사용할 수 있어야한다.</li>
-  <li>자사의 여러 서비스들에 적용이 가능해야한다.</li>
+  <li>메소드 하나로 호출이 쉽게 이루어져야한다.</li>
+  <li>어떤 프로젝트든 쉽게 import 가능해야한다.</li>
+  <li>환경에 구애받지 않아야 한다.</li>
+  <li>배포를 하며 기존에 삽입되어있는 코드는 수정이 이루어지지 않아야한다.</li>
 </ul>
+
+<p><code class="highlighter-rouge">javascript를 프로젝트 내부에 import 해놓고 전역에 선언된 함수를 통해 호출하는</code><br />
+<code class="highlighter-rouge">플러그인 형태(MSA맛)를 띈 파일매니저는 처음 설계 의도대로 이루어졌다 :D</code></p>
 
       </article>
 
-      <div class="progress-bar" data-minutes="3">
+      <div class="progress-bar" data-minutes="5">
         <span class="time-completed"></span>
         <span class="time-remaining"></span>
         <div class="bar">
@@ -435,15 +454,15 @@ February 8, 2018
 
       <section class="share">
     <h3>Share</h3>
-    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/dcedefinition/%20via%20&#64;&hashtags=CMS,CRM,Landing,Editor,"
+    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/filemanager/%20via%20&#64;&hashtags=React,Plugin,MSA,S3,Webpack,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/dcedefinition/"
+    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/filemanager/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/dcedefinition/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/filemanager/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -483,7 +502,7 @@ February 8, 2018
       var disqus_shortname = 'https-juunone-github-io';
       console.log(disqus_shortname);
       var disqus_title = '';
-      var disqus_url = '/dcedefinition/';
+      var disqus_url = '/filemanager/';
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);

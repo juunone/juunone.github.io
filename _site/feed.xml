@@ -5,9 +5,75 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Dec 2018 20:03:42 +0900</pubDate>
-    <lastBuildDate>Mon, 17 Dec 2018 20:03:42 +0900</lastBuildDate>
+    <pubDate>Mon, 17 Dec 2018 23:20:35 +0900</pubDate>
+    <lastBuildDate>Mon, 17 Dec 2018 23:20:35 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>File-Manager 프로젝트 회고록</title>
+        <description>&lt;h1 id=&quot;file-manager-개발정의서&quot;&gt;File-Manager 개발정의서&lt;/h1&gt; &lt;h2 id=&quot;들어가며&quot;&gt;&lt;strong&gt;들어가며&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;본 문서는 인수인계 목적이 아닌 개발이 완료된 제품에 대한 이해를 돕기위해 제작된 개발 정의서입니다.&lt;br /&gt; 부디 도움이 되길 바랄 뿐입니다. 그럼 스타뜨!&lt;/p&gt; &lt;h2 id=&quot;배경&quot;&gt;&lt;strong&gt;배경&lt;/strong&gt;&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;DCE내에서 파일 업로드 및 관리를 할수 있는 GUI 화면이 필요했다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;확장성을 보유할것&lt;/li&gt; &lt;li&gt;외부 프로젝트에서도 사용 가능할것.&lt;/li&gt; &lt;li&gt;&lt;del&gt;재밌겠다&lt;/del&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;문제정의&quot;&gt;&lt;strong&gt;문제정의&lt;/strong&gt;&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;회사내에서 사이드 프로젝트로 플러그인 형태의 파일을 관리 할 수 있는 컴포넌트가 없다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;독립되어있는 프로젝트는 의존성이 높다. (SSO 로그인 등)&lt;/li&gt; &lt;li&gt;DCE 에서 사용하는 프레임웍과 공존이 힘들다.&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;예상-및-해결&quot;&gt;&lt;strong&gt;예상 및 해결&lt;/strong&gt;&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;DCE내에 소스코드가 존재할 예정이라 React 프레임웍을 사용하지만&lt;br /&gt; 형태는 jquery 플러그인처럼 외부에서 스크립트를...</description>
+        <pubDate>Tue, 03 Jul 2018 21:00:00 +0900</pubDate>
+        <link>/filemanager/</link>
+        <guid isPermaLink="true">/filemanager/</guid>
+        
+        <category>React</category>
+        
+        <category>Plugin</category>
+        
+        <category>MSA</category>
+        
+        <category>S3</category>
+        
+        <category>Webpack</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Fetch API 적응기</title>
+        <description>&lt;h2 id=&quot;rest-api-connect&quot;&gt;&lt;strong&gt;REST API Connect&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;그동안의 프로젝트를 돌아보면 우리는 jquery 기반의 &lt;em&gt;AJAX&lt;/em&gt;를 사용해왔다.&lt;br /&gt; 물론 편리하고 보편화되어있고 지원되는 optional 도 많지만 현재 React app에서 최대한 jquery 영역을 좁히고있는 와중에&lt;br /&gt; 새로운 API Connenctor 인 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95&quot;&gt;Fetch API&lt;/a&gt;를 도입하게되었다.&lt;/p&gt; &lt;h3 id=&quot;fetch-api&quot;&gt;Fetch API&lt;/h3&gt; &lt;p&gt;위 링크를 참조로 작성한 내용입니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Fetch API를 이용하면 Request나 Response와 같은 HTTP의 파이프라인을 구성하는 요소를 조작하는것이 가능합니다. 또한 fetch() 메서드를 이용하는 것으로 비동기 네트워크 통신을 알기쉽게 기술할 수 있습니다.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;jquery.ajax() 와 차이점&lt;/p&gt; &lt;ul&gt; &lt;li&gt;fetch()로 부터 반환되는 Promise 객체는 HTTP error 상태를 reject하지 않습니다. 대신 ok 상태가 false인 resolve가 반환되며, 네트워크 장애나 요청이 완료되지 못한 상태에는 reject가...</description>
+        <pubDate>Sat, 12 May 2018 23:00:00 +0900</pubDate>
+        <link>/fetchAPI/</link>
+        <guid isPermaLink="true">/fetchAPI/</guid>
+        
+        <category>API</category>
+        
+        <category>Fetch</category>
+        
+        <category>REST</category>
+        
+        <category>RESTful</category>
+        
+        <category>WebAPI</category>
+        
+        
+        <category>webdev</category>
+        
+      </item>
+    
+      <item>
+        <title>Software Design pattern 그 심오한것에 대해</title>
+        <description>&lt;h2 id=&quot;design-pattern&quot;&gt;&lt;strong&gt;Design pattern&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/redux2.png&quot; alt=&quot;redux&quot; title=&quot;redux&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;redux&quot;&gt;Redux?&lt;/h3&gt; &lt;p&gt;컴포넌트들끼리 데이터교류를 쉽고 효율적으로 할수 있게 도와주는 &lt;em&gt;라이브러리&lt;/em&gt;입니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;리덕스의 원대한 목표는 플럭스를 기반으로 애플리케이션안에서 &lt;strong&gt;변경된 데이터가 어떻게 흘러가는지 더명확히 표현하도록 해주는 것&lt;/strong&gt;입니다.&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;flux&quot;&gt;Flux?&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/flux-logo.png&quot; alt=&quot;flux&quot; title=&quot;flux&quot; /&gt;&lt;/p&gt; &lt;p&gt;Flux는 일종의 아이디어이다. 라이브러리나 프레임워크가 아닌 일종의 프로그래밍 &lt;em&gt;방법론&lt;/em&gt;이다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Flux 패턴은 react.js 처럼 데이터 흐름이 단방향으로 전달되는 소프트웨어 개발에서 사용된다.&lt;/li&gt; &lt;li&gt;이런 추상적인 방법론을 구현한게 Redux입니다.&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;mvc&quot;&gt;MVC?&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/mvc1.png&quot; alt=&quot;mvc&quot; title=&quot;mvc&quot; /&gt;&lt;/p&gt; &lt;p&gt;MVC 패턴은 &lt;em&gt;Controller, Model, View&lt;/em&gt; 이 3가지 개념으로 이뤄져있습니다. 어떠한 Action 이 입력되면, Controller은 Model이 지니고 있는 데이터를 조회하거나 업데이트 하며, 이 변화는 View 에...</description>
+        <pubDate>Tue, 03 Apr 2018 07:00:00 +0900</pubDate>
+        <link>/pattern/</link>
+        <guid isPermaLink="true">/pattern/</guid>
+        
+        <category>Pattern</category>
+        
+        <category>MVC</category>
+        
+        <category>FLUX</category>
+        
+        <category>REDUX</category>
+        
+        <category>REACT</category>
+        
+        
+        <category>webdev</category>
+        
+      </item>
     
       <item>
         <title>CMS 에디터툴 Dynamic contents editor : DCE 제품정의</title>
@@ -30,7 +96,7 @@
       </item>
     
       <item>
-        <title>페이스북 픽셀 가이드</title>
+        <title>페이스북 픽셀 태깅 마스터되기</title>
         <description>&lt;h2 id=&quot;픽셀이란&quot;&gt;픽셀이란?&lt;/h2&gt; &lt;p&gt;Facebook 픽셀은 회원님의 웹사이트에서 사람들이 취한 행동을 파악하여 광고의 성과를 측정할 수 있는 분석 도구입니다.&lt;br /&gt; 픽셀 데이터를 사용하여 다음을 할 수 있습니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;적절한 대상에게 광고 노출 &lt;ul&gt; &lt;li&gt;신규 고객, 웹사이트의 특정 페이지를 방문한 사람, 원하는 행동을 취한 사람 등 비즈니스에 적절한 타겟을 찾을수있고,&lt;br /&gt; 유사 타겟을 만들어 우수 고객과 유사한 타겟에 더 많이 도달하게 가능하다. &lt;a href=&quot;https://www.facebook.com/business/help/666509013483225?helpref=faq_content#&quot;&gt;자세한내용&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;광고 타겟 구축 &lt;ul&gt; &lt;li&gt;자동 입찰을 설정하여 제품 구매 등 중요한 행동을 취할 가능성이 높은 사람을 타게팅할 수 있다.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;더 많은 Facebook 광고 도구 활용 &lt;ul&gt; &lt;li&gt;광고의 직접적인 성과를 확인하여 광고가 얼마나 성공적이었는지 파악 가능하며,&lt;br...</description>
         <pubDate>Fri, 17 Nov 2017 06:00:00 +0900</pubDate>
         <link>/facebookTagging/</link>
@@ -50,7 +116,7 @@
       </item>
     
       <item>
-        <title>페이스북 마케팅 API 사용 가이드</title>
+        <title>페이스북 마케팅 API 사용기</title>
         <description>&lt;h2 id=&quot;페이스북-개발자앱-생성-및-토큰-발급&quot;&gt;페이스북 개발자앱 생성 및 토큰 발급&lt;/h2&gt; &lt;p&gt;SDK 생성 및 토큰을 발급 받기위해서는 &lt;a href=&quot;https://developers.facebook.com/apps/&quot;&gt;페이스북 개발자센터-앱&lt;/a&gt; 에서&lt;br /&gt; 앱을 생성한 후 해당 앱을 통해 SDK 생성, API 버전 관리, 화이트리스트추가, 도메인관리, 비즈니스 관리자구성 등을 할 수 있다.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A2%E1%86%B82.jpg&quot; alt=&quot;개발자앱&quot; title=&quot;개발자앱&quot; /&gt;&lt;/p&gt; &lt;p&gt;그림)개발자앱&lt;/p&gt; &lt;hr /&gt; &lt;h3 id=&quot;앱-제품구성&quot;&gt;앱 제품구성&lt;/h3&gt; &lt;p&gt;개발자앱에서는 체크된 제품을 사용중이다.&lt;br /&gt; &lt;em&gt;(더 많은 제품이 존재할 수 있다.)&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9.png&quot; alt=&quot;제품구성&quot; title=&quot;구성&quot; /&gt;&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;마케팅-api&quot;&gt;마케팅 API&lt;/h2&gt; &lt;p&gt;다양한 제품중 &lt;strong&gt;마케팅 API&lt;/strong&gt; 대해 &lt;del&gt;자세히&lt;/del&gt; 그냥 다뤄보겠다.&lt;/p&gt; &lt;h3 id=&quot;구성&quot;&gt;구성&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;대시보드 &lt;ul&gt; &lt;li&gt;API 호출/오류/오류율에 대한 인사이트&lt;/li&gt; &lt;li&gt;마케팅 API 사용정보&lt;/li&gt; &lt;li&gt;마케팅 API 오류 및 호출 통계&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;빠른 시작 &lt;ul&gt;...</description>
         <pubDate>Sat, 21 Oct 2017 19:00:40 +0900</pubDate>
         <link>/facebookAPI/</link>
@@ -66,170 +132,6 @@
         
         
         <category>guide</category>
-        
-      </item>
-    
-      <item>
-        <title>Como quase cai num golpe no Facebook e como desviar deles</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Sun, 10 Sep 2017 21:26:40 +0900</pubDate>
-        <link>/como-quase-cai-num-golpe-no-facebook-e-como-desviar-deles/</link>
-        <guid isPermaLink="true">/como-quase-cai-num-golpe-no-facebook-e-como-desviar-deles/</guid>
-        
-        <category>life</category>
-        
-        <category>tips</category>
-        
-        
-        <category>life</category>
-        
-      </item>
-    
-      <item>
-        <title>box-shadow ou filter: drop-shadow?</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Tue, 15 Aug 2017 07:55:45 +0900</pubDate>
-        <link>/box-shadow-ou-filter-drop-shadow/</link>
-        <guid isPermaLink="true">/box-shadow-ou-filter-drop-shadow/</guid>
-        
-        <category>css</category>
-        
-        <category>frontend</category>
-        
-        
-        <category>css</category>
-        
-      </item>
-    
-      <item>
-        <title>Fazendo um formulário de Contato no Jekyll com Vue.js</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Tue, 08 Aug 2017 08:04:08 +0900</pubDate>
-        <link>/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js/</link>
-        <guid isPermaLink="true">/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js/</guid>
-        
-        <category>vuejs</category>
-        
-        <category>jekyll</category>
-        
-        <category>blog</category>
-        
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Como migrar seus posts do Wordpress para o Jekyll de um jeito simples</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Sat, 29 Jul 2017 22:24:49 +0900</pubDate>
-        <link>/como-migrar-seus-posts-do-wordpress-para-o-jekyll/</link>
-        <guid isPermaLink="true">/como-migrar-seus-posts-do-wordpress-para-o-jekyll/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>wordpress</category>
-        
-        <category>blog</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Por que o Sketch vale 3 tanques de gasolina?</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Thu, 08 Jun 2017 00:00:00 +0900</pubDate>
-        <link>/por-que-o-sketch-vale-3-tanques-de-gasolina/</link>
-        <guid isPermaLink="true">/por-que-o-sketch-vale-3-tanques-de-gasolina/</guid>
-        
-        <category>design</category>
-        
-        <category>sketch</category>
-        
-        
-        <category>webdev</category>
-        
-      </item>
-    
-      <item>
-        <title>Como fazer um Hello World com Vue.js 2</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Sun, 04 Jun 2017 00:00:00 +0900</pubDate>
-        <link>/como-fazer-um-hello-world-com-vue-js-2/</link>
-        <guid isPermaLink="true">/como-fazer-um-hello-world-com-vue-js-2/</guid>
-        
-        <category>vuejs</category>
-        
-        <category>javascript</category>
-        
-        <category>tutorial</category>
-        
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Minhas primeiras 5 impressões sobre Django</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Thu, 11 May 2017 00:00:00 +0900</pubDate>
-        <link>/minhas-primeiras-5-impressoes-sobre-django/</link>
-        <guid isPermaLink="true">/minhas-primeiras-5-impressoes-sobre-django/</guid>
-        
-        <category>django</category>
-        
-        
-        <category>django</category>
-        
-      </item>
-    
-      <item>
-        <title>Desafio aceito. Fazendo uma app do Dribbble do zero</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Sun, 06 Sep 2015 00:00:00 +0900</pubDate>
-        <link>/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero/</link>
-        <guid isPermaLink="true">/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero/</guid>
-        
-        <category>app</category>
-        
-        <category>mobile</category>
-        
-        <category>ios</category>
-        
-        
-        <category>mobile</category>
-        
-      </item>
-    
-      <item>
-        <title>Diga olá para o TRCurrencyTextField: Um componente com valor.</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Fri, 08 May 2015 00:00:00 +0900</pubDate>
-        <link>/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/</link>
-        <guid isPermaLink="true">/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/</guid>
-        
-        <category>component</category>
-        
-        <category>ios</category>
-        
-        <category>cocoapods</category>
-        
-        
-        <category>mobile</category>
-        
-      </item>
-    
-      <item>
-        <title>Seja bem-vindo</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Wed, 10 Oct 2012 00:00:00 +0900</pubDate>
-        <link>/seja-bem-vindo/</link>
-        <guid isPermaLink="true">/seja-bem-vindo/</guid>
-        
-        
-        <category>blog</category>
         
       </item>
     

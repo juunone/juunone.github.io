@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Como migrar seus posts do Wordpress para o Jekyll de um jeito simples | 최 준원</title>
-    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+    <title>Fetch API 적응기 | 최 준원</title>
+    <meta name="description" content="프로젝트에서 Fetch API를 사용하면서 느낀점 및 사용법에 대해 공유하고자 한다.">
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="Como migrar seus posts do Wordpress para o Jekyll de um jeito simples | 최 준원">
-    <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+    <meta name="twitter:title" content="Fetch API 적응기 | 최 준원">
+    <meta name="twitter:description" content="프로젝트에서 Fetch API를 사용하면서 느낀점 및 사용법에 대해 공유하고자 한다.">
     
-    <meta property="twitter:image:src" content="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1501345962/wordpress-to-jekyll_mx4ddm.png">
+    <meta property="twitter:image:src" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/fetchcover.jpg">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/como-migrar-seus-posts-do-wordpress-para-o-jekyll/">
-    <meta property="og:title" content="Como migrar seus posts do Wordpress para o Jekyll de um jeito simples | 최 준원">
+    <meta property="og:url" content="/fetchAPI/">
+    <meta property="og:title" content="Fetch API 적응기 | 최 준원">
     
-    <meta property="og:image" content="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1501345962/wordpress-to-jekyll_mx4ddm.png">
+    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/fetchcover.jpg">
     
-    <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+    <meta property="og:description" content="프로젝트에서 Fetch API를 사용하면서 느낀점 및 사용법에 대해 공유하고자 한다.">
     <meta property="og:site_name" content="Juunflix | for dev blog">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Como migrar seus posts do Wordpress para o Jekyll de um jeito simples | 최 준원"/>
-    <meta itemprop="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+    <meta itemprop="name" content="Fetch API 적응기 | 최 준원"/>
+    <meta itemprop="description" content="프로젝트에서 Fetch API를 사용하면서 느낀점 및 사용법에 대해 공유하고자 한다.">
     <meta itemprop="image" content="/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -60,7 +60,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="/como-migrar-seus-posts-do-wordpress-para-o-jekyll/">
+    <link rel="canonical" href="/fetchAPI/">
     <link rel="alternate" type="application/rss+xml" title="Juunflix | for dev blog" href="/feed.xml" />
 </head>
 
@@ -126,13 +126,13 @@
           </svg>
           <time
             itemprop="datePublished"
-            datetime="2017-07-29T22:24:49+09:00"
+            datetime="2018-05-12T23:00:00+09:00"
             class="date"
           >
             
 
 
-July 29, 2017
+May 12, 2018
 
           </time>
           
@@ -141,136 +141,157 @@ July 29, 2017
           </svg>
           <span>3 min to read</span>
         </p>
-        <h1 class="post-title" itemprop="name">Como migrar seus posts do Wordpress para o Jekyll de um jeito simples</h1>
-        <p itemprop="description" class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <h1 class="post-title" itemprop="name">Fetch API 적응기</h1>
+        <p itemprop="description" class="subtitle">프로젝트에서 Fetch API를 사용하면서 느낀점 및 사용법에 대해 공유하고자 한다.</p>
 
         
-        <img src="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1501345962/wordpress-to-jekyll_mx4ddm.png" alt="Imagem de capa" class="post-cover" />
+        <img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/fetchcover.jpg" alt="Imagem de capa" class="post-cover" />
         
 
-        <p>Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. <em>Aenean eu leo quam.</em> Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+        <h2 id="rest-api-connect"><strong>REST API Connect</strong></h2>
 
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
+<p>그동안의 프로젝트를 돌아보면 우리는 jquery 기반의
+<em>AJAX</em>를 사용해왔다.<br />
+물론 편리하고 보편화되어있고 지원되는 optional 도 많지만
+현재 React app에서 최대한 jquery 영역을 좁히고있는 와중에<br />
+새로운 API Connenctor 인 <a href="https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95">Fetch API</a>를 도입하게되었다.</p>
 
-<p>Etiam porta <strong>sem malesuada magna</strong> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+<h3 id="fetch-api">Fetch API</h3>
 
-<h2 id="inline-html-elements">Inline HTML elements</h2>
-
-<p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
-
-<ul>
-  <li><strong>To bold text</strong>, use <code class="highlighter-rouge">&lt;strong&gt;</code>.</li>
-  <li><em>To italicize text</em>, use <code class="highlighter-rouge">&lt;em&gt;</code>.</li>
-  <li>Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use <code class="highlighter-rouge">&lt;abbr&gt;</code>, with an optional <code class="highlighter-rouge">title</code> attribute for the full phrase.</li>
-  <li>Citations, like <cite>— Thiago Rossener</cite>, should use <code class="highlighter-rouge">&lt;cite&gt;</code>.</li>
-  <li><del>Deleted</del> text should use <code class="highlighter-rouge">&lt;del&gt;</code> and <ins>inserted</ins> text should use <code class="highlighter-rouge">&lt;ins&gt;</code>.</li>
-  <li>Superscript <sup>text</sup> uses <code class="highlighter-rouge">&lt;sup&gt;</code> and subscript <sub>text</sub> uses <code class="highlighter-rouge">&lt;sub&gt;</code>.</li>
-</ul>
-
-<p>Most of these elements are styled by browsers with few modifications on our part.</p>
-
-<h1 id="heading-1">Heading 1</h1>
-
-<h2 id="heading-2">Heading 2</h2>
-
-<h3 id="heading-3">Heading 3</h3>
-
-<h4 id="heading-4">Heading 4</h4>
-
-<p>Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-<h2 id="code">Code</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis <code class="highlighter-rouge">code element</code> montes, nascetur ridiculus mus.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Example can be run directly in your JavaScript console</span>
-
-<span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
-<span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">"a"</span><span class="p">,</span> <span class="s2">"b"</span><span class="p">,</span> <span class="s2">"return a + b"</span><span class="p">);</span>
-
-<span class="c1">// Call the function</span>
-<span class="nx">adder</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">);</span>
-<span class="c1">// &gt; 8</span>
-</code></pre></div></div>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-
-<h2 id="lists">Lists</h2>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+<p>위 링크를 참조로 작성한 내용입니다.</p>
 
 <ul>
-  <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-  <li>Donec id elit non mi porta gravida at eget metus.</li>
-  <li>Nulla vitae elit libero, a pharetra augue.</li>
+  <li>
+    <p>Fetch API를 이용하면 Request나 Response와 같은 HTTP의 파이프라인을 구성하는 요소를 조작하는것이 가능합니다. 또한 fetch() 메서드를 이용하는 것으로 비동기 네트워크 통신을 알기쉽게 기술할 수 있습니다.</p>
+  </li>
+  <li>
+    <p>jquery.ajax() 와 차이점</p>
+    <ul>
+      <li>fetch()로 부터 반환되는 Promise 객체는 HTTP error 상태를 reject하지 않습니다. 대신 ok 상태가 false인 resolve가 반환되며, 네트워크 장애나 요청이 완료되지 못한 상태에는 reject가 반환됩니다.</li>
+      <li>보통 fetch는 쿠키를 보내거나 받지 않습니다. 사이트에서 사용자 세션을 유지 관리해야하는 경우 인증되지 않는 요청이 발생합니다. 쿠키를 전송하기 위해서는 자격증명(credentials) 옵션을 반드시 설정해야 합니다.</li>
+    </ul>
+  </li>
 </ul>
-
-<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-
-<ol>
-  <li>Vestibulum id ligula porta felis euismod semper.</li>
-  <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-  <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-</ol>
-
-<p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-
-<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.</p>
-
-<p><img src="https://placehold.it/800x400" alt="placeholder" title="Large example image" />
-<img src="https://placehold.it/400x200" alt="placeholder" title="Medium example image" />
-<img src="https://placehold.it/200x200" alt="placeholder" title="Small example image" /></p>
-
-<h2 id="tables">Tables</h2>
-
-<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 
 <hr />
 
-<p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
+<h3 id="basic">Basic</h3>
 
+<p>기본적인 fetch 작성법</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="s2">"https://jsonplaceholder.typicode.com/todos/1"</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">json</span><span class="p">));</span>
+
+  <span class="nl">response</span> <span class="p">:</span> <span class="p">{</span>
+  <span class="s2">"userId"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+  <span class="s2">"id"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+  <span class="s2">"title"</span><span class="p">:</span> <span class="s2">"delectus aut autem"</span><span class="p">,</span>
+  <span class="s2">"completed"</span><span class="p">:</span> <span class="kc">false</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="headers">Headers</h3>
+
+<p>Headers 인터페이스에서 Headers() 생성자를 사용해 헤더 객체를 생성할 수 있습니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">content</span> <span class="o">=</span> <span class="s2">"Hello World!"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">awesomeHeaders</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Headers</span><span class="p">();</span>
+<span class="nx">awesomeHeaders</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">"Content-Type"</span><span class="p">,</span> <span class="s2">"application/json"</span><span class="p">);</span>
+<span class="nx">awesomeHeaders</span><span class="p">.</span><span class="nx">append</span><span class="p">(</span><span class="s2">"Content-Length"</span><span class="p">,</span> <span class="nx">content</span><span class="p">.</span><span class="nx">length</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+
+<span class="c1">//객체 리터럴을 생성자에 전달하는것으로 생성할수도 있습니다.</span>
+<span class="kd">const</span> <span class="nx">awesomeHeaders</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Headers</span><span class="p">({</span>
+  <span class="s2">"Content-Type"</span><span class="p">:</span> <span class="s2">"application/json"</span><span class="p">,</span>
+  <span class="s2">"Content-Length"</span><span class="p">:</span> <span class="nx">content</span><span class="p">.</span><span class="nx">length</span><span class="p">.</span><span class="nx">toString</span><span class="p">()</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h3 id="body">Body</h3>
+
+<p>Request, Resposne 둘다 Body를 가지고 있습니다. body는 아래에서 기술한 타입들 중 하나로 설정할 수 있습니다.</p>
+
+<ul>
+  <li>ArrayBuffer</li>
+  <li>ArrayBufferView (Uint8Array같은 TypedArray)</li>
+  <li>Blob/File</li>
+  <li>문자열</li>
+  <li>URLSearchParams</li>
+  <li>FormData</li>
+</ul>
+
+<p>Body를 다루기위해서 제공되는 Method가 있다.</p>
+
+<ul>
+  <li>arrayBuffer()</li>
+  <li>blob()</li>
+  <li>json()</li>
+  <li>text()</li>
+  <li>formData()</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="s2">"https://jsonplaceholder.typicode.com/posts"</span><span class="p">,</span> <span class="p">{</span>
+  <span class="na">method</span><span class="p">:</span> <span class="s2">"POST"</span><span class="p">,</span>
+  <span class="na">body</span><span class="p">:</span> <span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
+    <span class="na">title</span><span class="p">:</span> <span class="s2">"foo"</span><span class="p">,</span>
+    <span class="na">body</span><span class="p">:</span> <span class="s2">"bar"</span><span class="p">,</span>
+    <span class="na">userId</span><span class="p">:</span> <span class="mi">1</span>
+  <span class="p">}),</span>
+  <span class="na">headers</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">"Content-type"</span><span class="p">:</span> <span class="s2">"application/json; charset=UTF-8"</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">json</span><span class="p">));</span>
+</code></pre></div></div>
+
+<h3 id="request">Request</h3>
+
+<p>두번째 파라미터를 적용하는것도 가능합니다. 다수의 설정을 컨트롤할 수 있는 초기화 옵션입니다.
+아래와 같이 두번째 인자에 들어갈수 있는 옵션들입니다.</p>
+
+<ul>
+  <li>method</li>
+  <li>headers</li>
+  <li>body</li>
+  <li>mode</li>
+  <li>cache</li>
+  <li>credentials</li>
+  <li>redirect</li>
+  <li>referrer</li>
+  <li>integrity</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">init</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">method</span><span class="p">:</span> <span class="s2">"GET"</span><span class="p">,</span>
+  <span class="na">mode</span><span class="p">:</span> <span class="s2">"cors"</span><span class="p">,</span> <span class="c1">//The mode you want to use for the request, e.g., cors, no-cors, or same-origin.</span>
+  <span class="na">cache</span><span class="p">:</span> <span class="s2">"default"</span> <span class="c1">// The cache mode you want to use for the request.</span>
+<span class="p">};</span>
+
+<span class="nx">fetch</span><span class="p">(</span><span class="s2">"train.jpg"</span><span class="p">,</span> <span class="nx">init</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">response</span><span class="p">.</span><span class="nx">blob</span><span class="p">();</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">myBlob</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">objectURL</span> <span class="o">=</span> <span class="nx">URL</span><span class="p">.</span><span class="nx">createObjectURL</span><span class="p">(</span><span class="nx">myBlob</span><span class="p">);</span>
+    <span class="nx">myImage</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="nx">objectURL</span><span class="p">;</span>
+  <span class="p">});</span>
+</code></pre></div></div>
+
+<h3 id="query-parameters">Query parameters</h3>
+
+<p>쿼리 매개 변수도 지원됩니다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="s2">"https://jsonplaceholder.typicode.com/posts?userId=1"</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">json</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">json</span><span class="p">));</span>
+</code></pre></div></div>
+
+<h3 id="마치며">마치며</h3>
+
+<p>jQuery를 굳이 사용할 필요가 없다면 Ajax 없이도 충분히 API 통신하기에 부족함이 없다.<br />
+오히려 가볍고 산뜻하다.
+앞으로 애용할것 같다. 끝!</p>
 
       </article>
 
@@ -285,15 +306,15 @@ July 29, 2017
 
       <section class="share">
     <h3>Share</h3>
-    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&quot;%20/como-migrar-seus-posts-do-wordpress-para-o-jekyll/%20via%20&#64;&hashtags=jekyll,wordpress,blog,"
+    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/fetchAPI/%20via%20&#64;&hashtags=API,Fetch,REST,RESTful,WebAPI,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/como-migrar-seus-posts-do-wordpress-para-o-jekyll/"
+    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/fetchAPI/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/como-migrar-seus-posts-do-wordpress-para-o-jekyll/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/fetchAPI/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -333,7 +354,7 @@ July 29, 2017
       var disqus_shortname = 'https-juunone-github-io';
       console.log(disqus_shortname);
       var disqus_title = '';
-      var disqus_url = '/como-migrar-seus-posts-do-wordpress-para-o-jekyll/';
+      var disqus_url = '/fetchAPI/';
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);

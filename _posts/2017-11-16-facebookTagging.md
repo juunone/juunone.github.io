@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "페이스북 픽셀 가이드"
+title: "페이스북 픽셀 태깅 마스터되기"
 date: 2017-11-16 21:00:00
 image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/facebookpixelcover.jpg"
 description: 태깅을 하기전 알아야 될 제일 기본적인 항목들.
@@ -10,7 +10,7 @@ tags:
   - Tagging
   - Pixel
   - Event
-introduction: Facebook 픽셀은 회원님의 웹사이트에서 사람들이 취한 행동을 파악하여 광고의 성과를 측정할 수 있는 분석 도구입니다.
+introduction: Facebook 픽셀은 웹사이트에서 사람들이 취한 행동을 파악하여 광고의 성과를 측정할 수 있는 분석 도구입니다만 어렵다..
 ---
 
 ## 픽셀이란?

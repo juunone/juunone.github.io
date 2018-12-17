@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "페이스북 마케팅 API 사용 가이드"
+title: "페이스북 마케팅 API 사용기"
 date: 2017-10-21 10:00:40
 image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/facebookapicover2.jpg"
 description: 타겟북을 진행하면서 사용해봤던 페이스북 마케팅 API의 사용법을 공유하고자 한다.
