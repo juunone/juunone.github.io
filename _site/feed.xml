@@ -5,36 +5,24 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Dec 2018 17:14:24 +0900</pubDate>
-    <lastBuildDate>Mon, 17 Dec 2018 17:14:24 +0900</lastBuildDate>
+    <pubDate>Mon, 17 Dec 2018 20:03:42 +0900</pubDate>
+    <lastBuildDate>Mon, 17 Dec 2018 20:03:42 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>is there awesome????</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Mon, 17 Sep 2018 19:00:40 +0900</pubDate>
-        <link>/test/</link>
-        <guid isPermaLink="true">/test/</guid>
+        <title>CMS 에디터툴 Dynamic contents editor : DCE 제품정의</title>
+        <description>&lt;h1 id=&quot;dcedynamic-contents-editor-제품정의&quot;&gt;DCE(Dynamic contents editor) 제품정의&lt;/h1&gt; &lt;h2 id=&quot;들어가며&quot;&gt;&lt;strong&gt;들어가며&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;본 문서는 인수인계 목적이 아닌 개발이 완료된 제품에 대한 이해를 돕기위해 제작된 개발 정의서입니다.&lt;br /&gt; 부디 도움이 되길 바랄 뿐입니다. 그럼 스타뜨!&lt;/p&gt; &lt;h2 id=&quot;배경&quot;&gt;&lt;strong&gt;배경&lt;/strong&gt;&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;처음 문제는 &lt;strong&gt;&lt;em&gt;Targetbook&lt;/em&gt;&lt;/strong&gt; 으로부터 시작되었습니다.&lt;br /&gt; 문제의 배경은 광고를 집행하고 운영하는 AE 분들에 의해서 발의되었습니다.&lt;br /&gt; 이번 사례의 경우, 아래와 같이 배경이 정리 될 수 있다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;페이스북과 동일한 &lt;a href=&quot;https://www.facebook.com/business/learn/facebook-create-ad-canvas-ads&quot;&gt;캔버스&lt;/a&gt; 기능을 사용할 수 있을것&lt;/li&gt; &lt;li&gt;랜딩페이지 유입을 높이는 것&lt;/li&gt; &lt;li&gt;&lt;del&gt;재밌겠다&lt;/del&gt;&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;문제정의&quot;&gt;&lt;strong&gt;문제정의&lt;/strong&gt;&lt;/h2&gt; &lt;hr /&gt; &lt;p&gt;효과적으로 빠르게 광고 랜딩페이지 제작 목적을 띄고있는 페이스북의 &lt;a href=&quot;https://www.facebook.com/business/learn/facebook-create-ad-canvas-ads&quot;&gt;캔버스&lt;/a&gt;&lt;br /&gt; 기능이 타겟북 어드민내에 존재하지 않는다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;페이스북 캔버스 Dependency&lt;/li&gt; &lt;li&gt;기존 타겟북...</description>
+        <pubDate>Thu, 08 Feb 2018 23:00:00 +0900</pubDate>
+        <link>/dcedefinition/</link>
+        <guid isPermaLink="true">/dcedefinition/</guid>
         
-        <category>test</category>
+        <category>CMS</category>
         
-        <category>dev</category>
+        <category>CRM</category>
         
+        <category>Landing</category>
         
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>is there awesome??</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Mon, 17 Sep 2018 19:00:40 +0900</pubDate>
-        <link>/project/</link>
-        <guid isPermaLink="true">/project/</guid>
-        
-        <category>awesome</category>
-        
-        <category>advantages</category>
+        <category>Editor</category>
         
         
         <category>project</category>
@@ -42,18 +30,42 @@
       </item>
     
       <item>
-        <title>Introduce</title>
-        <description>&lt;p&gt;Cas sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt; &lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt; &lt;p&gt;HTML defines a long list of available inline tags, a complete list of...</description>
-        <pubDate>Mon, 17 Sep 2018 19:00:40 +0900</pubDate>
-        <link>/introduce/</link>
-        <guid isPermaLink="true">/introduce/</guid>
+        <title>페이스북 픽셀 가이드</title>
+        <description>&lt;h2 id=&quot;픽셀이란&quot;&gt;픽셀이란?&lt;/h2&gt; &lt;p&gt;Facebook 픽셀은 회원님의 웹사이트에서 사람들이 취한 행동을 파악하여 광고의 성과를 측정할 수 있는 분석 도구입니다.&lt;br /&gt; 픽셀 데이터를 사용하여 다음을 할 수 있습니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;적절한 대상에게 광고 노출 &lt;ul&gt; &lt;li&gt;신규 고객, 웹사이트의 특정 페이지를 방문한 사람, 원하는 행동을 취한 사람 등 비즈니스에 적절한 타겟을 찾을수있고,&lt;br /&gt; 유사 타겟을 만들어 우수 고객과 유사한 타겟에 더 많이 도달하게 가능하다. &lt;a href=&quot;https://www.facebook.com/business/help/666509013483225?helpref=faq_content#&quot;&gt;자세한내용&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;광고 타겟 구축 &lt;ul&gt; &lt;li&gt;자동 입찰을 설정하여 제품 구매 등 중요한 행동을 취할 가능성이 높은 사람을 타게팅할 수 있다.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;더 많은 Facebook 광고 도구 활용 &lt;ul&gt; &lt;li&gt;광고의 직접적인 성과를 확인하여 광고가 얼마나 성공적이었는지 파악 가능하며,&lt;br...</description>
+        <pubDate>Fri, 17 Nov 2017 06:00:00 +0900</pubDate>
+        <link>/facebookTagging/</link>
+        <guid isPermaLink="true">/facebookTagging/</guid>
         
-        <category>me</category>
+        <category>Facebook</category>
         
-        <category>advantages</category>
+        <category>Tagging</category>
+        
+        <category>Pixel</category>
+        
+        <category>Event</category>
         
         
-        <category>personal</category>
+        <category>guide</category>
+        
+      </item>
+    
+      <item>
+        <title>페이스북 마케팅 API 사용 가이드</title>
+        <description>&lt;h2 id=&quot;페이스북-개발자앱-생성-및-토큰-발급&quot;&gt;페이스북 개발자앱 생성 및 토큰 발급&lt;/h2&gt; &lt;p&gt;SDK 생성 및 토큰을 발급 받기위해서는 &lt;a href=&quot;https://developers.facebook.com/apps/&quot;&gt;페이스북 개발자센터-앱&lt;/a&gt; 에서&lt;br /&gt; 앱을 생성한 후 해당 앱을 통해 SDK 생성, API 버전 관리, 화이트리스트추가, 도메인관리, 비즈니스 관리자구성 등을 할 수 있다.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A2%E1%86%B82.jpg&quot; alt=&quot;개발자앱&quot; title=&quot;개발자앱&quot; /&gt;&lt;/p&gt; &lt;p&gt;그림)개발자앱&lt;/p&gt; &lt;hr /&gt; &lt;h3 id=&quot;앱-제품구성&quot;&gt;앱 제품구성&lt;/h3&gt; &lt;p&gt;개발자앱에서는 체크된 제품을 사용중이다.&lt;br /&gt; &lt;em&gt;(더 많은 제품이 존재할 수 있다.)&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9.png&quot; alt=&quot;제품구성&quot; title=&quot;구성&quot; /&gt;&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;마케팅-api&quot;&gt;마케팅 API&lt;/h2&gt; &lt;p&gt;다양한 제품중 &lt;strong&gt;마케팅 API&lt;/strong&gt; 대해 &lt;del&gt;자세히&lt;/del&gt; 그냥 다뤄보겠다.&lt;/p&gt; &lt;h3 id=&quot;구성&quot;&gt;구성&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;대시보드 &lt;ul&gt; &lt;li&gt;API 호출/오류/오류율에 대한 인사이트&lt;/li&gt; &lt;li&gt;마케팅 API 사용정보&lt;/li&gt; &lt;li&gt;마케팅 API 오류 및 호출 통계&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;빠른 시작 &lt;ul&gt;...</description>
+        <pubDate>Sat, 21 Oct 2017 19:00:40 +0900</pubDate>
+        <link>/facebookAPI/</link>
+        <guid isPermaLink="true">/facebookAPI/</guid>
+        
+        <category>Facebook</category>
+        
+        <category>GraphAPI</category>
+        
+        <category>Marketing</category>
+        
+        <category>FMP</category>
+        
+        
+        <category>guide</category>
         
       </item>
     

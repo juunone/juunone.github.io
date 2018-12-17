@@ -30,6 +30,10 @@
         </url>
     
         <url>
+            <loc>/category/guide/</loc>
+        </url>
+    
+        <url>
             <loc>/</loc>
         </url>
     
@@ -79,15 +83,15 @@
     
     
         <url>
-            <loc>/test/</loc>
+            <loc>/dcedefinition/</loc>
         </url>
   
         <url>
-            <loc>/project/</loc>
+            <loc>/facebookTagging/</loc>
         </url>
   
         <url>
-            <loc>/introduce/</loc>
+            <loc>/facebookAPI/</loc>
         </url>
   
         <url>
