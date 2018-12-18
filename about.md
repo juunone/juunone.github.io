@@ -9,14 +9,22 @@ permalink: /about/
 
 # 최 준원 (Juunone)
 
-## 소개
+<b>&#x1F4E7;</b> juunone@gmail.com <br />
+<b>&#x1F4BB;</b> https://github.com/juunone <br />
+<b>&#x1F606;</b> https://www.linkedin.com/in/juunone/ <br />
+<b>&#x1F310;</b> https://juunone.github.io/ <br />
+
+## <b>&#x1F680;</b> 소개
+
+안녕하세요.<br />
+클라이언트 어플리케이션 개발자 최준원 입니다.<br />
+경험과 상호작용을 통해 고민하고 개발합니다.
 
 - 다양한 웹 기술을 이용한 클라이언트 어플리케이션을 만듭니다.
 - 새로운 기술을 공부하는 것을 좋아합니다.
 - 타인과의 커뮤니케이션 및 대화는 환영합니다.
-- 향기에 민감합니다.
 
-## 경력
+## <b>&#x1F4BC;</b> 경력
 
 **유니드컴즈**
 
@@ -33,15 +41,43 @@ permalink: /about/
 - 웹/모바일 프론트 디자인 및 퍼블리싱
 - 프로모션 페이지 디자인
 
-## 기타
+## <b>&#x1F4BB;</b> 기술
 
-**미디어**
+- ## Languages
+  - Javascript(ES6)
+  - HTML5
+  - CSS3
+  - Sass
+- ## Libraries
+  - React
+  - jQuery
+  - Bootstrap
+  - Material-ui
+  - Firebase
+- ## Tools
+  - Amazon Web Service S3
+  - Visual Studio
+  - JetBrains
+  - Sourcetree
+- ## VCS
+  - Git
+  - Bitbucket
+  - Github
+  - Gitlab
+  - Microsoft Azure
+- ## ITS
+  - Atlassian Jira
+- ## Cooperation Tool
+  - Slack
+  - Atlassian Confluence
+
+## <b>&#x1F525;</b> 미디어
 
 - [기술 블로그 운영](https://juunone.github.io/)(2017 ~ 현재)
 - [[사내발표] React-redux 방법론 이해](https://www.youtube.com/watch?v=4OtGvRSF8bI)
 - [웹서비스(Dynamic contents editor) 오픈 홍보 YouTube 영상](https://www.youtube.com/watch?v=K-7sBvh-IC8&t=2s)
 
-**교육**
+## <b>&#x1F393;</b> 교육
 
 - [원광대학교](http://www.wku.ac.kr/), 시각정보디자인과(2008.03 ~ 2014.02)
 - 전북 익산 [남성고등학교](http://namsung.hs.kr/) (2005.03 ~ 2008.02)
