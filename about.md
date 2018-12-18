@@ -67,7 +67,6 @@ permalink: /about/
   - Bitbucket
   - Github
   - Gitlab
-  - Microsoft Azure
 - ## ITS
   - Atlassian Jira
 - ## Cooperation Tool
