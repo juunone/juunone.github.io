@@ -1,13 +1,23 @@
-# 최 준원 a.k.a Juunone
+<img itemprop="image" class="img-rounded" src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/%E1%84%87%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%B3%E1%84%86%E1%85%A9%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A1%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A7%E1%86%BC.jpg" alt="Juun one" width="300">
 
-## 소개
+# 최 준원 (Juunone)
 
-- 다양한 웹 기술을 이용한 클라이언트 어플리케이션을 만듭니다.
-- 새로운 기술을 공부하고 공유하는 것을 좋아합니다.
-- 타인과의 커뮤니케이션 및 대화하는 것을 좋아합니다.
-- 향기에 민감합니다.
+<b>&#x1F4E7;</b> juunone@gmail.com <br />
+<b>&#x1F4BB;</b> https://github.com/juunone <br />
+<b>&#x1F606;</b> https://www.linkedin.com/in/juunone/ <br />
+<b>&#x1F310;</b> https://juunone.github.io/ <br />
 
-## 경력
+## <b>&#x1F680;</b> 소개
+
+안녕하세요.<br />
+클라이언트 웹 어플리케이션 개발자 최준원 입니다.<br />
+경험과 상호작용을 통해 고민하고 개발합니다.
+
+- 다양한 웹 기술을 이용한 클라이언트 웹 어플리케이션을 만듭니다.
+- 새로운 기술을 공부하는 것을 좋아합니다.
+- 타인과의 커뮤니케이션 및 대화는 환영합니다.
+
+## <b>&#x1F4BC;</b> 경력
 
 **유니드컴즈**
 
@@ -24,15 +34,45 @@
 - 웹/모바일 프론트 디자인 및 퍼블리싱
 - 프로모션 페이지 디자인
 
-## 기타
+## <b>&#x1F4BB;</b> 기술
 
-**미디어**
+- ## Languages
+  - Javascript(ES6)
+  - HTML5
+  - CSS3
+  - Sass
+- ## Libraries
+  - React
+  - jQuery
+  - Bootstrap
+  - Material-ui
+  - D3.js
+  - Highcharts
+  - Firebase
+  - Zeit-Now
+- ## Tools
+  - Amazon Web Service S3
+  - Visual Studio
+  - JetBrains
+  - Sourcetree
+- ## VCS
+  - Git
+  - Bitbucket
+  - Github
+  - Gitlab
+- ## ITS
+  - Atlassian Jira
+- ## Cooperation Tool
+  - Slack
+  - Atlassian Confluence
+
+## <b>&#x1F525;</b> 미디어
 
 - [기술 블로그 운영](https://juunone.github.io/)(2017 ~ 현재)
 - [[사내발표] React-redux 방법론 이해](https://www.youtube.com/watch?v=4OtGvRSF8bI)
 - [웹서비스(Dynamic contents editor) 오픈 홍보 YouTube 영상](https://www.youtube.com/watch?v=K-7sBvh-IC8&t=2s)
 
-**교육**
+## <b>&#x1F393;</b> 교육
 
 - [원광대학교](http://www.wku.ac.kr/), 시각정보디자인과(2008.03 ~ 2014.02)
 - 전북 익산 [남성고등학교](http://namsung.hs.kr/) (2005.03 ~ 2008.02)
@@ -66,7 +106,7 @@
 
 - 소개 : 다수의 서비스내에서 사용할 수 있는 통합 파일관리 매니저 개발 프로젝트 (2017.12 ~ 2018.02)
 - 담당 업무 :
-  - 파일매니저 설계 및 단독 개발
+  - 파일매니저 설계 및 개발
   - 파일매니저 RESTful 서비스 개발
   - MSA 형태의 독립성을 가지고 다른 서비스에 적용 및 관리가능 하도록 개발.
 - 사용 기술 : React, ECMAScript2015, Webpack3, Babel, Bootstrap3, Sass, Python3, Flask
