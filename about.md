@@ -53,6 +53,8 @@ permalink: /about/
   - jQuery
   - Bootstrap
   - Material-ui
+  - D3.js
+  - Highcharts
   - Firebase
   - Zeit-Now
 - ## Tools
