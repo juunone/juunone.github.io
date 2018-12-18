@@ -5,8 +5,8 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 18 Dec 2018 11:29:28 +0900</pubDate>
-    <lastBuildDate>Tue, 18 Dec 2018 11:29:28 +0900</lastBuildDate>
+    <pubDate>Tue, 18 Dec 2018 14:19:37 +0900</pubDate>
+    <lastBuildDate>Tue, 18 Dec 2018 14:19:37 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -92,6 +92,24 @@
         
         
         <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>페이스북 광고를 위한 많은 자산</title>
+        <description>&lt;h2 id=&quot;비즈니스-관리자-계정&quot;&gt;비즈니스 관리자 계정&lt;/h2&gt; &lt;p&gt;비즈니스 관리자는 비즈니스를 정리하고 관리하는 데 사용할 수 있는 무료 Facebook 도구입니다. 비즈니스 관리자에 가입하면, 따로 친구 요청을 수락하지 않는 이상 동료 직원들은 Facebook 개인용 프로필을 볼 수 없습니다.&lt;/p&gt; &lt;p&gt;외부인은 비즈니스 관리자에 처음 로그인할 때 제공한 이름과 업무용 이메일 주소, 페이지 리스트 및 액세스 권한이 있는 광고 계정만 볼 수 있습니다.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/asset_business.png&quot; alt=&quot;비즈니스&quot; title=&quot;비즈니스&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;광고-계정&quot;&gt;광고 계정&lt;/h2&gt; &lt;p&gt;모든 새로운 비즈니스는 1개의 광고 계정을 만들 수 있습니다.&lt;br /&gt; 광고 계정에 지출이 있으면 최대 5개의 광고 계정을 호스팅할 수 있습니다. 현재 추가 광고 계정을 요청하는 옵션은 없습니다.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;FMP(Facebook marketing partner)&lt;/strong&gt; 를 취득하게 되면 해당 비즈니스게정에 &lt;em&gt;10000&lt;/em&gt;...</description>
+        <pubDate>Mon, 11 Dec 2017 21:30:00 +0900</pubDate>
+        <link>/facebookAssets/</link>
+        <guid isPermaLink="true">/facebookAssets/</guid>
+        
+        <category>Facebook</category>
+        
+        <category>Assets</category>
+        
+        <category>Facebook AD</category>
+        
+        
+        <category>guide</category>
         
       </item>
     

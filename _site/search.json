@@ -33,6 +33,14 @@
     } ,
   
     {
+      "title"    : "페이스북 광고를 위한 많은 자산",
+      "tags"     : "Facebook, Assets, and Facebook AD",
+      "categories" : "guide",
+      "url"      : "/facebookAssets/",
+      "date"     : "12/11/2017"
+    } ,
+  
+    {
       "title"    : "페이스북 픽셀 태깅 마스터되기",
       "tags"     : "Facebook, Tagging, Pixel, and Event",
       "categories" : "guide",
