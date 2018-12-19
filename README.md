@@ -91,7 +91,7 @@
 - 담당 업무 :
   - 기능 업데이트 개발
   - 스마트이미지 RESTful 서비스 개발
-- 사용 기술 : ECMAScript2015, jQuery, HTML5, CSS
+- 사용 기술 : Javascript, jQuery, HTML5, CSS
 
 **[DCE(Dynamic contents editor)](https://www.youtube.com/watch?v=7r-wpnS0oAE)**
 
@@ -100,7 +100,7 @@
   - DCE 설계 및 공동 개발
   - DCE RESTful 서비스 개발
   - 서비스내에서 공통적으로 사용하고있는 Module 개발 (Redux, Fetch, Modal preset, etc..)
-- 사용 기술 : React, React-Redux5, Redux-Thunk2, React-Router4, ECMAScript2015, Webpack3, Babel, jinja2, Bootstrap3, Sass, Python3, Flask
+- 사용 기술 : React, Javascript, React-Redux5, Redux-Thunk2, React-Router4, Webpack3, Babel, jinja2, Bootstrap3, Sass, Python3, Flask
 
 **파일매니저**
 
@@ -109,7 +109,7 @@
   - 파일매니저 설계 및 개발
   - 파일매니저 RESTful 서비스 개발
   - MSA 형태의 독립성을 가지고 다른 서비스에 적용 및 관리가능 하도록 개발.
-- 사용 기술 : React, ECMAScript2015, Webpack3, Babel, Bootstrap3, Sass, Python3, Flask
+- 사용 기술 : React, Javascript, Webpack3, Babel, Bootstrap3, Sass, Python3, Flask
 
 **[Targetbook](http://smartskin.co.kr/index.php?view=landing.tb)**
 
@@ -119,25 +119,25 @@
   - 페이스북 Graph API 통신
   - 타겟북 RESTful 서비스 개발
   - 광고 자산 관리 및 운용
-- 사용 기술 : ECMAScript2015, jQuery, Bootstrap2, D3, Highchart, Datatable, Phalcon PHP, Sass, HTML5
+- 사용 기술 : Javascript, jQuery, Bootstrap2, D3, Highchart, Datatable, Phalcon PHP, Sass, HTML5
 
 **[빌링센터](http://billing.uneedcomms.com/)**
 
 - 소개 : 고객의 유료 서비스 요금 청구하며 수납하고, 정산하는 일련의 업무 시스템 개발 프로젝트(2016.10 ~ 2017.02)
 - 담당 업무 : RESTful 빌링센터 웹서비스 퍼블리싱 및 공동 개발
-- 사용 기술 : ECMAScript2015, jQuery, Bootstrap, Phalcon PHP, HTML5
+- 사용 기술 : Javascript, jQuery, Bootstrap, Phalcon PHP, HTML5
 
 **[유니드컴즈 백오피스](http://admin.uneedcomms.com/)**
 
 - 소개 : 고객이 접근 가능한 서비스 소개 및 빌링, 기술지원 서비스, 운영 및 관리 페이지 개발 프로젝트(2016.09 ~ 2017.02)
 - 담당 업무 : RESTful 백오피스 웹서비스 퍼블리싱 및 공동 개발
-- 사용 기술 : ECMAScript2015, jQuery, Bootstrap, Phalcon PHP, HTML5
+- 사용 기술 : Javascript, jQuery, Bootstrap, Phalcon PHP, HTML5
 
 **[스마트PC&스킨](http://smartskin.co.kr/index.php?view=smartskin6)**
 
 - 소개 : 카페24,메이크샵,고도몰 호스팅 기반의 쇼핑몰 서비스 디자인 및 개발 (2016.02 - 2016.08)
 - 담당 업무 : 웹/모바일 쇼핑몰 디자인 퍼블리싱 및 개발
-- 사용 기술 : javascript, jQuery, HTML5, CSS
+- 사용 기술 : Javascript, jQuery, HTML5, CSS
 
 ## 엑시토홀딩스
 
