@@ -154,4 +154,4 @@ permalink: /about/
 
 - 소개 : 뷰티/성형외과 회사 홍보 및 예약접수 홈페이지 서비스
 - 담당 업무 : 웹/모바일 사이트 디자인 및 퍼블리싱
-- 사용 기술 : javascript, jQuery, HTML5, CSS
+- 사용 기술 : Javascript, jQuery, HTML5, CSS
