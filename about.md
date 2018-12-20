@@ -102,9 +102,9 @@ permalink: /about/
 
 **[DCE(Dynamic contents editor)](https://www.youtube.com/watch?v=7r-wpnS0oAE)**
 
-- 소개 : 다이나믹한 상품 영역을 포함한 랜딩페이지 제작 CMS 에디터툴 프로젝트(2018.01 ~ 2018.09)
+- 소개 : 다이나믹한 상품 영역을 포함한 SPA 환경의 랜딩페이지 제작 CMS 에디터툴 프로젝트(2018.01 ~ 2018.09)
 - 담당 업무 :
-  - DCE 설계 및 공동 개발
+  - DCE SPA 환경 설계 및 공동 개발
   - DCE RESTful 서비스 개발
   - 서비스내에서 공통적으로 사용하고있는 Module 개발 (Redux, Fetch, Modal preset, etc..)
 - 사용 기술 : React, Javascript, React-Redux5, Redux-Thunk2, React-Router4, Webpack3, Babel, jinja2, Bootstrap3, Sass, Python3, Flask
