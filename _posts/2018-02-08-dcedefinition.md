@@ -54,9 +54,13 @@ introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생�
 큰 문제점을 느끼고 **Targetbook+iMs** 모두에서 사용할 수 있는 이른바<br />
 ~~DbodyCMS~~(초기명칭) = **DCE** 제품이 개발된다.
 
-## **Use case diagram**
+## **Flowchart**
 
 ![다이어그램](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/DCE_FE.png)
+
+## **Use case diagram**
+
+![유즈케이스](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/dce_usecase.png)
 
 ## **기술 스펙**
 
