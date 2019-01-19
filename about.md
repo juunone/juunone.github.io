@@ -78,7 +78,7 @@ permalink: /about/
 
 - [기술 블로그 운영](https://juunone.github.io/)(2017 ~ 현재)
 - [[사내발표] React-redux 방법론 이해](https://www.youtube.com/watch?v=4OtGvRSF8bI)
-- [웹서비스(Dynamic contents editor) 오픈 홍보 YouTube 영상](https://www.youtube.com/watch?v=K-7sBvh-IC8&t=2s)
+- [웹서비스(Dynamic contents editor) 오픈 홍보 YouTube 영상](https://youtu.be/7r-wpnS0oAE)
 
 ## <b>&#x1F393;</b> 교육
 
