@@ -103,7 +103,7 @@ permalink: /about/
   - 스마트이미지 RESTful 서비스 개발
 - 사용 기술 : Javascript, jQuery, HTML5, CSS
 
-**[DCE(Dynamic contents editor)](https://www.youtube.com/watch?v=7r-wpnS0oAE)**
+**[DCE(Dynamic contents editor)](https://youtu.be/7r-wpnS0oAE)**
 
 - 소개 : 다이나믹한 상품 영역을 포함한 SPA 환경의 랜딩페이지 제작 CMS 에디터툴 프로젝트(2018.01 ~ 2018.09)
 - 담당 업무 :
@@ -113,7 +113,7 @@ permalink: /about/
   - 랜딩페이지 속도 향상 및 사용자 경험 개선
 - 사용 기술 : React, Javascript, React-Redux5, Redux-Thunk2, React-Router4, Webpack3, Babel, jinja2, Bootstrap3, Sass, Python3, Flask
 
-**파일매니저**
+**[파일매니저](http://admin.uneedcomms.com/notice/view?type=3576)**
 
 - 소개 : 다수의 서비스내에서 사용할 수 있는 통합 파일관리 매니저 개발 프로젝트 (2017.12 ~ 2018.02)
 - 담당 업무 :
