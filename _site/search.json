@@ -17,7 +17,7 @@
     } ,
   
     {
-      "title"    : "Software Design pattern 그 심오한것에 대해",
+      "title"    : "MVC, FLUX 패턴",
       "tags"     : "Pattern, MVC, FLUX, REDUX, and REACT",
       "categories" : "webdev",
       "url"      : "/pattern/",

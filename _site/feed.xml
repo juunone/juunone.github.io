@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Juunflix | for dev blog</title>
+    <title>Juunone | for dev blog</title>
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Jan 2019 17:35:48 +0900</pubDate>
-    <lastBuildDate>Sat, 19 Jan 2019 17:35:48 +0900</lastBuildDate>
+    <pubDate>Wed, 23 Jan 2019 17:38:26 +0900</pubDate>
+    <lastBuildDate>Wed, 23 Jan 2019 17:38:26 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -54,7 +54,7 @@
       </item>
     
       <item>
-        <title>Software Design pattern 그 심오한것에 대해</title>
+        <title>MVC, FLUX 패턴</title>
         <description>&lt;h2 id=&quot;design-pattern&quot;&gt;&lt;strong&gt;Design pattern&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/redux2.png&quot; alt=&quot;redux&quot; title=&quot;redux&quot; /&gt;&lt;/p&gt; &lt;h3 id=&quot;redux&quot;&gt;Redux?&lt;/h3&gt; &lt;p&gt;컴포넌트들끼리 데이터교류를 쉽고 효율적으로 할수 있게 도와주는 &lt;em&gt;라이브러리&lt;/em&gt;입니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;리덕스의 원대한 목표는 플럭스를 기반으로 애플리케이션안에서 &lt;strong&gt;변경된 데이터가 어떻게 흘러가는지 더명확히 표현하도록 해주는 것&lt;/strong&gt;입니다.&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;flux&quot;&gt;Flux?&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/flux-logo.png&quot; alt=&quot;flux&quot; title=&quot;flux&quot; /&gt;&lt;/p&gt; &lt;p&gt;Flux는 일종의 아이디어이다. 라이브러리나 프레임워크가 아닌 일종의 프로그래밍 &lt;em&gt;방법론&lt;/em&gt;이다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Flux 패턴은 react.js 처럼 데이터 흐름이 단방향으로 전달되는 소프트웨어 개발에서 사용된다.&lt;/li&gt; &lt;li&gt;이런 추상적인 방법론을 구현한게 Redux입니다.&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;mvc&quot;&gt;MVC?&lt;/h3&gt; &lt;p&gt;&lt;img src=&quot;https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/mvc1.png&quot; alt=&quot;mvc&quot; title=&quot;mvc&quot; /&gt;&lt;/p&gt; &lt;p&gt;MVC 패턴은 &lt;em&gt;Controller, Model, View&lt;/em&gt; 이 3가지 개념으로 이뤄져있습니다. 어떠한 Action 이 입력되면, Controller은 Model이 지니고 있는 데이터를 조회하거나 업데이트 하며, 이 변화는 View 에...</description>
         <pubDate>Tue, 03 Apr 2018 07:00:00 +0900</pubDate>
         <link>/pattern/</link>
