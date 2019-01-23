@@ -28,7 +28,7 @@ permalink: /about/
 
 **유니드컴즈**
 
-- 2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End 리더
+- 2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End 선임
 - 웹서비스 아키텍처 설계 및 개발
 - 다이나믹 상품군을 포함한 CMS 에디터툴 설계 및 개발
 - B2B 페이스북 통합 광고 관리 및 운영 솔루션 설계 및 개발
@@ -93,7 +93,7 @@ permalink: /about/
 
 ## [유니드컴즈](http://smartskin.co.kr/)
 
-2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End 리더
+2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End 선임
 
 **[스마트이미지](http://smartskin.co.kr/index.php?view=smartimage)**
 
