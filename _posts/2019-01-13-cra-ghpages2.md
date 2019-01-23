@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "React application with gh-pages deploy(2)"
+title: "React application SPA with gh-pages deploy(2)"
 date: 2019-01-13 21:00:00
 image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/craghpage.jpg"
-description: CRA 어플리케이션을 gh-pages로 deploy 하기.
+description: CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.
 category: "tutorial"
 tags:
   - React
   - React-router
   - gh-pages
-introduction: CRA+react-router-dom+gh-pages
+introduction: CRA+react-router-dom+gh-pages::SPA
 ---
 
 이전 [포스팅](https://juunone.github.io/cra-ghpages/)에서 CRA(create-react-app)을 통해
