@@ -1,5 +1,5 @@
 # Site Settings
-title: Juunflix | for dev blog
+title: Juunone | for dev blog
 email: juunone@gmail.com
 description: juunone's dev blog.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -8,7 +8,7 @@ google_analytics: "UA-131472455-1"
 
 # User Settings
 username: 최 준원
-usernickname: Juunflix
+usernickname: Juunone
 user_description: 소인은 영웅의 도전을 비웃는법
 disqus_username: https-juunone-github-io
 
