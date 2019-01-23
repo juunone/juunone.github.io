@@ -91,6 +91,14 @@
     
     
         <url>
+            <loc>/cra-ghpages2/</loc>
+        </url>
+  
+        <url>
+            <loc>/cra-ghpages/</loc>
+        </url>
+  
+        <url>
             <loc>/filemanager/</loc>
         </url>
   

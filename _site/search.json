@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "React application with gh-pages deploy(2)",
+      "tags"     : "React, React-router, and gh-pages",
+      "categories" : "tutorial",
+      "url"      : "/cra-ghpages2/",
+      "date"     : "01/14/2019"
+    } ,
+  
+    {
+      "title"    : "React application with gh-pages deploy(1)",
+      "tags"     : "React, React-router, and gh-pages",
+      "categories" : "tutorial",
+      "url"      : "/cra-ghpages/",
+      "date"     : "01/13/2019"
+    } ,
+  
+    {
       "title"    : "File-Manager 프로젝트 회고록",
       "tags"     : "React, Plugin, MSA, S3, and Webpack",
       "categories" : "project",
