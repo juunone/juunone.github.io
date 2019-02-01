@@ -93,7 +93,7 @@
 - 소개 : 쇼핑몰만을 위한 반응형 웹 CDN 서비스 (2018.10 ~ 2018.11)
 - 담당 업무 :
   - 기능 업데이트 개발
-  - 스마트이미지 RESTful 서비스 개발
+  - 스마트이미지 RESTful API를 통한 서비스 고도화
 - 사용 기술 : Javascript, jQuery, HTML5, CSS
 
 **[DCE(Dynamic contents editor)](https://youtu.be/7r-wpnS0oAE)**
