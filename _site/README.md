@@ -21,7 +21,7 @@
 
 **유니드컴즈**
 
-- 2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End 리더
+- 2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End
 - 웹서비스 아키텍처 설계 및 개발
 - 다이나믹 상품군을 포함한 CMS 에디터툴 설계 및 개발
 - B2B 페이스북 통합 광고 관리 및 운영 솔루션 설계 및 개발
@@ -86,14 +86,14 @@
 
 ## [유니드컴즈](http://smartskin.co.kr/)
 
-2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End 리더
+2015.02 ~ 2018.12(3년 11개월) , 개발팀 Front-End
 
 **[스마트이미지](http://smartskin.co.kr/index.php?view=smartimage)**
 
 - 소개 : 쇼핑몰만을 위한 반응형 웹 CDN 서비스 (2018.10 ~ 2018.11)
 - 담당 업무 :
   - 기능 업데이트 개발
-  - 스마트이미지 RESTful 서비스 개발
+  - 스마트이미지 RESTful API를 통한 서비스 고도화
 - 사용 기술 : Javascript, jQuery, HTML5, CSS
 
 **[DCE(Dynamic contents editor)](https://youtu.be/7r-wpnS0oAE)**

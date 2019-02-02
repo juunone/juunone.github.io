@@ -5,12 +5,12 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 23 Jan 2019 20:17:19 +0900</pubDate>
-    <lastBuildDate>Wed, 23 Jan 2019 20:17:19 +0900</lastBuildDate>
+    <pubDate>Sat, 02 Feb 2019 22:33:10 +0900</pubDate>
+    <lastBuildDate>Sat, 02 Feb 2019 22:33:10 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>React application with gh-pages deploy(2)</title>
+        <title>React application SPA with gh-pages deploy(2)</title>
         <description>&lt;p&gt;이전 &lt;a href=&quot;https://juunone.github.io/cra-ghpages/&quot;&gt;포스팅&lt;/a&gt;에서 CRA(create-react-app)을 통해 생성된 어플리케이션을 homepage에 호스팅 해봤습니다. 이번 포스팅은 해당 어플리케이션을 react-router-dom 을 통해 SPA(single application app)으로 구현하는 튜토리얼을 진행해보겠습니다.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;DEMO 페이지는 &lt;a href=&quot;https://juunone.github.io/react-spa-ghpages/#/&quot; taget=&quot;_blank&quot;&gt;react-spa-ghpages&lt;/a&gt;에서 확인가능합니다.&lt;/p&gt; &lt;/blockquote&gt; &lt;ul&gt; &lt;li&gt;리액트 라우터와 간단한 화면 구성을 위해 semantic-ui를 설치해줍니다&lt;/li&gt; &lt;/ul&gt; &lt;pre&gt;&lt;code&gt;&lt;span style=&quot;color:orange&quot;&gt;yarn&lt;/span&gt; add react-router-dom semantic-ui-react&lt;/code&gt;&lt;/pre&gt; &lt;ul&gt; &lt;li&gt;프로젝트 구조는 아래와 같습니다&lt;/li&gt; &lt;/ul&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;|-- node_modules |-- public |-- index.html |-- favicon.ico |-- src |-- App.js |-- App.css |-- About.js |-- Home.js |-- NotFound.js |-- index.js |-- index.css |-- package.json |-- READEME.MD |-- yarn.lock &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt; &lt;ul&gt; &lt;li&gt;리액트 라우터를 App.js에 연결해주고 보여줄 컴포넌트 및 경로 설정을합니다.&lt;/li&gt; &lt;li&gt;BrowserRouter가 gh-pages 에서 정상...</description>
         <pubDate>Mon, 14 Jan 2019 06:00:00 +0900</pubDate>
         <link>/cra-ghpages2/</link>
@@ -28,7 +28,7 @@
       </item>
     
       <item>
-        <title>React application with gh-pages deploy(1)</title>
+        <title>React application SPA with gh-pages deploy(1)</title>
         <description>&lt;h3&gt;리액트를 경험해본 분들을 대상으로 SPA 환경을 구축한후 gh-pages를 사용해 깃헙 레포지터리에 환경을 만드는 과정을 소개합니다. &lt;br /&gt; 구글에 해당 부분 관련해서 영문 문서 간략하게 번역 및 재해석이 들어가있습니다.&lt;br /&gt; &lt;/h3&gt; &lt;blockquote&gt; &lt;p&gt;DEMO 페이지는 &lt;a href=&quot;https://juunone.github.io/react-spa-ghpages/#/&quot; taget=&quot;_blank&quot;&gt;react-spa-ghpages&lt;/a&gt;에서 확인가능합니다.&lt;/p&gt; &lt;/blockquote&gt; &lt;ul&gt; &lt;li&gt;create-react-app 을 통해서 어플리케이션을 만듭니다.&lt;/li&gt; &lt;/ul&gt; &lt;pre&gt;&lt;code&gt;&lt;span style=&quot;color:orange&quot;&gt;create-react-app&lt;/span&gt; cra-gh-pages&lt;/code&gt;&lt;/pre&gt; &lt;ul&gt; &lt;li&gt;깃헙 저장소 생성&lt;/li&gt; &lt;li&gt;gh-pages 설치합니다. &lt;a href=&quot;https://www.npmjs.com/package/gh-pages&quot;&gt;gh-pages 확인&lt;/a&gt; &lt;ul&gt; &lt;li&gt;gh-pages는 npm 패키지로 Github에 gh-pages라는 브랜치를 생성해 파일을 게시할수있게 도와줍니다.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;/ul&gt; &lt;pre&gt;&lt;code&gt;cd cra-gh-pages&lt;/code&gt;&lt;code&gt;&lt;span style=&quot;color:orange&quot;&gt;yarn&lt;/span&gt; add gh-pages&lt;/code&gt;&lt;/pre&gt; &lt;ul&gt; &lt;li&gt;CRA로 생성된 폴더에 가서 package.json 에 접근합니다. 이동할 레포지터리 이름을 hompage 코드에 추가해줍니다.&lt;/li&gt; &lt;li&gt;scripts 부분에 predeploy 및 deploy 코드를 추가합니다.&lt;/li&gt; &lt;/ul&gt; &lt;div class=&quot;language-javascript...</description>
         <pubDate>Sun, 13 Jan 2019 06:00:00 +0900</pubDate>
         <link>/cra-ghpages/</link>
