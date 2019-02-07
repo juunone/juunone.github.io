@@ -139,7 +139,7 @@ October 12, 2018
           <svg id="clock" class="icon-clock">
             <use xlink:href="#icon-clock"></use>
           </svg>
-          <span>1 min to read</span>
+          <span>2 min to read</span>
         </p>
         <h1 class="post-title" itemprop="name">CSS 디버깅 절약을 위한 규칙</h1>
         <p itemprop="description" class="subtitle">CSS Architecture 의 한종류인 BEM 명명 규칙.</p>
@@ -149,7 +149,7 @@ October 12, 2018
         
 
         <p>웹은 정말 빠른 속도로 발전하고 있습니다.<br />
-CSS는 훌륭한 “언어”라고는 할수 없지만 빠르게 진화했습니다.</p>
+CSS는 훌륭한 <strong><em>‘언어’</em></strong>라고는 할수 없지만 빠르게 진화했습니다.</p>
 
 <p>대규모 어플리케이션이 많아지고 그에따라 CSS 활용 범위도 넓어져가는데,<br />
 (잘못 작성된 CSS는 디버깅하는데 헬파티를 열어준다.)<br />
@@ -192,15 +192,15 @@ CSS는 훌륭한 “언어”라고는 할수 없지만 빠르게 진화했습�
 </blockquote>
 
 <ul>
-  <li>Block은 구성 요소(component)를 나타냅니다. (element 포함하고있는 컨테이너 요소)</li>
+  <li><strong>Block은 구성 요소(component = Block)를 나타냅니다.</strong> (element를 포함하고있는 컨테이너 요소)</li>
   <li>ex) content, navigation, header, footer</li>
 </ul>
 
 <p><img src="https://user-images.githubusercontent.com/35126809/52403067-311a0680-2b09-11e9-9ac5-eb0ae401ad98.jpg" alt="곰돌이푸" title="곰돌이푸베어브릭" /></p>
 
-<ul>
-  <li>아래와 같이 component 스타일이 명명될 수 있습니다.</li>
-</ul>
+<blockquote>
+  <p>아래와 같이 component 스타일이 명명될 수 있습니다.</p>
+</blockquote>
 
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.pooh</span> <span class="p">{</span>
 <span class="p">}</span>
@@ -211,9 +211,101 @@ CSS는 훌륭한 “언어”라고는 할수 없지만 빠르게 진화했습�
 <span class="p">}</span>
 </code></pre></div></div>
 
+<h3 id="elements">Elements</h3>
+
+<ul>
+  <li>‘BEM’의 E는 요소(Elements)를 가르킵니다.</li>
+  <li>element는 block 안에서 기능을 가진 컴포넌트입니다.</li>
+  <li>곰돌이푸의 ‘머리,가슴,팔,다리’ 는 component 내의 elements 요소입니다.</li>
+  <li><strong>전체 상위 구성 요소(parent component)의 하위 구성 요소(child components)</strong>로 판단 할 수 있습니다.</li>
+  <li>element 이름이 길 경우 – 하이픈으로 연결해도 된다.(그건 본인마음 or 코딩 컨벤션)</li>
+</ul>
+
+<blockquote>
+  <p>element 는 이름 뒤에 2개의 밑줄(two underscores)을 추가하여 클래스를 지정할 수 있습니다.</p>
+</blockquote>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.pooh__head</span> <span class="p">{</span>
+<span class="p">}</span>
+<span class="nc">.pooh__body</span> <span class="p">{</span>
+<span class="p">}</span>
+<span class="nc">.pooh__arms</span> <span class="p">{</span>
+<span class="p">}</span>
+<span class="nc">.pooh__feet</span> <span class="p">{</span>
+<span class="p">}</span>
+
+<span class="o">//</span><span class="nt">or</span>
+
+<span class="nc">.pooh-brick__head</span> <span class="p">{</span>
+<span class="p">}</span>
+<span class="nc">.pooh-brick__body</span> <span class="p">{</span>
+<span class="p">}</span>
+<span class="nc">.pooh-brick__arms</span> <span class="p">{</span>
+<span class="p">}</span>
+<span class="nc">.pooh-brick__feet</span> <span class="p">{</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="modifiers">Modifiers</h3>
+
+<ul>
+  <li>‘BEM’의 M은 수정(Modifiers) 이다.</li>
+  <li>곰돌이푸 자체가 노란색 몸을 가졌지만, 파란색, 빨간색이 될 수도 있다.</li>
+  <li>Modifier는 block 또는 element의 속성이다.</li>
+  <li>block 또는 element의 스타일 혹은 상태를 변화시킨다.</li>
+</ul>
+
+<blockquote>
+  <p>block 또는 element에 하이픈(hyphens) 두 개를 추가하여 지정한다.</p>
+</blockquote>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.pooh--yellow</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="no">yellow</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.pooh--red</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nc">.pooh--blue</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#b</span><span class="n">lue</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span><span class="nt">or</span>
+<span class="nc">.pooh-brick--yellow</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="no">yellow</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.pooh-brick--red</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.pooh-brick--blue</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="m">#b</span><span class="n">lue</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>만약 머리색만 바뀐 곰돌이푸라면 ??</p>
+</blockquote>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.pooh__head--red</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="o">//</span><span class="nt">or</span>
+
+<span class="nc">.pooh-brick__head--red</span> <span class="p">{</span>
+  <span class="nl">background</span><span class="p">:</span> <span class="err">#</span><span class="no">red</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>위가 베이직한 BEM 명명 규칙이 작동하는 방식입니다.
+단순한 프로젝트의경우는 하이픈으로만 클래스를 지정하게되는데 대규모 어플리케이션은
+유지보수 및 확장성을 위해 BEM 규칙을 사용하길 권장한다.<br />
+<em>물론 깊이가 깊어지면 또다른 혼란을 가져올 수 있다…</em></p>
+
       </article>
 
-      <div class="progress-bar" data-minutes="1">
+      <div class="progress-bar" data-minutes="2">
         <span class="time-completed"></span>
         <span class="time-remaining"></span>
         <div class="bar">
