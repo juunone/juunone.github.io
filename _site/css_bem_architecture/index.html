@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>React application SPA with gh-pages deploy(1) | 최 준원</title>
-    <meta name="description" content="CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.">
+    <title>CSS 디버깅 절약을 위한 규칙 | 최 준원</title>
+    <meta name="description" content="CSS Architecture 의 한종류인 BEM 명명 규칙.">
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="React application SPA with gh-pages deploy(1) | 최 준원">
-    <meta name="twitter:description" content="CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.">
+    <meta name="twitter:title" content="CSS 디버깅 절약을 위한 규칙 | 최 준원">
+    <meta name="twitter:description" content="CSS Architecture 의 한종류인 BEM 명명 규칙.">
     
-    <meta property="twitter:image:src" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/craghpage.jpg">
+    <meta property="twitter:image:src" content="https://user-images.githubusercontent.com/35126809/52401126-50626500-2b04-11e9-8e1c-15a2bbf3ca4a.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/cra-ghpages/">
-    <meta property="og:title" content="React application SPA with gh-pages deploy(1) | 최 준원">
+    <meta property="og:url" content="/css_bem_architecture/">
+    <meta property="og:title" content="CSS 디버깅 절약을 위한 규칙 | 최 준원">
     
-    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/craghpage.jpg">
+    <meta property="og:image" content="https://user-images.githubusercontent.com/35126809/52401126-50626500-2b04-11e9-8e1c-15a2bbf3ca4a.png">
     
-    <meta property="og:description" content="CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.">
+    <meta property="og:description" content="CSS Architecture 의 한종류인 BEM 명명 규칙.">
     <meta property="og:site_name" content="Juunone | for dev blog">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="React application SPA with gh-pages deploy(1) | 최 준원"/>
-    <meta itemprop="description" content="CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.">
+    <meta itemprop="name" content="CSS 디버깅 절약을 위한 규칙 | 최 준원"/>
+    <meta itemprop="description" content="CSS Architecture 의 한종류인 BEM 명명 규칙.">
     <meta itemprop="image" content="/assets/img/blog-share-juun.png"/>
 
     <!-- Favicon -->
@@ -60,7 +60,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="/cra-ghpages/">
+    <link rel="canonical" href="/css_bem_architecture/">
     <link rel="alternate" type="application/rss+xml" title="Juunone | for dev blog" href="/feed.xml" />
 </head>
 
@@ -126,13 +126,13 @@
           </svg>
           <time
             itemprop="datePublished"
-            datetime="2019-01-13T06:00:00+09:00"
+            datetime="2018-10-12T06:00:00+09:00"
             class="date"
           >
             
 
 
-January 13, 2019
+October 12, 2018
 
           </time>
           
@@ -141,79 +141,75 @@ January 13, 2019
           </svg>
           <span>1 min to read</span>
         </p>
-        <h1 class="post-title" itemprop="name">React application SPA with gh-pages deploy(1)</h1>
-        <p itemprop="description" class="subtitle">CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.</p>
+        <h1 class="post-title" itemprop="name">CSS 디버깅 절약을 위한 규칙</h1>
+        <p itemprop="description" class="subtitle">CSS Architecture 의 한종류인 BEM 명명 규칙.</p>
 
         
-        <img src="https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/craghpage.jpg" alt="Imagem de capa" class="post-cover" />
+        <img src="https://user-images.githubusercontent.com/35126809/52401126-50626500-2b04-11e9-8e1c-15a2bbf3ca4a.png" alt="Imagem de capa" class="post-cover" />
         
 
-        <h3>리액트를 경험해본 분들을 대상으로 SPA 환경을 구축한후 gh-pages를 사용해 깃헙 레포지터리에 환경을 만드는 과정을 소개합니다. <br />
-구글에 해당 부분 관련해서 영문 문서 간략하게 번역 및 재해석이 들어가있습니다.<br />
-</h3>
+        <p>웹은 정말 빠른 속도로 발전하고 있습니다.<br />
+CSS는 훌륭한 “언어”라고는 할수 없지만 빠르게 진화했습니다.</p>
+
+<p>대규모 어플리케이션이 많아지고 그에따라 CSS 활용 범위도 넓어져가는데,<br />
+(잘못 작성된 CSS는 디버깅하는데 헬파티를 열어준다.)<br />
+설계에 의미를 두지 않았던 CSS에도 다양한 방법론 생겨났습니다.</p>
+
+<p>CSS방법론(BEM, SMACSS, OOCSS 등 더 많을수도..?) 존재하지만
+이번 포스팅에서는 BEM에 관해서 적어볼까 합니다.</p>
+
+<p>CSS 방법론은 아래와 같은 목표를 갖고 있습니다.</p>
+
+<ul>
+  <li>쉬운 유지보수</li>
+  <li>코드의 재사용성</li>
+  <li>확장성</li>
+  <li>클래스만으로 의미 추론</li>
+</ul>
+
+<hr />
+
+<h2 id="css-명명규칙을-통해서-무엇을-해결하고자-하는가">CSS 명명규칙을 통해서 무엇을 해결하고자 하는가?</h2>
+
+<ul>
+  <li>selector의 이름만 보고 role을 알 수 있다.</li>
+  <li>selector를 보기만 해도 어디에 사용할 수 있는지 알 수 있다.</li>
+  <li>클래스간의 관계는 클래스명만으로도 유추가 가능하다.</li>
+</ul>
+
+<h2 id="bem-block-element-modifier-정의">BEM (Block, Element, Modifier) 정의</h2>
+
+<ul>
+  <li><a href="http://getbem.com/">BEM</a>은 Block Element Modifier의 약자</li>
+  <li><a href="https://developer.mozilla.org/ko/docs/Learn/JavaScript/Objects/Object-oriented_JS">OOP(Object Oriented Programming)</a>와 유사한 형태를 띈다.</li>
+  <li>반드시 class명만 사용할 수 있다</li>
+</ul>
+
+<h3 id="block">Block</h3>
+
 <blockquote>
-  <p>DEMO 페이지는
-<a href="https://juunone.github.io/react-spa-ghpages/#/" taget="_blank">react-spa-ghpages</a>에서 확인가능합니다.</p>
+  <p>곰돌이푸 베어브릭 가지고 쉽게 설명해보겠습니다.</p>
 </blockquote>
 
 <ul>
-  <li>create-react-app 을 통해서 어플리케이션을 만듭니다.</li>
+  <li>Block은 구성 요소(component)를 나타냅니다. (element 포함하고있는 컨테이너 요소)</li>
+  <li>ex) content, navigation, header, footer</li>
 </ul>
 
-<pre><code><span style="color:orange">create-react-app</span> cra-gh-pages</code></pre>
+<p><img src="https://user-images.githubusercontent.com/35126809/52403067-311a0680-2b09-11e9-9ac5-eb0ae401ad98.jpg" alt="곰돌이푸" title="곰돌이푸베어브릭" /></p>
 
 <ul>
-  <li>깃헙 저장소 생성</li>
-  <li>gh-pages 설치합니다. <a href="https://www.npmjs.com/package/gh-pages">gh-pages 확인</a>
-    <ul>
-      <li>gh-pages는 npm 패키지로 Github에 gh-pages라는 브랜치를 생성해 파일을 게시할수있게 도와줍니다.</li>
-    </ul>
-  </li>
+  <li>아래와 같이 component 스타일이 명명될 수 있습니다.</li>
 </ul>
 
-<pre><code>cd cra-gh-pages</code><code><span style="color:orange">yarn</span> add gh-pages</code></pre>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.pooh</span> <span class="p">{</span>
+<span class="p">}</span>
 
-<ul>
-  <li>CRA로 생성된 폴더에 가서 package.json 에 접근합니다. 이동할 레포지터리 이름을 hompage 코드에 추가해줍니다.</li>
-  <li>scripts 부분에 predeploy 및 deploy 코드를 추가합니다.</li>
-</ul>
+<span class="o">//</span><span class="nt">or</span>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
-    <span class="s2">"name"</span><span class="p">:</span> <span class="s2">"cra-ghpages"</span><span class="p">,</span>
-    <span class="s2">"version"</span><span class="p">:</span> <span class="s2">"0.1.0"</span><span class="p">,</span>
-    <span class="s2">"private"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
-    <span class="s2">"homepage"</span><span class="p">:</span> <span class="s2">"https://[username].github.io/[repository]"</span><span class="p">,</span>
+<span class="nc">.pooh-brick</span> <span class="p">{</span>
 <span class="p">}</span>
 </code></pre></div></div>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
-   ...
-   "predeploy": "yarn run build",
-   "deploy": "gh-pages -d build",
-   ...
-}
-</code></pre></div></div>
-
-<blockquote>
-  <p>predeploy 는 배포하기전 번들된 파일을 다시 빌드하기위해 수행하는 명렁입니다.<br />
-deploy 는 ghpages 명령어를 통해 build 폴더에 위치한 파일을 package.json &gt; homepage 주소로 publish 하게 됩니다.</p>
-</blockquote>
-
-<ul>
-  <li>배포전 리모트 저장소에 origin 을 추가해주세요.</li>
-</ul>
-
-<pre><code><span style="color:orange">git</span> remote add origin https://github.com/[username]/[repository].git</code></pre>
-
-<ul>
-  <li>사전배포 &amp; 배포 차례대로 실행해보세요.</li>
-</ul>
-
-<pre><code><span style="color:orange">yarn</span> predeploy</code><code><span style="color:orange">yarn</span> deploy</code></pre>
-
-<p>CRA로 만든 앱이 해당 homepage 에 호스팅 된걸 확인할 수 있습니다. <a href="https://juunone.github.io/react-spa-ghpages" target="\_blank">https://juunone.github.io/react-spa-ghpages</a></p>
-
-<p>다음 포스팅에서 react-rotuer-dom 연결을 통해 SPA 환경을 구축해보겠습니다.</p>
 
       </article>
 
@@ -228,15 +224,15 @@ deploy 는 ghpages 명령어를 통해 build 폴더에 위치한 파일을 packa
 
       <section class="share">
     <h3>Share</h3>
-    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/cra-ghpages/%20via%20&#64;&hashtags=React,React-router,gh-pages,"
+    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/css_bem_architecture/%20via%20&#64;&hashtags=CSS,BEM,Architecture,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/cra-ghpages/"
+    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/css_bem_architecture/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/cra-ghpages/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/css_bem_architecture/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -277,7 +273,7 @@ deploy 는 ghpages 명령어를 통해 build 폴더에 위치한 파일을 packa
       var disqus_shortname = 'https-juunone-github-io';
       console.log(disqus_shortname);
       var disqus_title = '';
-      var disqus_url = '/cra-ghpages/';
+      var disqus_url = '/css_bem_architecture/';
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);

@@ -17,6 +17,14 @@
     } ,
   
     {
+      "title"    : "CSS 디버깅 절약을 위한 규칙",
+      "tags"     : "CSS, BEM, and Architecture",
+      "categories" : "css",
+      "url"      : "/css_bem_architecture/",
+      "date"     : "10/12/2018"
+    } ,
+  
+    {
       "title"    : "File-Manager 프로젝트 회고록",
       "tags"     : "React, Plugin, MSA, S3, and Webpack",
       "categories" : "project",

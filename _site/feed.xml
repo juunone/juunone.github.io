@@ -5,8 +5,8 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Feb 2019 22:39:38 +0900</pubDate>
-    <lastBuildDate>Sat, 02 Feb 2019 22:39:38 +0900</lastBuildDate>
+    <pubDate>Thu, 07 Feb 2019 19:02:18 +0900</pubDate>
+    <lastBuildDate>Thu, 07 Feb 2019 19:02:18 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -42,6 +42,24 @@
         
         
         <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS 디버깅 절약을 위한 규칙</title>
+        <description>&lt;p&gt;웹은 정말 빠른 속도로 발전하고 있습니다.&lt;br /&gt; CSS는 훌륭한 “언어”라고는 할수 없지만 빠르게 진화했습니다.&lt;/p&gt; &lt;p&gt;대규모 어플리케이션이 많아지고 그에따라 CSS 활용 범위도 넓어져가는데,&lt;br /&gt; (잘못 작성된 CSS는 디버깅하는데 헬파티를 열어준다.)&lt;br /&gt; 설계에 의미를 두지 않았던 CSS에도 다양한 방법론 생겨났습니다.&lt;/p&gt; &lt;p&gt;CSS방법론(BEM, SMACSS, OOCSS 등 더 많을수도..?) 존재하지만 이번 포스팅에서는 BEM에 관해서 적어볼까 합니다.&lt;/p&gt; &lt;p&gt;CSS 방법론은 아래와 같은 목표를 갖고 있습니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;쉬운 유지보수&lt;/li&gt; &lt;li&gt;코드의 재사용성&lt;/li&gt; &lt;li&gt;확장성&lt;/li&gt; &lt;li&gt;클래스만으로 의미 추론&lt;/li&gt; &lt;/ul&gt; &lt;hr /&gt; &lt;h2 id=&quot;css-명명규칙을-통해서-무엇을-해결하고자-하는가&quot;&gt;CSS 명명규칙을 통해서 무엇을 해결하고자 하는가?&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;selector의 이름만 보고 role을 알 수 있다.&lt;/li&gt; &lt;li&gt;selector를 보기만 해도 어디에 사용할 수 있는지 알 수 있다.&lt;/li&gt; &lt;li&gt;클래스간의 관계는 클래스명만으로도 유추가 가능하다.&lt;/li&gt;...</description>
+        <pubDate>Fri, 12 Oct 2018 06:00:00 +0900</pubDate>
+        <link>/css_bem_architecture/</link>
+        <guid isPermaLink="true">/css_bem_architecture/</guid>
+        
+        <category>CSS</category>
+        
+        <category>BEM</category>
+        
+        <category>Architecture</category>
+        
+        
+        <category>css</category>
         
       </item>
     
