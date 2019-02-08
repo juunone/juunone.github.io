@@ -5,30 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>reflow & repaint | 최 준원</title>
-    <meta name="description" content="브라우저 동작 원리와 함꼐 reflow & repaint 알아보기.">
+    <title>브라우저 동작 원리. | 최 준원</title>
+    <meta name="description" content="브라우저 동작 원리 이해를 통한 성능 향상.">
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="twitter:title" content="reflow & repaint | 최 준원">
-    <meta name="twitter:description" content="브라우저 동작 원리와 함꼐 reflow & repaint 알아보기.">
+    <meta name="twitter:title" content="브라우저 동작 원리. | 최 준원">
+    <meta name="twitter:description" content="브라우저 동작 원리 이해를 통한 성능 향상.">
     
     <meta property="twitter:image:src" content="https://user-images.githubusercontent.com/35126809/52475718-b66fea80-2bdf-11e9-8be2-4880c7376414.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="/reflow_repaint/">
-    <meta property="og:title" content="reflow & repaint | 최 준원">
+    <meta property="og:url" content="/browser/">
+    <meta property="og:title" content="브라우저 동작 원리. | 최 준원">
     
     <meta property="og:image" content="https://user-images.githubusercontent.com/35126809/52475718-b66fea80-2bdf-11e9-8be2-4880c7376414.png">
     
-    <meta property="og:description" content="브라우저 동작 원리와 함꼐 reflow & repaint 알아보기.">
+    <meta property="og:description" content="브라우저 동작 원리 이해를 통한 성능 향상.">
     <meta property="og:site_name" content="Juunone | for dev blog">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="reflow & repaint | 최 준원"/>
-    <meta itemprop="description" content="브라우저 동작 원리와 함꼐 reflow & repaint 알아보기.">
+    <meta itemprop="name" content="브라우저 동작 원리. | 최 준원"/>
+    <meta itemprop="description" content="브라우저 동작 원리 이해를 통한 성능 향상.">
     <meta itemprop="image" content="/assets/img/blog-share-juun.png"/>
 
     <!-- Favicon -->
@@ -60,7 +60,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="/reflow_repaint/">
+    <link rel="canonical" href="/browser/">
     <link rel="alternate" type="application/rss+xml" title="Juunone | for dev blog" href="/feed.xml" />
 </head>
 
@@ -95,6 +95,8 @@
           <li><a href="/">Home</a></li>
         
           <li><a href="/about/">About</a></li>
+        
+          <li><a href="/tags/">Tags</a></li>
         
           <li><a href="/contact/">Contact</a></li>
         
@@ -139,17 +141,17 @@ February 6, 2019
           <svg id="clock" class="icon-clock">
             <use xlink:href="#icon-clock"></use>
           </svg>
-          <span>1 min to read</span>
+          <span>3 min to read</span>
         </p>
-        <h1 class="post-title" itemprop="name">reflow & repaint</h1>
-        <p itemprop="description" class="subtitle">브라우저 동작 원리와 함꼐 reflow & repaint 알아보기.</p>
+        <h1 class="post-title" itemprop="name">브라우저 동작 원리.</h1>
+        <p itemprop="description" class="subtitle">브라우저 동작 원리 이해를 통한 성능 향상.</p>
 
         
         <img src="https://user-images.githubusercontent.com/35126809/52475718-b66fea80-2bdf-11e9-8be2-4880c7376414.png" alt="Imagem de capa" class="post-cover" />
         
 
         <p>웹사이트는 어떻게 보여줄까?
-웹개발자들 이라면 한번쯤 들어봤을 브라우저 렌더링 과정과<br />reflow &amp; repaint에 대해서
+웹개발자들 이라면 한번쯤 들어봤을 브라우저 렌더링 과정을<br />
 좀더 자세히 다뤄보고자 여러 문서들을 기반으로 포스팅을 작성하게됐다.</p>
 
 <hr />
@@ -182,7 +184,22 @@ DOM 트리는 내용을 저장하는 트리로 자바스크립트에서 접근�
 <a href="https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/">‘렌더 트리’</a>는 색상과 면적 같은 시각적 속성 정보를 가지고 있다.<br />
 (렌더 트리 생성시 필요없는 head, title, body태그등이 없고 display:none 처럼 DOM에 있지만 여과가 필요한 부분들을 제외해준다)</p>
   </li>
+  <li>
+    <p>Layout:렌더 트리 배치(Reflow)<br />
+생성된 렌더 트리에서는 크기 위치등이 없기 때문에 각 노드가 화면에 정확한 위치에 표시되도록 배치하고 과정이다.<br />
+<em>Webkit : layout , Gecko : reflow 라고 부른다</em></p>
+  </li>
+  <li>
+    <p>Paint:그리기(Repaint)<br />
+배치된 노드들을 visibility, outline, background-color, color와 같이 시각적 속성에 해당하는 형상을 만들어 내는 그리기 과정이다.</p>
+  </li>
 </ol>
+
+<ul>
+  <li>렌더링 엔진은 순차적으로 수행하지 않고 점진적으로 수행한다. 기다리는 동시에 받은 내용의 일부를 먼저 화면에 표시하는 것이다.<br /></li>
+  <li>TABLE의 경우는 기본적으로 점진적 렌더링이 적용되지 않는다. (table-layout:fixed일 경우에만 점진적 렌더링이 적용)<br /></li>
+  <li>그래서 table-layout:auto 보다 table-layout:fixed가 성능에 더 좋다.</li>
+</ul>
 
 <p><strong>[Webkit 엔진 동작과정]</strong>
 <img src="https://d2.naver.com/content/images/2015/06/helloworld-59361-3.png" alt="webkit" /></p>
@@ -192,9 +209,96 @@ DOM 트리는 내용을 저장하는 트리로 자바스크립트에서 접근�
 
 <p>출처 : <a href="https://d2.naver.com/helloworld/59361">https://d2.naver.com/helloworld/59361</a></p>
 
+<h3 id="css-javascript-의-html-문서내-위치">CSS, Javascript 의 HTML 문서내 위치</h3>
+
+<ul>
+  <li><strong>CSS는 &lt;head&gt;&lt;/head&gt;태그 사이</strong></li>
+</ul>
+
+<p>문서를 파싱해서 DOM 노드로 변환을 해도 스타일 정보가 없으면 렌더 트리를 생성 할 수가 없다.<br />
+스타일 정보를 빨리 취득하기 위해 &lt;head&gt;&lt;/head&gt;태그 사이에 놓는것이 렌더 트리 생성시점을 앞당겨 준다.</p>
+
+<ul>
+  <li><strong>Javascript는 &lt;/body&gt;태그 바로 위</strong></li>
+</ul>
+
+<p>자바스크립트 파일이 &lt;head&gt;내에 위치하게 되면 파서가 파싱을 멈추고 스크립트파일 읽는다.<br />
+스크립트파일이 많고 파일이 크면 읽는 시간이 오래걸리고 그만큼 렌더링이 늦어져 엔드 유저에겐 웹페이지 자체가 느리다고 판단 될 수 있다.
+또한 스크립트 파일내 에러가 존재할 경우 렌더후 동작이 안되는 결과를 불러올수도 있다.<br />
+그래서 &lt;/body&gt; 태그 위에 스크립트 파일을 모아둔다.</p>
+
+<h3 id="javascript-async-defer-속성">Javascript async, defer 속성</h3>
+
+<p><strong>[async, defer 비교]</strong>
+<img src="https://user-images.githubusercontent.com/35126809/52480792-0b1b6180-2bf0-11e9-88b6-5079c86ab3e3.png" alt="async, defer 비교" />
+출처 : <a href="https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html">https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html</a></p>
+
+<ul>
+  <li>async</li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">src=</span><span class="s">"script.js"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>태그 &lt;head&gt;내에 자바스크립트 파일을 놓게 될경우 두가지 속성을 줄 수 있는데,<br />
+async 속성은 브라우저에 스크립트 파일이 비동기적으로 실행될 수 있음을 나타내기 위해 사용된다.<br />
+파서는 스크립트에 도달한 지점에서 스크립트를 가져오고 실행하기 위해 일시 중지 할 필요가 없다. <br /></p>
+
+<p><strong>그러나 다운로드가 완료되면 스크립트가 실행될 수 있도록 파싱이 일시 중지 된다.</strong></p>
+
+<ul>
+  <li>defer</li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">defer</span> <span class="na">src=</span><span class="s">"script.js"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>defer 속성은 파싱이 완료된 후 스크립트 파일을 실행하도록 브라우저에 지시한다.<br />
+비동기적으로 로드된 스크립트와 마찬가지로, 파싱이 실행되는 동안 파일을 다운로드 할 수 있다. <br />
+그러나 <strong>파싱이 완료되기 전에 스크립트 다운로드가 완료 되더라도 파싱이 완료 될 때까지 스크립트는 실행되지 않는다.</strong><br />
+또한, async와는 다르게 호출된 순서대로 실행된다.</p>
+
+<ul>
+  <li>지원범위</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th style="text-align: center">IE</th>
+      <th style="text-align: center">Chrome</th>
+      <th style="text-align: center">Firefox</th>
+      <th style="text-align: center">Safari</th>
+      <th style="text-align: center">IOS</th>
+      <th style="text-align: center">Android</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>async</td>
+      <td style="text-align: center">10버전이상</td>
+      <td style="text-align: center">8버전이상</td>
+      <td style="text-align: center">3.6버전이상</td>
+      <td style="text-align: center">5버전이상</td>
+      <td style="text-align: center">5.1버전이상</td>
+      <td style="text-align: center">3버전이상</td>
+    </tr>
+    <tr>
+      <td>defer</td>
+      <td style="text-align: center">모두지원</td>
+      <td style="text-align: center">8버전이상</td>
+      <td style="text-align: center">3.6버전이상</td>
+      <td style="text-align: center">5버전이상</td>
+      <td style="text-align: center">5.1버전이상</td>
+      <td style="text-align: center">3버전이상</td>
+    </tr>
+  </tbody>
+</table>
+
       </article>
 
-      <div class="progress-bar" data-minutes="1">
+      <div class="progress-bar" data-minutes="3">
         <span class="time-completed"></span>
         <span class="time-remaining"></span>
         <div class="bar">
@@ -205,15 +309,15 @@ DOM 트리는 내용을 저장하는 트리로 자바스크립트에서 접근�
 
       <section class="share">
     <h3>Share</h3>
-    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/reflow_repaint/%20via%20&#64;&hashtags=browser,reflow,repaint,"
+    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/browser/%20via%20&#64;&hashtags=browser,reflow,repaint,layout,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/reflow_repaint/"
+    <a aria-label="Compartilhar no Facebook"href="https://www.facebook.com/sharer/sharer.php?u=/browser/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
-    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/reflow_repaint/"
+    <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=/browser/"
     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
         <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
     </a>
@@ -254,7 +358,7 @@ DOM 트리는 내용을 저장하는 트리로 자바스크립트에서 접근�
       var disqus_shortname = 'https-juunone-github-io';
       console.log(disqus_shortname);
       var disqus_title = '';
-      var disqus_url = '/reflow_repaint/';
+      var disqus_url = '/browser/';
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
@@ -286,6 +390,8 @@ DOM 트리는 내용을 저장하는 트리로 자바스크립트에서 접근�
           <li><a href="/">Home</a></li>
         
           <li><a href="/about/">About</a></li>
+        
+          <li><a href="/tags/">Tags</a></li>
         
           <li><a href="/contact/">Contact</a></li>
         

@@ -5,22 +5,24 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Feb 2019 21:27:13 +0900</pubDate>
-    <lastBuildDate>Fri, 08 Feb 2019 21:27:13 +0900</lastBuildDate>
+    <pubDate>Fri, 08 Feb 2019 22:49:36 +0900</pubDate>
+    <lastBuildDate>Fri, 08 Feb 2019 22:49:36 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>reflow &amp; repaint</title>
-        <description>&lt;p&gt;웹사이트는 어떻게 보여줄까? 웹개발자들 이라면 한번쯤 들어봤을 브라우저 렌더링 과정과&lt;br /&gt;reflow &amp;amp; repaint에 대해서 좀더 자세히 다뤄보고자 여러 문서들을 기반으로 포스팅을 작성하게됐다.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;브라우저의-렌더링-과정&quot;&gt;브라우저의 렌더링 과정&lt;/h2&gt; &lt;p&gt;렌더링은 화면에 컨텐츠를 그리는 과정으로, 브라우저들은 각자의 렌더링 엔진으로 이를 구현했다. 크롬과 사파리는 “Webkit 엔진”을 사용하고, 파이어폭스는 “Gecko 엔진”을 사용한다.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;브라우저 렌더링 과정&lt;/strong&gt;&lt;br /&gt; &lt;img src=&quot;http://www.phpied.com/files/reflow/render.png&quot; alt=&quot;브라우저렌더링&quot; /&gt;&lt;/p&gt; &lt;p&gt;출처 : &lt;a href=&quot;http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/&quot;&gt;http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/&lt;/a&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;불러오기(Load)&lt;br /&gt; 로더(Loader)가 서버로부터 전달 받는 리소스 스트림을 읽는 과정. 읽으면서 어떤 파일인지, 데이터인지 파일을 다운로드할 것인지 등을 결정한다.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;파싱 (Parsing)&lt;br /&gt; 렌더링 엔진은 HTML/XML 문서를 파싱하고 “콘텐츠 트리” 내부에서 태그를 DOM 노드로 변환하고,&lt;br /&gt; 외부...</description>
+        <title>브라우저 동작 원리.</title>
+        <description>&lt;p&gt;웹사이트는 어떻게 보여줄까? 웹개발자들 이라면 한번쯤 들어봤을 브라우저 렌더링 과정을&lt;br /&gt; 좀더 자세히 다뤄보고자 여러 문서들을 기반으로 포스팅을 작성하게됐다.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;브라우저의-렌더링-과정&quot;&gt;브라우저의 렌더링 과정&lt;/h2&gt; &lt;p&gt;렌더링은 화면에 컨텐츠를 그리는 과정으로, 브라우저들은 각자의 렌더링 엔진으로 이를 구현했다. 크롬과 사파리는 “Webkit 엔진”을 사용하고, 파이어폭스는 “Gecko 엔진”을 사용한다.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;브라우저 렌더링 과정&lt;/strong&gt;&lt;br /&gt; &lt;img src=&quot;http://www.phpied.com/files/reflow/render.png&quot; alt=&quot;브라우저렌더링&quot; /&gt;&lt;/p&gt; &lt;p&gt;출처 : &lt;a href=&quot;http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/&quot;&gt;http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/&lt;/a&gt;&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;p&gt;불러오기(Load)&lt;br /&gt; 로더(Loader)가 서버로부터 전달 받는 리소스 스트림을 읽는 과정. 읽으면서 어떤 파일인지, 데이터인지 파일을 다운로드할 것인지 등을 결정한다.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;파싱 (Parsing)&lt;br /&gt; 렌더링 엔진은 HTML/XML 문서를 파싱하고 “콘텐츠 트리” 내부에서 태그를 DOM 노드로 변환하고,&lt;br /&gt; 외부 CSS 파일을 포함하여...</description>
         <pubDate>Wed, 06 Feb 2019 19:00:00 +0900</pubDate>
-        <link>/reflow_repaint/</link>
-        <guid isPermaLink="true">/reflow_repaint/</guid>
+        <link>/browser/</link>
+        <guid isPermaLink="true">/browser/</guid>
         
         <category>browser</category>
         
         <category>reflow</category>
         
         <category>repaint</category>
+        
+        <category>layout</category>
         
         
         <category>webdev</category>

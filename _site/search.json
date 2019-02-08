@@ -1,10 +1,10 @@
 [
   
     {
-      "title"    : "reflow &amp; repaint",
-      "tags"     : "browser, reflow, and repaint",
+      "title"    : "브라우저 동작 원리.",
+      "tags"     : "browser, reflow, repaint, and layout",
       "categories" : "webdev",
-      "url"      : "/reflow_repaint/",
+      "url"      : "/browser/",
       "date"     : "02/06/2019"
     } ,
   

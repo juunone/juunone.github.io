@@ -37,6 +37,8 @@ links:
     url: /
   - title: About
     url: /about/
+  - title: Tags
+    url: /tags/
   - title: Contact
     url: /contact/
 
