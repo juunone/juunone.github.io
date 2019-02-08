@@ -91,6 +91,10 @@
     
     
         <url>
+            <loc>/reflow_repaint/</loc>
+        </url>
+  
+        <url>
             <loc>/cra-ghpages2/</loc>
         </url>
   

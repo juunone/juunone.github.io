@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "reflow &amp; repaint",
+      "tags"     : "browser, reflow, and repaint",
+      "categories" : "webdev",
+      "url"      : "/reflow_repaint/",
+      "date"     : "02/06/2019"
+    } ,
+  
+    {
       "title"    : "React application SPA with gh-pages deploy(2)",
       "tags"     : "React, React-router, and gh-pages",
       "categories" : "tutorial",

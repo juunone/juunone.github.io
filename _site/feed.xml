@@ -5,9 +5,28 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Feb 2019 19:30:12 +0900</pubDate>
-    <lastBuildDate>Thu, 07 Feb 2019 19:30:12 +0900</lastBuildDate>
+    <pubDate>Fri, 08 Feb 2019 20:37:49 +0900</pubDate>
+    <lastBuildDate>Fri, 08 Feb 2019 20:37:49 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>reflow &amp; repaint</title>
+        <description>&lt;p&gt;브라우저 동작원리를 알면&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Feb 2019 19:00:00 +0900</pubDate>
+        <link>/reflow_repaint/</link>
+        <guid isPermaLink="true">/reflow_repaint/</guid>
+        
+        <category>browser</category>
+        
+        <category>reflow</category>
+        
+        <category>repaint</category>
+        
+        
+        <category>webdev</category>
+        
+      </item>
     
       <item>
         <title>React application SPA with gh-pages deploy(2)</title>
