@@ -91,6 +91,10 @@
     
     
         <url>
+            <loc>/reflow-repaint/</loc>
+        </url>
+  
+        <url>
             <loc>/browser/</loc>
         </url>
   
