@@ -13,3 +13,4 @@ introduction: styled-components 간단내용 정리.
 ---
 
 CSS Arichtecture 방법론 시작.
+styled component basic tutorial
