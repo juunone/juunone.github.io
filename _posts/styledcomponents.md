@@ -12,6 +12,4 @@ tags:
 introduction: styled-components 간단내용 정리.
 ---
 
-CSS Arichtecture 방법론 시작.
-styled component basic tutorial
-writing until 2019 스타일 컴퍼넌트 베이직 작성중.
+컴포넌트 스타일링 방식 중 하나인, JS 코드 내부에서 스타일을 정의하는 방식입니다.
