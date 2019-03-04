@@ -5,9 +5,29 @@
     <description>juunone's dev blog.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Mar 2019 14:43:48 +0900</pubDate>
-    <lastBuildDate>Mon, 04 Mar 2019 14:43:48 +0900</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2019 15:37:01 +0900</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2019 15:37:01 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>별점 평가 컴포넌트</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/juunone/star-rate&quot;&gt;별점 평가 컴포넌트&lt;/a&gt;에 가면 데모버전 확인 가능합니다.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;목적&quot;&gt;목적&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;영화를 본 후 평점 별점 반개도 주기 아까울때.&lt;/li&gt; &lt;li&gt;웹 &amp;amp; 모바일 모두 사용 가능해야 한다.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;위 두가지 목적을 가지고 제작된 컴포넌트 입니다.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;시간적 제한을 가지고 제작되어서, 코드내 잡음 주의!&lt;/strong&gt;&lt;/p&gt; &lt;h2 id=&quot;implementation&quot;&gt;implementation&lt;/h2&gt; &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yarn create react-app star-rate # project tree - public - favicon.ico - index.html - src - images - reset.svg - star-empty.svg - star-full.svg - star-half.svg - App.js - StarRate.js - StarRate.css - index.css - index.js - .gitignore - README.md - package.json - yarn.lock &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt; &lt;h2 id=&quot;starratecss&quot;&gt;StarRate.css&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;img 태그에 css를 통해 스타일을...</description>
+        <pubDate>Thu, 28 Feb 2019 19:00:00 +0900</pubDate>
+        <link>/star-rate/</link>
+        <guid isPermaLink="true">/star-rate/</guid>
+        
+        <category>browser</category>
+        
+        <category>reflow</category>
+        
+        <category>repaint</category>
+        
+        <category>layout</category>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>reflow &amp; repaint</title>

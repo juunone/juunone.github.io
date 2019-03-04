@@ -91,6 +91,10 @@
     
     
         <url>
+            <loc>/star-rate/</loc>
+        </url>
+  
+        <url>
             <loc>/reflow-repaint/</loc>
         </url>
   
