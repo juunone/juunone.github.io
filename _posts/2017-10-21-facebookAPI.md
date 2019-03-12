@@ -3,14 +3,14 @@ layout: post
 title: "페이스북 마케팅 API 사용기"
 date: 2017-10-21 10:00:40
 image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/facebookapicover2.jpg"
-description: 타겟북을 진행하면서 사용해봤던 페이스북 마케팅 API의 사용법을 공유하고자 한다.
+description: 프로젝트를 진행하면서 사용해봤던 페이스북 마케팅 API의 사용법을 공유하고자 한다.
 category: "guide"
 tags:
   - Facebook
   - GraphAPI
   - Marketing
   - FMP
-introduction: 페이스북 개발자앱 생성 및 토큰 발급...
+introduction: 페이스북 개발자앱 생성 및 토큰 발급에 대한 심플한 가이드를 제공합니다. 페이스북 앱을 생성한 후 해당 앱을 통해 SDK 생성, API 버전 관리, 화이트리스트추가, 도메인관리, 비즈니스 관리자구성 등을 할 수 있다.
 ---
 
 ## 페이스북 개발자앱 생성 및 토큰 발급

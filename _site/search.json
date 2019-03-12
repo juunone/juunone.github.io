@@ -2,7 +2,7 @@
   
     {
       "title"    : "별점 평가 컴포넌트",
-      "tags"     : "browser, reflow, repaint, and layout",
+      "tags"     : "react",
       "categories" : "project",
       "url"      : "/star-rate/",
       "date"     : "02/28/2019"

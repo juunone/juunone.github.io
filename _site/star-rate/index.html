@@ -62,6 +62,15 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="/star-rate/">
     <link rel="alternate" type="application/rss+xml" title="Juunone | for dev blog" href="/feed.xml" />
+
+    <!-- Google ads -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7767674261514377",
+        enable_page_level_ads: true
+    });
+    </script>
 </head>
 
   <body class="has-push-menu">
@@ -257,7 +266,7 @@ February 28, 2019
 
   <span class="nx">_makeStars</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">let</span> <span class="nx">stars</span> <span class="o">=</span> <span class="p">[];</span>
-    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
       <span class="kd">let</span> <span class="nx">starClass</span> <span class="o">=</span> <span class="s2">"star__rate"</span><span class="p">;</span>
 
       <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">rating</span> <span class="o">!==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
@@ -398,7 +407,7 @@ February 28, 2019
 
       <section class="share">
     <h3>Share</h3>
-    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/star-rate/%20via%20&#64;&hashtags=browser,reflow,repaint,layout,"
+    <a aria-label="Compartilhar no Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20/star-rate/%20via%20&#64;&hashtags=react,"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>

@@ -11,7 +11,7 @@ tags:
   - MSA
   - S3
   - Webpack
-introduction: 툭 떼어다 어디든 붙일 수 있게 만들어주세요...
+introduction: 툭 떼어다 어디든 붙일 수 있게 만들어주세요, 파일 업로드 및 관리를 할수 있는 GUI 화면이 필요했다.
 ---
 
 # File-Manager 개발정의서

@@ -9,7 +9,7 @@ tags:
   - React
   - React-router
   - gh-pages
-introduction: CRA+react-router-dom+gh-pages::SPA
+introduction: CRA+react-router-dom+gh-pages::SPA, React를 이용한 SPA 환경을 구축한후 gh-pages를 사용해 깃허브 레포지터리에 환경을 만드는 과정을 소개합니다.
 ---
 
 <h3>리액트를 경험해본 분들을 대상으로 SPA 환경을 구축한후 gh-pages를 사용해 깃헙 레포지터리에 환경을 만드는 과정을 소개합니다. <br />
