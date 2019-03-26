@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "reflow & repaint"
+title: "reflow and repaint"
 date: 2019-02-10 12:00:00
 image: "https://user-images.githubusercontent.com/35126809/52481282-6863e280-2bf1-11e9-9a0b-2caa30b8841f.png"
 description: 브라우저 동작 원리와 함꼐 reflow & repaint 알아보기.
@@ -10,7 +10,7 @@ tags:
   - reflow
   - repaint
   - layout
-introduction: 웹의 렌더링 과정중 reflow & repaint 에 대해 자세히 다루고자 한다.
+introduction: 웹의 렌더링 과정중 reflow and repaint 에 대해 자세히 다루고자 한다.
 ---
 
 [브라우저동작원리](https://juunone.github.io/browser/) 을 보신후 이 포스팅을 보길 권장합니다.<br />
