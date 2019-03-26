@@ -1,145 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/post_bak/2017-06-04-como-fazer-um-hello-world-com-vue-js-2/</loc>
+            <loc>https://juunone.github.io/404.html</loc>
         </url>
     
         <url>
-            <loc>/post_bak/2017-06-08-por-que-o-sketch-vale-3-tanques-de-gasolina/</loc>
+            <loc>https://juunone.github.io/about/</loc>
         </url>
     
         <url>
-            <loc>/404.html</loc>
+            <loc>https://juunone.github.io/category/blog/</loc>
         </url>
     
         <url>
-            <loc>/about/</loc>
+            <loc>https://juunone.github.io/contact/</loc>
         </url>
     
         <url>
-            <loc>/category/blog/</loc>
+            <loc>https://juunone.github.io/category/css/</loc>
         </url>
     
         <url>
-            <loc>/contact/</loc>
+            <loc>https://juunone.github.io/category/django/</loc>
         </url>
     
         <url>
-            <loc>/category/css/</loc>
+            <loc>https://juunone.github.io/feed.xml</loc>
         </url>
     
         <url>
-            <loc>/category/django/</loc>
+            <loc>https://juunone.github.io/category/guide/</loc>
         </url>
     
         <url>
-            <loc>/feed.xml</loc>
+            <loc>https://juunone.github.io/</loc>
         </url>
     
         <url>
-            <loc>/category/guide/</loc>
+            <loc>https://juunone.github.io/category/life/</loc>
         </url>
     
         <url>
-            <loc>/</loc>
+            <loc>https://juunone.github.io/category/mobile/</loc>
         </url>
     
         <url>
-            <loc>/category/life/</loc>
+            <loc>https://juunone.github.io/contact/message-sent/</loc>
         </url>
     
         <url>
-            <loc>/category/mobile/</loc>
+            <loc>https://juunone.github.io/category/personal/</loc>
         </url>
     
         <url>
-            <loc>/contact/message-sent/</loc>
+            <loc>https://juunone.github.io/category/project/</loc>
         </url>
     
         <url>
-            <loc>/category/personal/</loc>
+            <loc>https://juunone.github.io/search.json</loc>
         </url>
     
         <url>
-            <loc>/category/project/</loc>
+            <loc>https://juunone.github.io/sitemap.xml</loc>
         </url>
     
         <url>
-            <loc>/search.json</loc>
+            <loc>https://juunone.github.io/tags/index.html</loc>
         </url>
     
         <url>
-            <loc>/sitemap.xml</loc>
+            <loc>https://juunone.github.io/category/test/</loc>
         </url>
     
         <url>
-            <loc>/tags/index.html</loc>
+            <loc>https://juunone.github.io/category/tutorial/</loc>
         </url>
     
         <url>
-            <loc>/category/test/</loc>
-        </url>
-    
-        <url>
-            <loc>/category/tutorial/</loc>
-        </url>
-    
-        <url>
-            <loc>/category/webdev/</loc>
+            <loc>https://juunone.github.io/category/webdev/</loc>
         </url>
     
     
         <url>
-            <loc>/star-rate/</loc>
+            <loc>https://juunone.github.io/star-rate/</loc>
         </url>
   
         <url>
-            <loc>/reflow-repaint/</loc>
+            <loc>https://juunone.github.io/reflow-repaint/</loc>
         </url>
   
         <url>
-            <loc>/browser/</loc>
+            <loc>https://juunone.github.io/browser/</loc>
         </url>
   
         <url>
-            <loc>/cra-ghpages2/</loc>
+            <loc>https://juunone.github.io/cra-ghpages2/</loc>
         </url>
   
         <url>
-            <loc>/cra-ghpages/</loc>
+            <loc>https://juunone.github.io/cra-ghpages/</loc>
         </url>
   
         <url>
-            <loc>/css_bem_architecture/</loc>
+            <loc>https://juunone.github.io/css_bem_architecture/</loc>
         </url>
   
         <url>
-            <loc>/filemanager/</loc>
+            <loc>https://juunone.github.io/filemanager/</loc>
         </url>
   
         <url>
-            <loc>/fetchAPI/</loc>
+            <loc>https://juunone.github.io/fetchAPI/</loc>
         </url>
   
         <url>
-            <loc>/pattern/</loc>
+            <loc>https://juunone.github.io/pattern/</loc>
         </url>
   
         <url>
-            <loc>/dcedefinition/</loc>
+            <loc>https://juunone.github.io/dcedefinition/</loc>
         </url>
   
         <url>
-            <loc>/facebookAssets/</loc>
+            <loc>https://juunone.github.io/facebookAssets/</loc>
         </url>
   
         <url>
-            <loc>/facebookTagging/</loc>
+            <loc>https://juunone.github.io/facebookTagging/</loc>
         </url>
   
         <url>
-            <loc>/facebookAPI/</loc>
+            <loc>https://juunone.github.io/facebookAPI/</loc>
         </url>
   
 </urlset>
