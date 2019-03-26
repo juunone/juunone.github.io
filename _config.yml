@@ -25,10 +25,13 @@ github_username: juunone
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+paginate: 12
+paginate_path: "/page/:num/"
 
 # Plugins
 plugins:
   - jemoji
+  - jekyll-paginate
 
 # Links to include in menu navigation
 # For external links add external: true
