@@ -5,8 +5,8 @@
     <description>juunone's dev blog.</description>
     <link>https://juunone.github.io/</link>
     <atom:link href="https://juunone.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Mar 2019 01:28:20 +0900</pubDate>
-    <lastBuildDate>Wed, 27 Mar 2019 01:28:20 +0900</lastBuildDate>
+    <pubDate>Wed, 27 Mar 2019 01:58:13 +0900</pubDate>
+    <lastBuildDate>Wed, 27 Mar 2019 01:58:13 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -140,7 +140,7 @@
       </item>
     
       <item>
-        <title>Fetch API 적응기</title>
+        <title>Fetch API 사용법</title>
         <description>&lt;h2 id=&quot;rest-api-connect&quot;&gt;&lt;strong&gt;REST API Connect&lt;/strong&gt;&lt;/h2&gt; &lt;p&gt;그동안의 프로젝트를 돌아보면 우리는 jquery 기반의 &lt;em&gt;AJAX&lt;/em&gt;를 사용해왔다.&lt;br /&gt; 물론 편리하고 보편화되어있고 지원되는 optional 도 많지만 현재 React app에서 최대한 jquery 영역을 좁히고있는 와중에&lt;br /&gt; 새로운 API Connenctor 인 &lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Fetch_API/Fetch%EC%9D%98_%EC%82%AC%EC%9A%A9%EB%B2%95&quot;&gt;Fetch API&lt;/a&gt;를 도입하게되었다.&lt;/p&gt; &lt;h3 id=&quot;fetch-api&quot;&gt;Fetch API&lt;/h3&gt; &lt;p&gt;위 링크를 참조로 작성한 내용입니다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt; &lt;p&gt;Fetch API를 이용하면 Request나 Response와 같은 HTTP의 파이프라인을 구성하는 요소를 조작하는것이 가능합니다. 또한 fetch() 메서드를 이용하는 것으로 비동기 네트워크 통신을 알기쉽게 기술할 수 있습니다.&lt;/p&gt; &lt;/li&gt; &lt;li&gt; &lt;p&gt;jquery.ajax() 와 차이점&lt;/p&gt; &lt;ul&gt; &lt;li&gt;fetch()로 부터 반환되는 Promise 객체는 HTTP error 상태를 reject하지 않습니다. 대신 ok 상태가 false인 resolve가 반환되며, 네트워크 장애나 요청이 완료되지 못한 상태에는 reject가...</description>
         <pubDate>Sat, 12 May 2018 23:00:00 +0900</pubDate>
         <link>https://juunone.github.io/fetchAPI/</link>

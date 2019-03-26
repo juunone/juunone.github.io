@@ -57,7 +57,7 @@
     } ,
   
     {
-      "title"    : "Fetch API 적응기",
+      "title"    : "Fetch API 사용법",
       "tags"     : "API, Fetch, REST, RESTful, and WebAPI",
       "categories" : "webdev",
       "url"      : "/fetchAPI/",
