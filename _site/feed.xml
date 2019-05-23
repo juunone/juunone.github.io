@@ -5,8 +5,8 @@
     <description>juunone's dev blog.</description>
     <link>https://juunone.github.io/</link>
     <atom:link href="https://juunone.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Mar 2019 01:58:13 +0900</pubDate>
-    <lastBuildDate>Wed, 27 Mar 2019 01:58:13 +0900</lastBuildDate>
+    <pubDate>Thu, 23 May 2019 20:26:59 +0900</pubDate>
+    <lastBuildDate>Thu, 23 May 2019 20:26:59 +0900</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -24,7 +24,7 @@
       </item>
     
       <item>
-        <title>reflow &amp; repaint</title>
+        <title>reflow and repaint</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://juunone.github.io/browser/&quot;&gt;브라우저동작원리&lt;/a&gt; 을 보신후 이 포스팅을 보길 권장합니다.&lt;br /&gt; 웹의 렌더링 과정중 reflow &amp;amp; repaint 에 대해 자세히 다루고자 한다.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;reflow-and-repaints&quot;&gt;Reflow and Repaints&lt;/h2&gt; &lt;p&gt;페이지를 한번 표시할때 리플로우가 발생한다. 그 후,&lt;br /&gt; 렌더링 트리를 구성하는데 사용된 정보의 변화는 다음중 하나 또는 두개의 결과를 일으킨다.&lt;/p&gt; &lt;ul&gt; &lt;li&gt;렌더링 트리 일부(또는 전부)는 재 설정된 노드의 폭,높이 등이 다시 계산된다. &lt;br /&gt; &lt;ul&gt; &lt;li&gt;위 과정을 &lt;strong&gt;Reflow&lt;/strong&gt; 또는 &lt;strong&gt;Layout&lt;/strong&gt; 이라고 한다. (Webkit : layout , Gecko : reflow 라고 부른다)&lt;/li&gt; &lt;li&gt;첫 페이지는 반드시 한 번 이상 리플로우가 일어난다.&lt;/li&gt; &lt;/ul&gt; &lt;/li&gt; &lt;li&gt;레이아웃 수치에 영향을 주지 않는, (예:색상, 아웃라인, 배경 등)은 Reflow 과정이 생략된 &lt;strong&gt;Repaint&lt;/strong&gt;...</description>
         <pubDate>Sun, 10 Feb 2019 21:00:00 +0900</pubDate>
         <link>https://juunone.github.io/reflow-repaint/</link>

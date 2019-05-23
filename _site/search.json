@@ -9,7 +9,7 @@
     } ,
   
     {
-      "title"    : "reflow &amp; repaint",
+      "title"    : "reflow and repaint",
       "tags"     : "browser, reflow, repaint, and layout",
       "categories" : "webdev",
       "url"      : "/reflow-repaint/",
