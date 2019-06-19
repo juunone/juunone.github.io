@@ -266,9 +266,6 @@ Query Parameters{}
 {
     "success": true
 }
-
-==== Debug Information from Graph API Explorer
-- https://developers.facebook.com/tools/explorer/?method=POST&path=6152846886213&version=v3.2&status=PAUSED&classic=1
 ```
 
 - 코드 받기 : 현재 사용한 탐색기의 Androis SDK , iOS SDK, Javascript SDK, PHP SDK, cURL 코드 형태로 받을 수 있다.
