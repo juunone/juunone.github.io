@@ -1,14 +1,14 @@
 {
-  "name": "thiagorossener.github.io",
+  "name": "Juunone.github.io",
   "version": "1.0.0",
-  "description": "Blog pessoal de Thiago Rossener.",
+  "description": "Juunone dev blog.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagorossener/thiagorossener.github.io.git"
+    "url": "git+https://github.com/juunone/juunone.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -18,12 +18,12 @@
     "gulp",
     "stylus"
   ],
-  "author": "Thiago Rossener",
+  "author": "Juunone",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thiagorossener/thiagorossener.github.io/issues"
+    "url": "https://github.com/juunone/juunone.github.io/issues"
   },
-  "homepage": "https://github.com/thiagorossener/thiagorossener.github.io#readme",
+  "homepage": "https://github.com/juunone/juunone.github.io#readme",
   "devDependencies": {
     "autoprefixer-stylus": "^0.14.0",
     "browser-sync": "^2.18.13",
