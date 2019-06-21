@@ -16,12 +16,14 @@ var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
+var bundle = process.platform === "win32" ? "bundle.bat" : "bundle";
+
 /**
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
-  return cp.spawn('bundle', ['exec', 'jekyll build'], {stdio: 'inherit'})
+  return cp.spawn(bundle, ['exec', 'jekyll build'], {stdio: 'inherit'})
     .on('close', done);
 });
 
