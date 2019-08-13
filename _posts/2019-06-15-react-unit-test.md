@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "React Unit-test"
-date: 2019-07-15 12:00:00
+date: 2019-06-15 12:00:00
 image: "https://user-images.githubusercontent.com/35126809/62916478-9eb63080-bdd3-11e9-9c9a-3b489820614c.jpg"
 description: React unit-test with Mocha,Chai,Enzyme.
 category: "test"
