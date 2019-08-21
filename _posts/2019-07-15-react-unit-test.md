@@ -15,8 +15,8 @@ introduction: 16.x 버전에 등장한 React Hooks 로 작성한 유닛테스트
 - [리액트 테스팅 튜토리얼](https://rinae.dev/posts/react-testing-tutorial-kr)
 - [origin repo](https://github.com/the-road-to-learn-react/react-testing-mocha-chai-enzyme)
 
-위 2가지 테스팅 튜토리얼 문서를 보고 최근에 나온 React Hooks로 
-간단한 카운팅 유닛테스트 포스팅을 작성하게 됐다.
+위 2가지 테스팅 튜토리얼 문서를 레퍼런스로 참조하고 React Hooks로
+코드를 작성하며, 카운팅 유닛테스트 포스팅을 작성하게 됐다.
 특히 튜토리얼 문서는 번역된지 1년이 지났지만 이제야 본걸 후회할 정도로
 정말 디테일하게 설명되어있다.  
 **꼭 선행후에 진행 하기 바랍니다.**
