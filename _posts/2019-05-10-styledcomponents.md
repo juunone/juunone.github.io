@@ -134,7 +134,7 @@ render(){
             </SocialLink>
           </Paragraph>
           <Paragraph>
-            <Link style={{ boxShadow: `none` }} to='/about'>
+            <Link to='/about'>
               About
             </Link>
           </Paragraph>
