@@ -2,7 +2,7 @@
 layout: post
 title: "File-Manager 프로젝트 회고록"
 date: 2018-07-03 12:00:00
-image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/filemanagercover.jpg"
+image: "https://user-images.githubusercontent.com/35126809/64483940-480f0b80-d246-11e9-8394-e969c3220786.jpg"
 description: 파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.
 category: "project"
 tags:
@@ -188,16 +188,16 @@ new FManager("manager", {
 
 ## **마치며**
 
-![파일매니저1](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager1.png "파일1")
+![파일매니저1](https://user-images.githubusercontent.com/35126809/64483936-47767500-d246-11e9-921d-08a34e0fc732.png "파일1")
 (그림1 : 리스트)
 
-![파일매니저2](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager2.png "파일2")
+![파일매니저2](https://user-images.githubusercontent.com/35126809/64483937-47767500-d246-11e9-977b-eb81c90e5d68.png "파일2")
 (그림2 : 업로드대기)
 
-![파일매니저3](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager4.png "파일3")
+![파일매니저3](https://user-images.githubusercontent.com/35126809/64483938-480f0b80-d246-11e9-9aa8-51965563632f.png "파일3")
 (그림3 : 업로드완료)
 
-![파일매니저4](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/filemanager3.png "파일4")
+![파일매니저4](https://user-images.githubusercontent.com/35126809/64483939-480f0b80-d246-11e9-9cc5-712a74a2cbe4.png "파일4")
 (그림4 : 정보)
 
 제품을 개발하며 제일 주안점을 두었던 부분은 **_편의성, 확장성, 범용성_** 이였다.<br />

@@ -2,7 +2,7 @@
 layout: post
 title: "React application SPA with gh-pages deploy(1)"
 date: 2019-01-12 21:00:00
-image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/craghpage.jpg"
+image: "https://user-images.githubusercontent.com/35126809/64483964-991eff80-d246-11e9-9d4a-12da82737bfd.jpg"
 description: CRA로 만든 SPA 환경의 어플리케이션을 gh-pages로 deploy 하기.
 category: "tutorial"
 tags:
