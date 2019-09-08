@@ -2,7 +2,7 @@
 layout: post
 title: "페이스북 마케팅 API 사용기"
 date: 2017-10-21 10:00:40
-image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/facebookapicover2.jpg"
+image: "https://user-images.githubusercontent.com/35126809/64483770-4bed5e80-d243-11e9-8e8c-d5e1803619ea.jpg"
 description: 프로젝트를 진행하면서 사용해봤던 페이스북 마케팅 API의 사용법을 공유하고자 한다.
 category: "guide"
 tags:
@@ -18,7 +18,7 @@ introduction: 페이스북 개발자앱 생성 및 토큰 발급에 대한 심�
 SDK 생성 및 토큰을 발급 받기위해서는 [페이스북 개발자센터-앱](https://developers.facebook.com/apps/) 에서<br />
 앱을 생성한 후 해당 앱을 통해 SDK 생성, API 버전 관리, 화이트리스트추가, 도메인관리, 비즈니스 관리자구성 등을 할 수 있다.
 
-![개발자앱](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%80%E1%85%A2%E1%84%87%E1%85%A1%E1%86%AF%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A2%E1%86%B82.jpg "개발자앱")
+![개발자앱](https://user-images.githubusercontent.com/35126809/64483771-5c9dd480-d243-11e9-8aee-4e7d38bbb728.jpg "개발자앱")
 
 그림)개발자앱
 
@@ -29,7 +29,7 @@ SDK 생성 및 토큰을 발급 받기위해서는 [페이스북 개발자센터
 개발자앱에서는 체크된 제품을 사용중이다.<br />
 _(더 많은 제품이 존재할 수 있다.)_
 
-![제품구성](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%8B%E1%85%A2%E1%86%B8%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9.png "구성")
+![제품구성](https://user-images.githubusercontent.com/35126809/64483773-5dcf0180-d243-11e9-8bc6-3c8f79e0fa9a.png "구성")
 
 ---
 
@@ -77,7 +77,7 @@ Postman 처럼 마케팅 API를 토큰을 가지고 **GET,POST,DELETE** 메소�
 
 - 탐색기에 접근후 토큰받기 버튼을 토클하게되면 등록되어있는 개발자앱을 선택후에 권한선택을 한후 토큰을 발급 받을 수 있다.
 
-![권한](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%90%E1%85%A9%E1%84%8F%E1%85%B3%E1%86%AB%E1%84%80%E1%85%AF%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AB.png "권한선택")
+![권한](https://user-images.githubusercontent.com/35126809/64483774-5f002e80-d243-11e9-8ad3-df5deacf1023.png "권한선택")
 
 그림)권한선택
 
@@ -85,7 +85,7 @@ Postman 처럼 마케팅 API를 토큰을 가지고 **GET,POST,DELETE** 메소�
 
 - 발급받은 액세스토큰의 왼쪽 느낌표 마크를 클릭하게되면 해당 토큰 정보조회가 가능하다.
 
-![토큰조회](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%90%E1%85%A9%E1%84%8F%E1%85%B3%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9.jpg "토큰조회")
+![토큰조회](https://user-images.githubusercontent.com/35126809/64483783-a4bcf700-d243-11e9-96a1-1a52ba9a545a.jpg "토큰조회")
 
 그림)토큰조회
 
@@ -97,7 +97,7 @@ Postman 처럼 마케팅 API를 토큰을 가지고 **GET,POST,DELETE** 메소�
 
 - `GET`
 
-![get.method](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%E1%84%80%E1%85%B5get.jpg "getmethod")
+![get.method](https://user-images.githubusercontent.com/35126809/64483784-a4bcf700-d243-11e9-8b6b-f679dab4ce49.jpg "getmethod")
 
 그림의 상단을 보면 메소드/API버전/파라미터 로 구성되어있다.<br />
 메소드 및 버전은 선택 및 변경이 가능하다.<br />
@@ -194,7 +194,7 @@ _{adsets{name,id},name,id_ 는 캠페인안에 _adset_ 이라는 객체의 _name
 
 - `POST & DELETE`
 
-![포스트및삭제](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%E1%84%80%E1%85%B5post.jpg "postdelete")
+![포스트및삭제](https://user-images.githubusercontent.com/35126809/64483785-a4bcf700-d243-11e9-88d7-710a6fee2919.jpg "postdelete")
 
 GET 메소드를 이해했다면 POST,DELETE 는 1초면된다.<br />
 GET 과 다른점은 **필드**가 필요없다.<br />
@@ -222,7 +222,7 @@ response = {
 
 ### 탐색기 꿀팁
 
-![팁](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%E1%84%80%E1%85%B5%E1%84%81%E1%85%AE%E1%86%AF%E1%84%90%E1%85%B5%E1%86%B8.png "꾸르팁")
+![팁](https://user-images.githubusercontent.com/35126809/64483786-a4bcf700-d243-11e9-8422-c25f58b7399a.png "팁")
 
 탐색기 하단에 보면 위그림과 같이 **디버그 정보 복사, 코드 받기, 세션 저장**이 존재한다.
 

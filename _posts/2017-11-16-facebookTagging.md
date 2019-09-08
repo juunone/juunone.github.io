@@ -2,7 +2,7 @@
 layout: post
 title: "페이스북 픽셀 태깅 마스터되기"
 date: 2017-11-16 21:00:00
-image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/facebookpixelcover.jpg"
+image: "https://user-images.githubusercontent.com/35126809/64483821-552afb00-d244-11e9-871b-ce1c6a401e2a.jpg"
 description: 태깅을 하기전 알아야 될 제일 기본적인 항목들.
 category: "guide"
 tags:
@@ -47,16 +47,16 @@ Facebook 픽셀은 회원님의 웹사이트에서 사람들이 취한 행동을
 
 ### 표준이벤트 종류
 
-![표준이벤트종류](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%91%E1%85%AD%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B3.png)
+![표준이벤트종류](https://user-images.githubusercontent.com/35126809/64483816-54926480-d244-11e9-91a1-08fcdc484dce.png)
 
 ### 표준 이벤트의 예
 
 표준 이벤트가 설치된 웹사이트 코드의 형태는 아래의 예를 참조하세요.<br />
 Facebook 픽셀 기본 코드: Facebook 픽셀 코드는 아래 그림과 같은 형태입니다. 단, 픽셀 ID는 *예시*입니다.
 
-![표준이벤트예1](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%91%E1%85%AD%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B3%E1%84%8B%E1%85%A8.jpg)
+![표준이벤트예1](https://user-images.githubusercontent.com/35126809/64483817-54926480-d244-11e9-84d0-700e3e913e3d.jpg)
 
-![표준이벤트예2](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%91%E1%85%AD%E1%84%8C%E1%85%AE%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%87%E1%85%A6%E1%86%AB%E1%84%90%E1%85%B3%E1%84%8B%E1%85%A82.jpg)
+![표준이벤트예2](https://user-images.githubusercontent.com/35126809/64483818-54926480-d244-11e9-920b-49aa3d12badb.jpg)
 
 ---
 
@@ -64,11 +64,11 @@ Facebook 픽셀 기본 코드: Facebook 픽셀 코드는 아래 그림과 같은
 
 Chrome 웹브라우저에 접속후 Chrome 웹스토어로 이동하여, Facebook Pixel Helper 를 검색합니다.
 
-![픽셀지원1](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%91%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A6%E1%86%AF%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB1.png "픽셀지원1")
+![픽셀지원1](https://user-images.githubusercontent.com/35126809/64483819-552afb00-d244-11e9-997f-b43675e6385f.png "픽셀지원1")
 
 ### 픽셀 확인
 
 - 픽셀 지원 도구를 설치한 후 주소창의 픽셀 지원 도구를 클릭합니다.
 - 팝업을 보고 해당 페이지에 픽셀이 있는지, 픽셀이 제대로 설정되었는지 확인합니다.
 
-![픽셀지원2](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/%E1%84%91%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A6%E1%86%AF%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%AF%E1%86%AB2.png "픽셀지원2")
+![픽셀지원2](https://user-images.githubusercontent.com/35126809/64483820-552afb00-d244-11e9-845d-6a836ccc0d88.png "픽셀지원2")
