@@ -2,7 +2,7 @@
 layout: post
 title: "CMS 에디터툴 Dynamic contents editor : DCE 제품정의"
 date: 2018-02-08 14:00:00
-image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/dcecover2.jpg"
+image: "https://user-images.githubusercontent.com/35126809/64483865-02057800-d245-11e9-8dc6-adf3e8d5faa1.jpg"
 description: DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.
 category: "project"
 tags:
@@ -55,11 +55,11 @@ introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생�
 
 ## **Flowchart**
 
-![다이어그램](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/DCE_FE.png)
+![다이어그램](https://user-images.githubusercontent.com/35126809/64483862-016ce180-d245-11e9-8540-7936f7d42d0c.png)
 
 ## **Use case diagram**
 
-![유즈케이스](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/dce_usecase.png)
+![유즈케이스](https://user-images.githubusercontent.com/35126809/64483863-016ce180-d245-11e9-9c2a-5c77a855d273.png)
 
 ## **기술 스펙**
 
