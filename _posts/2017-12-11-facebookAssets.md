@@ -2,7 +2,7 @@
 layout: post
 title: "페이스북 광고를 위한 많은 자산"
 date: 2017-12-11 12:30:00
-image: "https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/postcover/facebookadcover.jpg"
+image: "https://user-images.githubusercontent.com/35126809/64483847-b5ba3800-d244-11e9-940d-80ef7318d7ac.jpg"
 description: 타겟북 프로젝트 진행하면서 사용해봤던 자산에 대한 개념을 간략하게 소개합니다.
 category: "guide"
 tags:
@@ -18,7 +18,7 @@ introduction: 페이스북 광고를 집행하기 위해서는 많은 자산들�
 
 외부인은 비즈니스 관리자에 처음 로그인할 때 제공한 이름과 업무용 이메일 주소, 페이지 리스트 및 액세스 권한이 있는 광고 계정만 볼 수 있습니다.
 
-![비즈니스](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/asset_business.png "비즈니스")
+![비즈니스](https://user-images.githubusercontent.com/35126809/64483842-b4890b00-d244-11e9-9bf0-5781410902c1.png "비즈니스")
 
 ## 광고 계정
 
@@ -27,7 +27,7 @@ introduction: 페이스북 광고를 집행하기 위해서는 많은 자산들�
 
 **FMP(Facebook marketing partner)** 를 취득하게 되면 해당 비즈니스게정에 _10000_ 개까지 광고계정 생성 가능하다.
 
-![광고계정](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/asset_adaccount.png "광고계정")
+![광고계정](https://user-images.githubusercontent.com/35126809/64483843-b521a180-d244-11e9-9a9a-e814c3659f47.png "광고계정")
 
 ## 페이지
 
@@ -35,7 +35,7 @@ introduction: 페이스북 광고를 집행하기 위해서는 많은 자산들�
 페이지에 관심이 있는 사람들이나 홍보 게시물로 더 많은 타겟에 도달하고<br />
 업계 정보, 제품 업데이트, 이벤트 알림 등을 제공하여 광고 효율을 높일 수 있다.
 
-![페이지](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/asset_page.png "페이지")
+![페이지](https://user-images.githubusercontent.com/35126809/64483844-b521a180-d244-11e9-886c-8a8f46a4819d.png "페이지")
 
 ## 카탈로그
 
@@ -43,7 +43,7 @@ introduction: 페이스북 광고를 집행하기 위해서는 많은 자산들�
 다이나믹 광고 혹은 컬렉션 광고를 통해 제품 및 서비스를 소비자에게 제공하고 구매하도록 유도할 수 있다.<br />
 또한 전체 화면셍서 더 많은 제품을 살펴보거나, 원하는 제품의 특징에 대해 자세히 알아볼 수 있도록 구성할수도 있습니다.
 
-![카탈로그](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/asset_catalog.png "카탈로그")
+![카탈로그](https://user-images.githubusercontent.com/35126809/64483845-b521a180-d244-11e9-8cde-8b36ef6517e1.png "카탈로그")
 
 ## 픽셀
 
@@ -55,4 +55,4 @@ Facebook 픽셀은 웹사이트에서 사람들이 취한 행동을 파악하여
 - 광고 타겟 구축
 - 더 많은 Facebook 광고 도구 활용
 
-![픽셀](https://s3.ap-northeast-2.amazonaws.com/thugstorage/images/post/asset_pixel.jpg "픽셀")
+![픽셀](https://user-images.githubusercontent.com/35126809/64483846-b5ba3800-d244-11e9-9ec7-b57067d3c428.jpg "픽셀")
