@@ -2,14 +2,14 @@
 layout: post
 title: "Redux-Thunk to Redux-Saga"
 date: 2019-08-12 02:00:00
-image: "https://user-images.githubusercontent.com/35126809/63832569-065fa480-c9ac-11e9-92a4-f6a07ae71fda.jpg"
+image: "https://user-images.githubusercontent.com/35126809/66019197-3c4cf700-e51d-11e9-9420-131f2dea323e.jpg"
 description: Redux-thunk exchage to Redux-saga.
 category: "tutorial"
 tags:
   - redux
   - redux-saga
   - redux-thunk
-introduction: redux-thunk를 redux-saga로 교체한 경험.
+introduction: redux-thunk를 redux-saga로 교체.
 ---
 
 *참조* 
