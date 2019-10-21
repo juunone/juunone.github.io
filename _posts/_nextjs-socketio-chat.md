@@ -2,7 +2,7 @@
 layout: post
 title: "NextJS, SocketIO chat application"
 date: 2019-10-11 12:00:00
-image: "https://user-images.githubusercontent.com/35126809/66019197-3c4cf700-e51d-11e9-9420-131f2dea323e.jpg"
+image: "https://user-images.githubusercontent.com/35126809/67179847-aff26d80-f412-11e9-9b4c-0c3a3248cc0a.jpg"
 description: Make chat application with NextJS and socketIO
 category: "tutorial"
 tags:
