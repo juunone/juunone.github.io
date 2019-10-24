@@ -12,12 +12,17 @@ tags:
 introduction: NextJS 와 socketIO 를 이용해 채팅 구현.
 ---
 
-*참조* 
-- [Redux-saga github](https://github.com/redux-saga/redux-saga)
-- [Redux-saga tutorial](https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html)
+*Demo*
+- [react-socket-chat](https://github.com/juunone/react-socket-chat)
 
-개인적으로 진행하던 익명 투표 시스템의 비동기 부분을 담당하던
-redux-thunk를 redux-saga로 교체한 코드들에 대한 변경점을 공유하고자 한다.
+*References* 
+- [WebSocket Chat App with Socket.io and React](https://itnext.io/building-a-node-js-websocket-chat-app-with-socket-io-and-react-473a0686d1e1)
+- [react-express-socketio](https://codeburst.io/isomorphic-web-app-react-js-express-socket-io-e2f03a469cd3)
+- [Naver D2 socket-io](https://d2.naver.com/helloworld/1336)
 
-### what is redux-middleware?
-- 리덕스 미들웨어는 리덕스액션이 리듀서에 도착하기 전 가로채는 행동을 하는 코드이다.
+NextJS + SocketIO 로 구성해본 리액트 채팅 어플리케이션 제작 경험을 공유하고자 한다.
+SocketIO 를 처음접하고 채팅목록과 채팅화면까지 구현하기의 일련의 과정을 보여준다.
+React는 기본적으로 이해하고 프로젝트 구성까지 가능한 이해수준을 가진 전제하에 포스팅을 작성했습니다.
+
+### socket-io ?
+리액트
