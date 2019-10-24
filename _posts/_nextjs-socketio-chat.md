@@ -24,5 +24,10 @@ NextJS + SocketIO 로 구성해본 리액트 채팅 어플리케이션 제작 �
 SocketIO 를 처음접하고 채팅목록과 채팅화면까지 구현하기의 일련의 과정을 보여준다.
 React는 기본적으로 이해하고 프로젝트 구성까지 가능한 이해수준을 가진 전제하에 포스팅을 작성했습니다.
 
-### socket-io ?
-리액트
+### Socket-io ?
+JavaScript NodeJS 프레임워크 기반의 실시간 웹을 구현할 수 있는 기술이다.
+
+<img alt="스크린샷 2019-10-24 15 46 11" src="https://user-images.githubusercontent.com/35126809/67460229-6c4b6e00-f675-11e9-8268-6e10a745e57c.png">
+
+> 브라우저 지원범위 (2019.10.24 기준)  
+> 출처 : https://github.com/socketio/socket.io
