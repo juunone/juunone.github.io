@@ -31,3 +31,9 @@ JavaScript NodeJS 프레임워크 기반의 실시간 웹을 구현할 수 있�
 
 > 브라우저 지원범위 (2019.10.24 기준)  
 > 출처 : https://github.com/socketio/socket.io
+
+### NextJS ? 
+
+[NextJS](https://nextjs.org/)는 SSR(Server Side Rendering) 서버에서 렌더링을
+진행하는 웹 프레임워크이다.
+SPA 환경을 좀 더 간편하게 구축하기위해 NextJS를 사용해 프로젝트를 구축했다.
