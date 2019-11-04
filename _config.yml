@@ -25,7 +25,7 @@ twitter_username: juunwon
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-paginate: 12
+paginate: 10
 paginate_path: "/page/:num/"
 
 # Plugins
