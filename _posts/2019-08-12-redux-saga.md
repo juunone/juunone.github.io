@@ -16,7 +16,7 @@ introduction: redux-thunk를 redux-saga로 교체.
 - [Redux-saga github](https://github.com/redux-saga/redux-saga)
 - [Redux-saga tutorial](https://redux-saga.js.org/docs/introduction/BeginnerTutorial.html)
 
-개인적으로 진행하던 익명 투표 시스템의 비동기 부분을 담당하던
+개인적으로 진행하던 익명 투표 시스템의 비동기 부분을 담당하던  
 redux-thunk를 redux-saga로 교체한 코드들에 대한 변경점을 공유하고자 한다.
 
 ### what is redux-middleware?
