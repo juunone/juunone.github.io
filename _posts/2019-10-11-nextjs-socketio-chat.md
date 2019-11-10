@@ -152,4 +152,179 @@ import socketIOClient from "socket.io-client";
 const socket = socketIOClient('localhost:3001');
 
 export const SocketContext = React.createContext(socket);
+``` 
+
+## index.js
+
+초기 진입시 유저 구분을 위해서 기존에 configuration 되어있는 유저를  
+선택할 수 있게 ui를 구성하고, 선택 후 router의 link로 채팅방 리스트로 이동한다.
+
+```js
+import React, { useState, useCallback } from "react";
+import Head from 'next/head';
+import Link from 'next/link'
+import Layout from '../components/layout';
+import { Title, SelectUserWidget, SelectList, SelectButton } from '../components/styled';
+
+const App = () => { 
+  const [state, setState] = useState({
+    user:''
+  });
+
+  const selectUser = useCallback((e) => {
+    setState({
+      ...state,
+      user:e.target.value
+    })
+  }, []);
+
+  return (
+    <Layout>
+      <Head>
+        <title>React Socket.io Chatting</title>
+        <link rel='icon' href='/favicon.ico' />
+        <meta name="description" content="React Socket.io Chatting application"/>
+        <meta name="keywords" content="react,socket.io,chatting,javascript" />
+      </Head>
+      <SelectUserWidget>
+        <Title>사용자를 선택해주세요. &#x1F64F;</Title>
+        <SelectList value={state.user} onChange={(e)=>{selectUser(e)}}>
+          <option value="">선택</option>
+          <option value="최준원 회장님">최준원 회장님</option>
+          <option value="장만월 사장님">장만월 사장님</option>
+          <option value="이미라 의사">이미라 의사</option>
+          <option value="구찬성 지배인">구찬성 지배인</option>
+          <option value="노준석 총지배인">노준석 총지배인</option>
+          <option value="김유나 인턴">김유나 인턴</option>
+        </SelectList>
+        <Link href={`/list?user=${state.user}`} as='/list'>
+          <SelectButton disabled={!state.user}>Select</SelectButton>
+        </Link>
+      </SelectUserWidget>
+    </Layout>
+  )
+}
+
+export default App;
 ```
+
+## list.js
+
+채팅방 리스트 페이지다.
+`withRouter` HOC로 `const { router } = props;`    
+router에서 전달해준 값을 props로 건네받은 유저정보를 획득한 후 사용한다.
+
+```js
+import React, { useState, useEffect, useContext } from "react";
+import PropTypes from 'prop-types';
+import Head from 'next/head';
+import Router, { withRouter } from 'next/router'
+import dynamic from 'next/dynamic'
+
+import { SocketContext } from '../socket-context';
+import Layout from '../components/layout';
+
+const DynamicHeader = dynamic(() => import('../components/header'))
+const DynamicChatRoomWidget = dynamic(() => import('../components/chatRoomWidget'))
+
+const List = (props) => {
+  const socket = useContext(SocketContext);
+  const { router } = props;
+  const [state, setState] = useState({
+    user: router.query.user,
+    target: router.query.target,
+    read: router.query.read ? true : false
+  })
+
+  const receiveData = () => {
+    socket.emit('receive data', state.user);  
+
+    socket.on('receive data', (data) => {
+      setState({ 
+        ...state,
+        data 
+      })
+    }); 
+
+    if(!state.user){
+      Router.push({
+        pathname: '/'
+      })
+    }
+  };
+
+  const readMessages = () => {
+    socket.emit('read message', state.user, state.target);
+  };
+
+  useEffect(() => {
+    receiveData();
+
+    if(state.read){
+      readMessages();
+    }
+
+    return () => {
+      socket.off('receive data');
+    }
+  }, []);
+
+  return (
+    <Layout>
+      <Head>
+        <title>채팅</title>
+        <link rel='icon' href='/favicon.ico' />
+        <meta name="description" content="React Socket.io Chatting application"/>
+        <meta name="keywords" content="react,socket.io,chatting,javascript" />
+      </Head>
+      <DynamicHeader user={state.user} />
+      <main>{state.data && <DynamicChatRoomWidget user={state.user} data={state.data} />}</main>
+    </Layout>
+  )
+};
+
+export default withRouter(List);
+
+List.propTypes = {
+  router: PropTypes.object,
+};
+```
+
+## chat.js
+
+`DynamicChatRoomWidget` 컴포넌트에서 라우팅된 채팅 화면이다.  
+전체 코드를 올리기엔 너무 길어서 렌더쪽만 살펴보자면,  
+헤더부분은 타겟의 이름이 표시되고, `renderChatMessages` 함수가 채팅을 렌더링 해주는
+코어 컴포넌트다.  
+푸터에는 `debounceMessage` = 인풋에 쓰고있는 텍스트를 debounce로 처리.
+`setDebounceMessage` = 인풋에 onChange 이벤트로 텍스틀 변경해줌.
+`sendMessages` = 텍스트를 엔터 혹은 버튼을 통해 socket으로 전달한다.  
+socket.emit의 'send message' 이벤트로 전달하고, `receiveMessage` 함수로 다시
+socket.on 'receive message' 이벤트로 변경된 데이터 값을 전달받는다.
+
+```js
+const sendMessages = () => {
+  socket.emit('send message', state.user, state.target, debounceMessage, false)
+  receiveMessage();  
+};
+```
+
+```js
+return (
+  <Layout>
+    <Head>
+      <title>{state.target}과 채팅</title>
+      <link rel='icon' href='/favicon.ico' />
+      <meta name="description" content="React Socket.io Chatting application"/>
+      <meta name="keywords" content="react,socket.io,chatting,javascript" />
+    </Head>
+    <DynamicHeader user={state.user} target={state.target} />
+    {state.messages.length ? renderChatMessages() : ''}
+    <DynamicFooter debounceMessage={debounceMessage} setDebounceMessage={setDebounceMessage} sendMessages={sendMessages} />
+    <div ref={myRef} style={{visibility:'hidden'}}></div>
+  </Layout>
+)
+```
+
+- 코드는 본문 위의 demo 깃헙 repo를 참고하면 된다. NextJS를 쓰면서, routing에 대한 configuration 공수가 줄었다.
+- socket.io 로 크로스브라우징의 socket 처리에 대한 부담을 줄여서, 좀더 간편하게 채팅앱을 만들어 볼 수 있는 프로젝트였다.
