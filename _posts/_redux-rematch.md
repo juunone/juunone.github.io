@@ -16,9 +16,21 @@ introduction: redux-rematch 라이브러리를 이용한 redux 상태관리를 �
 - [redux-rematch github repo](https://github.com/rematch/rematch)
 - [redux-rematch docs](https://rematch.github.io/rematch/#/)
 
+## redux-rematch ?
 리덕스의 복잡한 configuations를 조금더 간편하고,  
 손쉽게 도와주는 redux-rematch 에 대해서 설명하고자 한다.  
 action type에 대한 정의도 필요없고, 상태관리 함수 추가에 대한 공수를 줄일 수 있다.
 
-### redux-rematch ?
+## init
+비즈니스 모델이 여러개 필요한경우 생성해서 스토어에 결합 시킬 수 있다.
 
+```js
+import { init } from '@rematch/core'
+import * as models from './models'
+
+const store = init({
+    models,
+})
+
+export default store
+```
