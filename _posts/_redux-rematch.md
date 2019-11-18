@@ -23,6 +23,7 @@ action type에 대한 정의도 필요없고, 상태관리 함수 추가에 대�
 
 ## init
 비즈니스 모델이 여러개 필요한경우 생성해서 스토어에 결합 시킬 수 있다.
+`./model` 에 여러 모델들을 바인딩 해놓고 하나의 스토어에 `init` 해주는 형태다.
 
 ```js
 import { init } from '@rematch/core'
