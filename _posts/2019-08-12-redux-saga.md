@@ -6,6 +6,7 @@ image: "https://user-images.githubusercontent.com/35126809/66019197-3c4cf700-e51
 description: Redux-thunk exchage to Redux-saga.
 category: "tutorial"
 tags:
+  - react
   - redux
   - redux-saga
   - redux-thunk

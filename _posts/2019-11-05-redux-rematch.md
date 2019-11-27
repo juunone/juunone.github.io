@@ -6,6 +6,7 @@ image: "https://user-images.githubusercontent.com/35126809/69218041-469d8000-0bb
 description: redux state management with redux-rematch
 category: "tutorial"
 tags:
+  - react
   - redux
   - redux-rematch
   - rematch
