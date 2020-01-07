@@ -321,7 +321,7 @@ return (
     <DynamicHeader user={state.user} target={state.target} />
     {state.messages.length ? renderChatMessages() : ''}
     <DynamicFooter debounceMessage={debounceMessage} setDebounceMessage={setDebounceMessage} sendMessages={sendMessages} />
-    <div ref={myRef} style={{visibility:'hidden'}}></div>
+    <div ref={myRef} style={visibility:"hidden"}></div>
   </Layout>
 )
 ```
