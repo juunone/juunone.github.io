@@ -2,3 +2,4 @@
 
 User-agent: *
 Allow: /ads.txt
+Disallow: /search.json
