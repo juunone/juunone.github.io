@@ -13,7 +13,13 @@ introduction: deplot client side by aws amplify CLI with github action
 ---
 
 ## github-action?
+기존에 존재하는 CI/CD 서비스들이 많이 존재하는데 예를들어,  
+travisCI, circleCI 등 써드파티앱등을 깃헙내에 연동해서 사용할수 있었다.
+그 서비스들을 이용해서 테스트,빌드 등을 배포하거나 테스트할수 있는 환경을 (e.g. aws, gcp)
+Github이 `action`이라는 이름으로 서비스를 제공하는것이다.
+프로젝트 repo안에 action 탭을 확인가능하다.
 
+## what to do
 깃헙액션을 사용한 경험에 대해 작성해보고자 한다.  
 일단 `aws amplify` 로 기존에 프론트를 배포하고있었다.  
 amplify CLI를 통해서 수동배포를 하고있었는데 이 부분을
