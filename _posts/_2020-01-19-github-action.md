@@ -41,6 +41,9 @@ amplify CLI를 통해서 수동배포를 하고있었는데 이 부분을
 아래 workflow는 `aws amplify`를 활용한 배포방식을 사용하고있는데,
 `rnd` 라는 env 환경으로 체크아웃후 빌드 및 배포하고 있다.
 
+체크아웃후 `npm install` 로 필요한 노드모듈들을
+설치후 `amplify build_command` 로 빌드 커맨드를 실행시켜준다.
+
 ```yaml
 name: 'Amplify Deploy'
 on:
@@ -78,9 +81,6 @@ jobs:
       run: |
         npm install
         npm rebuild node-sass
-        # build and test
-        # npm run build
-        # npm run test
     
     - name: deploy
       uses: ambientlight/amplify-cli-action@0.2.0
