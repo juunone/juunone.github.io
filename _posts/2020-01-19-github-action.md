@@ -36,7 +36,7 @@ amplify CLI를 통해서 수동배포를 하고있었는데 이 부분을
 파일위치는 `.github > workflows` 에 파일명 `aws.yml` 으로 위치해있다.  
 여러가지 다중 워크플로우를 설정해놓을 수도 있다.  
 보안이 필요한 키들은 깃헙 레포지터리 `setting > secrets`에 변수 설정해 놓고 가져올 수 있다.  
-`e.g. ${{ secrets.AWS_ACCESS_KEY_ID }}`
+`e.g. ${ secrets.AWS_ACCESS_KEY_ID }`
 
 아래 workflow는 `aws amplify`를 활용한 배포방식을 사용하고있는데,
 `rnd` 라는 env 환경으로 체크아웃후 빌드 및 배포하고 있다.
@@ -62,10 +62,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: use node.js ${{ matrix.node-version }}
+    - name: use node.js ${ matrix.node-version }
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: ${ matrix.node-version }
 
     - name: configure amplify
       uses: ambientlight/amplify-cli-action@0.2.0
@@ -73,8 +73,8 @@ jobs:
         amplify_command: configure
         amplify_env: rnd
       env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: ${ secrets.AWS_ACCESS_KEY_ID }
+        AWS_SECRET_ACCESS_KEY: ${ secrets.AWS_SECRET_ACCESS_KEY }
         AWS_REGION: ap-northeast-2
 
     - name: install, build and test
@@ -89,8 +89,8 @@ jobs:
         amplify_command: publish
         amplify_env: rnd
       env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_ACCESS_KEY_ID: ${ secrets.AWS_ACCESS_KEY_ID }
+        AWS_SECRET_ACCESS_KEY: ${ secrets.AWS_SECRET_ACCESS_KEY }
         AWS_REGION: ap-northeast-2
 ```
 
