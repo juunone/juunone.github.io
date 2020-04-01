@@ -1,25 +1,22 @@
 ---
 layout: post
-title: "CMS 에디터툴 Dynamic contents editor : DCE 제품정의"
+title: "React editor[Dynamic contents editor]"
 date: 2018-02-08 14:00:00
 image: "https://user-images.githubusercontent.com/35126809/64483865-02057800-d245-11e9-8dc6-adf3e8d5faa1.jpg"
-description: DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 개발된 CMS 툴입니다.
+description: DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 리액트로 개발한 에디터/편집기 입니다.
 category: "project"
 tags:
   - CMS
-  - CRM
+  - React
+  - React editor
+  - React 에디터
   - Landing
   - Editor
-introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생각해본 제품정의를 공유하고자 합니다. 프로젝트를 진행하면서 겪었던 문제점 및 해결방법 또한 유저케이스 및 플로우차트를 통해 프로젝트의 세부내용을 간략하게 공유하고자 합니다.
+introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생각해본 제품정의를 공유하고자 합니다. React editor를 만들며 겪었던 문제점 및 해결방법 또한 유저케이스 및 플로우차트를 통해 프로젝트의 세부내용을 간략하게 공유하고자 합니다.
 ---
 
-# DCE(Dynamic contents editor) 제품정의
-
-## **들어가며**
-
 본 문서는 인수인계 목적이 아닌
-개발이 완료된 제품에 대한 이해를 돕기위해 제작된 개발 정의서입니다.<br />
-부디 도움이 되길 바랄 뿐입니다. 그럼 스타뜨!
+개발이 완료된 제품에 대한 이해를 돕기위해 제작된 개발 정의서입니다.
 
 ## **배경**
 
