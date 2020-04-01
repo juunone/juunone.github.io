@@ -18,6 +18,9 @@ introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생�
 본 문서는 인수인계 목적이 아닌
 개발이 완료된 제품에 대한 이해를 돕기위해 제작된 개발 정의서입니다.
 
+[DCE 홍보영상 보러가기](https://drive.google.com/open?id=10FZJ6TeNIc8GWNhcZb01oWEZH3Hn8mr5)
+
+
 ## **배경**
 
 ---
