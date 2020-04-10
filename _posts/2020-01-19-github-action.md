@@ -9,7 +9,7 @@ tags:
   - github
   - github action
   - deploy
-introduction: deplot client side by aws amplify CLI with github action
+introduction: deploy client side by aws amplify CLI with github action
 ---
 
 ## github-action?
