@@ -14,9 +14,15 @@ tags:
 introduction: aws amplify CLI deploy with github-actions and post message to slack
 ---
 
-## github-action?
-기존에 존재하는 CI/CD 서비스들이 많이 존재하는데 예를들어,  
-travisCI, circleCI 등 써드파티앱등을 깃헙내에 연동해서 사용할수 있었다.
-그 서비스들을 이용해서 테스트,빌드 등을 배포하거나 테스트할수 있는 환경을 (e.g. aws, gcp)
-Github이 `action`이라는 이름으로 서비스를 제공하는것이다.
-프로젝트 repo안에 action 탭을 확인가능하다.
+## Github-action
+
+깃헙액션을 사용한 경험에 대해 추가로 작성해보고자 한다.  
+[지난 깃헙액션 첫번째 글](https://juunone.github.io/github-action/)  
+
+지난번 github-actions의 yml 설정에 한계에 부딪혀 배포자동화를 못하고 있던중,  
+추가 수정과 삽질을 통해 드디어 github-actions를 통해 CI/CD 가 완성됐다.
+
+**AS-IS**: `sh`을 통한 `AWS amplify CLI` 배포.  
+**TO-BE**: github-actions를 통한 `push` 트리거시 `AWS amplify CLI github-actions`를 통해 배포.
+
+결론적으로 수정된 파일을 단 2개, `workflow yml` 과 `package.json`  
