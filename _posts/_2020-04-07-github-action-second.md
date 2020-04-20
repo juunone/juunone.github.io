@@ -26,3 +26,21 @@ introduction: aws amplify CLI deploy with github-actions and post message to sla
 **TO-BE**: github-actions를 통한 `push` 트리거시 `AWS amplify CLI github-actions`를 통해 배포.
 
 결론적으로 수정된 파일을 단 2개, `workflow yml` 과 `package.json`  
+
+## Actions
+
+먼저 [github actions marketplace](https://github.com/marketplace/actions) 에서 2개의 액션들을 사용했다.
+
+첫번째
+- (AWS amplify actions)[https://github.com/marketplace/actions/amplify-cli-action]   
+
+기존에 사용하고있던 `aws amplify`를 그대로 계승해서 사용하길 원했고, S3 및 Cloudfront 까지 배포를 해주기 때문에
+매우 편리한 서비스다.  
+`amplify CLI`를 사용할수 있는 액션이 마켓에 존재했고, 해당 모듈을 사용해서 액션을 만들수 있었다.
+여기서 한가지 문제점이 있었는데, 
+
+`amplify-cli-action@0.2.0` 버전에서는 arguments 옵션이 지원되지 않아
+Cloudfront까지 배포가 안된다는 점이였다. ㅠㅠ
+
+다른 모듈은 마땅히 사용할만한게 존재하지 않았고, 결국 해당 repo에 feature request로 issue를 생성했다.  
+개발자가 대응이 빨라 `amplify-cli-action@0.2.1`에서 바로 사용 가능하게 배포됐다.
