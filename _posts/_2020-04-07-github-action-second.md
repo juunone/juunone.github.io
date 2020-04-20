@@ -44,3 +44,29 @@ Cloudfront까지 배포가 안된다는 점이였다. ㅠㅠ
 
 다른 모듈은 마땅히 사용할만한게 존재하지 않았고, 결국 해당 repo에 feature request로 issue를 생성했다.  
 개발자가 대응이 빨라 `amplify-cli-action@0.2.1`에서 바로 사용 가능하게 배포됐다.
+
+두번째
+- (Slack notification actions)[https://github.com/marketplace/actions/slack-notify]
+
+빌드 및 배포가 종료되고 마지막에 사용하고있는 슬랙에 배포 알림이 오면 좀더 손쉽게 확인할 수 있으므로,  
+`job`이 성공/취소/실패 모든 상황에 항상 슬랙 알림이 뜨도록 위 슬랙 액션을 사용했다.
+
+액션 `job`에는 `always, success, cancelled, failure` 총 4가지 상태가 존재한다.
+
+나는 아래와 같이 1개의 잡에 스텝들을 나눴으므로, 각각의 스텝에 `if` 필드를 통해 조건을 걸었다.
+
+```yml
+- name: Slack Notification Success
+if: success()
+uses: rtCamp/action-slack-notify@v2.0.1
+env:
+  SLACK_WEBHOOK: "${{secrets.SLACK_WEBHOOK_URL}}"
+  SLACK_COLOR: "#02ff0a"
+  SLACK_TITLE: ":white_check_mark: ${{job.status}} Github Actions"
+  SLACK_MESSAGE: "• URL: ${{env.action_state}} \n• Repo: <https://github.com/${{github.repository}}|${{github.repository}}> \n• Commit: <${{github.event.head_commit.URL}}|${{github.event.head_commit.id}}>"
+  SLACK_USERNAME: ${{github.actor}}
+```
+
+> 위 처럼 yml에 추가 하고 슬랙의 알림이 오는걸 보면 아래와 같은 아웃풋이 나온다.
+![slack noti](https://user-images.githubusercontent.com/35126809/79085365-390bb100-7d73-11ea-89f7-dd13dd139619.png)
+참조: https://github.com/marketplace/actions/slack-notify
