@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AWS amplify deploy with github-actions(2)"
-date: 2020-04-07 15:00:00
+date: 2020-04-12 19:00:00
 image: "https://user-images.githubusercontent.com/58495926/72698520-e5c8fe80-3b87-11ea-833a-07a177f049f3.png"
 description: github actions를 통해 aws amplifty CLI로 배포하기
 category: "webdev"
@@ -69,7 +69,7 @@ env:
 
 > 위 처럼 yml에 추가 하고 슬랙의 알림이 오는걸 보면 아래와 같은 아웃풋이 나온다.
 ![slack noti](https://user-images.githubusercontent.com/35126809/79085365-390bb100-7d73-11ea-89f7-dd13dd139619.png)
-참조: https://github.com/marketplace/actions/slack-notify
+출처: https://github.com/marketplace/actions/slack-notify
 
 ## Action yml
 
