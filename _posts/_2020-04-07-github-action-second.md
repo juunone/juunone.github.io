@@ -107,3 +107,29 @@ env:
     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     AWS_REGION: ap-northeast-2
 ```
+
+## Debug
+
+아래와 같이 `github` 객체를 조회해서 필요한 정보들을 슬랙에 노티를 보내는데 활용할수도있고,  
+`job` 의 상태들을 불러와 각 상태에 대한 정보도 구분이 가능하다.
+
+```yml
+steps:
+- uses: actions/checkout@v1
+
+- name: Dump GitHub context
+  env:
+    GITHUB_CONTEXT: ${{ toJson(github) }}
+  run: echo "$GITHUB_CONTEXT"
+
+- name: Dump job context
+  env:
+    JOB_CONTEXT: ${{ toJson(job) }}
+  run: echo "$JOB_CONTEXT"  
+```
+
+
+
+
+
+
