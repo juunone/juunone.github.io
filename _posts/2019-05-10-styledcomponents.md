@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "styled-components basics"
+title: "styled components basics"
 date: 2019-05-10 22:00:00
 image: "https://user-images.githubusercontent.com/35126809/63832470-d57f6f80-c9ab-11e9-8624-5197a0b935be.jpg"
 description: styled-components basics 하게 적용해본 내용.

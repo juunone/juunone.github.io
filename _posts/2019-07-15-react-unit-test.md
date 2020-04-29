@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React Unit-test"
+title: "React Unit test"
 date: 2019-07-15 12:00:00
 image: "https://user-images.githubusercontent.com/35126809/63832569-065fa480-c9ac-11e9-92a4-f6a07ae71fda.jpg"
 description: 16.x 버전에 등장한 React Hooks 로 작성한 유닛테스트를 포스팅한다

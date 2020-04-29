@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deploy with github-actions"
+title: "Deploy with github actions"
 date: 2020-01-19 13:00:00
 image: "https://user-images.githubusercontent.com/58495926/72698520-e5c8fe80-3b87-11ea-833a-07a177f049f3.png"
 description: github action을 통한 클라이언트 배포

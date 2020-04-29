@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React editor[Dynamic contents editor]"
+title: "React editor [Dynamic contents editor]"
 date: 2018-02-08 14:00:00
 image: "https://user-images.githubusercontent.com/35126809/64483865-02057800-d245-11e9-8dc6-adf3e8d5faa1.jpg"
 description: DCE(Dynamic contents editor) 랜딩페이지 제작을 목적으로 리액트로 개발한 에디터/편집기 입니다.

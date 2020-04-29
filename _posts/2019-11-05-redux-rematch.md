@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Redux-rematch?"
+title: "What is Redux rematch?"
 date: 2019-11-05 14:00:00
 image: "https://user-images.githubusercontent.com/35126809/69218041-469d8000-0bb3-11ea-8006-b4f7a20f5d85.jpg"
 description: redux state management with redux-rematch

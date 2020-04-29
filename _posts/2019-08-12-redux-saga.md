@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Redux-Thunk to Redux-Saga"
+title: "Redux Thunk to Redux Saga"
 date: 2019-08-12 02:00:00
 image: "https://user-images.githubusercontent.com/35126809/66019197-3c4cf700-e51d-11e9-9420-131f2dea323e.jpg"
 description: Redux-thunk exchage to Redux-saga.

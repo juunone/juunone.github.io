@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS amplify deploy with github-actions(2)"
+title: "AWS amplify deploy with github actions"
 date: 2020-04-12 19:00:00
 image: "https://user-images.githubusercontent.com/58495926/72698520-e5c8fe80-3b87-11ea-833a-07a177f049f3.png"
 description: github actions를 통해 aws amplifty CLI로 배포하기
