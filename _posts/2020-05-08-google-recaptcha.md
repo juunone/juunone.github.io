@@ -89,7 +89,6 @@ import ReCAPTCHA from "react-google-recaptcha";
   onChange={val => {}}
   onExpired={exp => {}}
   onErrored={err => {}}
-  style={{ margin: "0 auto 36px" }}
   hl={i18n.language.split("-")[0]}
   theme="dark"
 />
