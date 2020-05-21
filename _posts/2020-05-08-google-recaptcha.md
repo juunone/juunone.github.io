@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use Google reCAPTCHA"
+title: "How to add Google reCAPTCHA"
 date: 2020-05-08 12:00:00
 image: "https://user-images.githubusercontent.com/58495926/81761075-eead5980-9503-11ea-84ab-c44e08b80431.png"
 description: Google reCAPTCHA를 사용해 보안을 추가하고, 로봇을 방지한다.
