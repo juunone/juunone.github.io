@@ -105,6 +105,20 @@ Web APIs timer 5초뒤 작업이 끝나면 태스크큐로 옮겨진다.
 
 > [출처 : Philip Roberts](https://youtu.be/8aGhZQkoFbQ)
 
+- - -
+## 2020/08/08 추가 
+- 자바스크립트 엔진: memory heap, call stack
+  - 단일 스레드(single thread) 언어
+- call stack : 자료구조 stack LIFO 후입선출
+- Web API: 브라우저에서 제공하는 API 로, DOM, Ajax, Timeout
+- 웹API는 콜백함수를 콜백큐로 밀어넣는다.
+- 콜백큐: 비동기로 실행된 함수들의 집합소
+  - queue: 자료구조 큐, FIFO 선입선출
+- 콜스택이 비게되면 이벤트루프가 콜백큐에 있는 함수들을 하나씩 콜스택에 쌓아주는데 이행동을 '틱'이라고함.
+
+### 순서
+micortask queue(promise) > animation frame(requestAnimationFrame) > task queue(setTimeout)
+
 ## Reference
 - [MDN web docs[Event loop]](https://developer.mozilla.org/ko/docs/Web/JavaScript/EventLoop)
 - [Sessionstack blog](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
