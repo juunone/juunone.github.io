@@ -2,7 +2,7 @@
 layout: post
 title: "브라우저에서 주소창에 URL을 입력하면 생기는일"
 date: 2020-07-15 14:00:00
-image: "https://user-images.githubusercontent.com/58495926/72306082-4accb200-36b9-11ea-9ec8-1c4205ac58d1.png"
+image: "https://user-images.githubusercontent.com/35126809/90089464-6e91cc80-dd5c-11ea-81a0-7280f22d2bbc.jpg"
 description: 웹페이지가 브라우저에 전달되는 과정까지의 이야기
 category: "webdev"
 tags:
@@ -73,4 +73,4 @@ introduction: how to browser show website?
 
 호스팅: 웹 페이지의 구성 파일들이 호스트 서버에 저장되어 있다가 사용자의 요청이 오면 언제든지 응답을줌.
 
-> 웹사이트에 제목대로 검색하면 무수히 많은 글이 나오지만 내가 기록하는 방식으로 다시 한번 남기기 위해 작성한다.  
+> 구글에 제목대로 검색하면 무수히 많은 글이 나오지만 내가 기록하는 방식으로 다시 한번 남기기 위해 작성한다.  
