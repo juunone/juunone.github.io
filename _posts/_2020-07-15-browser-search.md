@@ -46,14 +46,15 @@ introduction: how to browser show website?
 3. HSTS(HTTP Strict Transport Security) 목록 확인 및 요청 처리
   - HTTP Strict-Transport-Security response header (종종 HSTS 로 약칭) 는 HTTP 대신 HTTPS만을 사용하여 통신해야한다고 웹사이트가 브라우저에 알리는 보안 기능. [출처 MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Headers/Strict-Transport-Security)
 
-4. DNS(Domain Name Server)에서 ip 주소 가져오기.
-  - https://www.google.com를 ip주소로 변환하는 작업
-  - 사람이 읽을 수 있는 도메인 이름을 컴퓨터가 읽을 수 있는 ip 주소로 변환
-  - Browser DNS Cache
+4. DNS(Domain Name Server)에서 IP 주소 가져오기.
+  - DNS란 사람이 읽을 수 있는 주소를 컴퓨터가 인식 할 수 있는 IP주소로 변환
+  - https://www.google.com를 IP주소로 변환하는 작업
+  - 사람이 읽을 수 있는 도메인 이름을 컴퓨터가 읽을 수 있는 IP 주소로 변환
+  1. Browser DNS Cache
     - 브라우저에 도메인이 캐시되어있는지 확인한다.
-  - OS DNS Cache
+  2. OS DNS Cache
     - 브라우저에서 못찾으면 OS에 저장된 hosts파일에서 도메인이 있는지 확인하다.
-  - DNS Server
+  3. DNS Server
     - 위 둘다 존재하지 않으면 Root DNS부터 조회를 하여 결과(참조 이미지1)를 가져옵니다.
     ![dns](https://user-images.githubusercontent.com/58495926/73413445-0d218780-434f-11ea-9471-d10666579222.png)
 
@@ -61,5 +62,15 @@ introduction: how to browser show website?
   - IP: 내 PC를 찾기 위해 필요한 주소. 기기마다 고유한값이 아닌 바뀔 수 있는 유동적인 값.about
   - MAC: 하드웨어 자체에 부여된 고유한 식별 가능한 번호.
 
+6. 서버와 TCP socket 연결  
+  서버 IP주소로 TCP 3-way-handshake를 통해 통신을 한다.  
+  **https는 TLS handshake 추가된다.**
+  ![tcp handshake](https://user-images.githubusercontent.com/35126809/90088477-ffb37400-dd59-11ea-897c-3c0668d7040f.png)
+  [출처 3-way-handshake](https://www.johnpfernandes.com/2018/12/08/the-tcp-3-way-handshake/)
+
+7. 서버에 Resource 요청.
+  서버에서 받은 리소스를 가지고 browser에서 rendering을 해준다.
+
+호스팅: 웹 페이지의 구성 파일들이 호스트 서버에 저장되어 있다가 사용자의 요청이 오면 언제든지 응답을줌.
 
 > 웹사이트에 제목대로 검색하면 무수히 많은 글이 나오지만 내가 기록하는 방식으로 다시 한번 남기기 위해 작성한다.  
