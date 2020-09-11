@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "File-Manager 프로젝트 회고록"
+title: "React File Manager 프로젝트 회고록"
 date: 2018-07-03 12:00:00
 image: "https://user-images.githubusercontent.com/35126809/64483940-480f0b80-d246-11e9-8394-e969c3220786.jpg"
 description: 파일매니저라는 프로젝트 진행하면서 좀 늦었지만 회고해보고자 한다.

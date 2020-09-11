@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CSS 디버깅 절약을 위한 규칙"
+title: "CSS BEM 디버깅 절약을 위한 규칙"
 date: 2018-10-11 21:00:00
 image: "https://user-images.githubusercontent.com/35126809/52401126-50626500-2b04-11e9-8e1c-15a2bbf3ca4a.png"
 description: CSS Architecture 의 한종류인 BEM 명명 규칙.
