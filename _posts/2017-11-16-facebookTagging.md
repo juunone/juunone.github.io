@@ -11,6 +11,7 @@ tags:
   - Pixel
   - Event
 introduction: Facebook 픽셀은 웹사이트에서 사람들이 취한 행동을 파악하여 광고의 성과를 측정할 수 있는 분석 도구입니다만 어렵다.Facebook 픽셀은 회원님의 웹사이트에서 사람들이 취한 행동을 파악하여 광고의 성과를 측정할 수 있는 분석 도구입니다. 픽셀 데이터를 사용하여 다음을 할 수 있습니다
+redirect_to: https://juunone.netlify.app/facebook/facebook-tagging/
 ---
 
 ## 픽셀이란?

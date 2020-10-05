@@ -32,6 +32,7 @@ paginate_path: "/page/:num/"
 plugins:
   - jemoji
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Links to include in menu navigation
 # For external links add external: true

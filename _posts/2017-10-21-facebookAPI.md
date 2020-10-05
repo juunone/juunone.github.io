@@ -11,6 +11,7 @@ tags:
   - Marketing
   - FMP
 introduction: 페이스북 개발자앱 생성 및 토큰 발급에 대한 심플한 가이드를 제공합니다. 페이스북 앱을 생성한 후 해당 앱을 통해 SDK 생성, API 버전 관리, 화이트리스트추가, 도메인관리, 비즈니스 관리자구성 등을 할 수 있다.
+redirect_to: https://juunone.netlify.app/facebook/facebook-api/
 ---
 
 ## 페이스북 개발자앱 생성 및 토큰 발급

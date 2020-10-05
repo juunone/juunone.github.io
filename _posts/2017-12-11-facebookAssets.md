@@ -10,6 +10,7 @@ tags:
   - Assets
   - Facebook AD
 introduction: 페이스북 광고를 집행하기 위해서는 많은 자산들의 세팅이 선행되어야 하는데, 비즈니스 관리자는 비즈니스를 정리하고 관리하는 데 사용할 수 있는 무료 Facebook 도구입니다. 비즈니스 관리자에 가입하면, 따로 친구 요청을 수락하지 않는 이상 동료 직원들은 Facebook 개인용 프로필을 볼 수 없습니다.
+redirect_to: https://juunone.netlify.app/facebook/facebook-assets/
 ---
 
 ## 비즈니스 관리자 계정
