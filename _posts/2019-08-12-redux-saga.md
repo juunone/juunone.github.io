@@ -11,6 +11,7 @@ tags:
   - redux-saga
   - redux-thunk
 introduction: redux-thunk를 redux-saga로 교체.
+redirect_to: https://juunone.netlify.app/react/redux-saga/
 ---
 
 *참조* 

@@ -12,6 +12,7 @@ tags:
   - aws
   - amplify
 introduction: aws amplify CLI deploy with github-actions and post message to slack
+redirect_to: https://juunone.netlify.app/git/github-action2/
 ---
 
 ## Github-action

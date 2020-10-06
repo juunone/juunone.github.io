@@ -10,6 +10,7 @@ tags:
   - unit-test
   - react
 introduction: React unit-test with Mocha,Chai,Enzyme
+redirect_to: https://juunone.netlify.app/react/react-unit-test/
 ---
 
 *참조* 

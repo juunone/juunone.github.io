@@ -11,6 +11,7 @@ tags:
   - auth
   - react google recaptcha
 introduction: Used Google reCAPTCHA in auth for website security
+redirect_to: https://juunone.netlify.app/web/google-recaptcha/
 ---
 
 ## Google reCAPTCHA

@@ -10,6 +10,7 @@ tags:
   - BEM
   - Architecture
 introduction: 미세먼지팁::CSS BEM 방법론, 대규모 어플리케이션이 많아지고 그에따라 CSS 활용 범위도 넓어져가는데,(잘못 작성된 CSS는 디버깅하는데 헬파티를 열어준다.)  설계에 의미를 두지 않았던 CSS에도 다양한 방법론 생겨났습니다.
+redirect_to: https://juunone.netlify.app/development/css-bem/
 ---
 
 웹은 정말 빠른 속도로 발전하고 있습니다.  

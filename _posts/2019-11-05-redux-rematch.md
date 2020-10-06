@@ -11,6 +11,7 @@ tags:
   - redux-rematch
   - rematch
 introduction: redux-rematch 라이브러리를 이용한 redux 상태관리를 설명한다.
+redirect_to: https://juunone.netlify.app/react/redux-rematch/
 ---
 
 *References* 

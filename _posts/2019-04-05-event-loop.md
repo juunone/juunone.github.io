@@ -9,6 +9,7 @@ tags:
   - javascript
   - event-loop
 introduction: 자바스크립트의 동작 우선순위를 파악할수 있는 이벤트루프에 대한 이해
+redirect_to: https://juunone.netlify.app/javascript/event-loop/
 ---
 
 # Event Loop

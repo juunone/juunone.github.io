@@ -13,6 +13,7 @@ tags:
   - Landing
   - Editor
 introduction: DCE(Dynamic contents editor) 프로젝트를 진행하면서 생각해본 제품정의를 공유하고자 합니다. React editor를 만들며 겪었던 문제점 및 해결방법 또한 유저케이스 및 플로우차트를 통해 프로젝트의 세부내용을 간략하게 공유하고자 합니다.
+redirect_to: https://juunone.netlify.app/development/dce-definition/
 ---
 
 본 문서는 인수인계 목적이 아닌

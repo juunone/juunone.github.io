@@ -10,6 +10,7 @@ tags:
   - DNS
   - URL
 introduction: how to browser show website?
+redirect_to: https://juunone.netlify.app/web/browser-search/
 ---
 
 - 참조

@@ -10,6 +10,7 @@ tags:
   - github action
   - deploy
 introduction: deploy client side by aws amplify CLI with github action
+redirect_to: https://juunone.netlify.app/git/github-action1/
 ---
 
 ## github-action?

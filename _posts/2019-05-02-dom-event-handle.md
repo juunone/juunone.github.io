@@ -9,6 +9,7 @@ tags:
   - javascript
   - dom-event-handler
 introduction: 자바스크립트 돔 이벤트 핸들러 이해
+redirect_to: https://juunone.netlify.app/javascript/dom-event-handler/
 ---
 
 # DOM Event Handle

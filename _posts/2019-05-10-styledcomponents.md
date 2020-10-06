@@ -10,6 +10,7 @@ tags:
   - styled-components
   - react
 introduction: styled-components use case basics.
+redirect_to: https://juunone.netlify.app/development/styledcomponent/
 ---
 
 ## what is styled-components?

@@ -11,6 +11,7 @@ tags:
   - repaint
   - layout
 introduction: 웹의 렌더링 과정중 reflow and repaint 에 대해 자세히 다루고자 한다.
+redirect_to: https://juunone.netlify.app/web/reflow-repaint/
 ---
 
 [브라우저동작원리](https://juunone.github.io/browser/) 을 보신후 이 포스팅을 보길 권장합니다.<br />

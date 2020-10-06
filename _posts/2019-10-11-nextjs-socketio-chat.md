@@ -10,6 +10,7 @@ tags:
   - socket-io
   - react
 introduction: NextJS 와 socketIO 를 이용해 채팅 구현.
+redirect_to: https://juunone.netlify.app/react/nextjs-socketio/
 ---
 
 *Demo*
